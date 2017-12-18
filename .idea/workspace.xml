@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="ImacGL" targetName="src_exo2_triangle_couleurs" />
+      <config projectName="ImacGL" targetName="TP1_exo1_triangle_blanc" />
+      <config projectName="ImacGL" targetName="glimac" />
+      <config projectName="ImacGL" targetName="src_exo4_quads" />
+      <config projectName="ImacGL" targetName="src_SDLtemplate" />
+      <config projectName="ImacGL" targetName="src_exo6_quads" />
+      <config projectName="ImacGL" targetName="src_exo1_triangle_blanc" />
+      <config projectName="ImacGL" targetName="src_exo3_structure_vertex" />
+      <config projectName="ImacGL" targetName="src_exo5_disque" />
+      <config projectName="ImacGL" targetName="src_exo6_disque" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0287f0c4-e8ae-44e9-8e74-db629ef542d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="exo1_triangle_blanc.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exo1_triangle_blanc.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#20#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindGLEW.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMake/FindGLEW.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exo1_triangle_blanc.cpp" />
+        <option value="$PROJECT_DIR$/../GLSteeve/GLSteeve/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/TP1/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/TP1/exo2_triangle_couleurs.cpp" />
+        <option value="$PROJECT_DIR$/TP1/exo1_triangle_blanc.cpp" />
+        <option value="$PROJECT_DIR$/TP1/exo3_structure_vertex.cpp" />
+        <option value="$PROJECT_DIR$/TP1/exo5_disque.cpp" />
+        <option value="$PROJECT_DIR$/TP1/exo6_disque.cpp" />
+        <option value="$PROJECT_DIR$/TP1/SDLtemplate.cpp" />
+        <option value="$PROJECT_DIR$/TP2/SDLtemplate.cpp" />
+        <option value="$PROJECT_DIR$/TP2/triangle_couleurs.cpp" />
+        <option value="$PROJECT_DIR$/TP2/Shaders/mandelbrot.vs.glsl" />
+        <option value="$PROJECT_DIR$/TP2/mandelbrot.cpp" />
+        <option value="$PROJECT_DIR$/TP2/Shaders/mandelbrot.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP1/exo4_quads.cpp" />
+        <option value="$PROJECT_DIR$/TP2/triangle_gen.cpp" />
+        <option value="$PROJECT_DIR$/TP2/Shaders/tex2D.vs.glsl" />
+        <option value="$PROJECT_DIR$/TP2/Shaders/tex2D.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP2/var_uniformes.cpp" />
+        <option value="$PROJECT_DIR$/TP1/exo6_quads.cpp" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/3D.vs.glsl" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/normals.fs.glsl" />
+        <option value="$PROJECT_DIR$/glimac/include/glimac/glm.hpp" />
+        <option value="$PROJECT_DIR$/TP3/sphere.cpp" />
+        <option value="$PROJECT_DIR$/TP3/multitexturing.cpp" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/multiTex3D.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/tex3D.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP3/multishaders.cpp" />
+        <option value="$PROJECT_DIR$/glimac/include/glimac/TrackballCamera.hpp" />
+        <option value="$PROJECT_DIR$/glimac/src/TrackballCamera.cpp" />
+        <option value="$PROJECT_DIR$/TP3/camera_trackball.cpp" />
+        <option value="$PROJECT_DIR$/glimac/include/glimac/FireflyCamera.hpp" />
+        <option value="$PROJECT_DIR$/glimac/src/FireflyCamera.cpp" />
+        <option value="$PROJECT_DIR$/TP3/fireflyCam.cpp" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/directionallight.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP3/lumiereDir.cpp" />
+        <option value="$PROJECT_DIR$/TP3/Shaders/pointlight.fs.glsl" />
+        <option value="$PROJECT_DIR$/TP3/lumierePonct.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ImacGL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImacGL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="CMake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImacGL" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/CMakeLists.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IMAC\IMAC2\SI\TPS\TP1\TP1\Shaders" />
+      <recent name="D:\IMAC\IMAC2\SI\TPS\TP1\TP1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="glimac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="glimac" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="src_SDLtemplate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_SDLtemplate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_SDLtemplate">
+      <envs />
+    </configuration>
+    <configuration name="src_exo1_triangle_blanc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo1_triangle_blanc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo1_triangle_blanc">
+      <envs />
+    </configuration>
+    <configuration name="src_exo2_triangle_couleurs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo2_triangle_couleurs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo2_triangle_couleurs">
+      <envs />
+    </configuration>
+    <configuration name="src_exo3_structure_vertex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo3_structure_vertex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo3_structure_vertex">
+      <envs />
+    </configuration>
+    <configuration name="src_exo4_quads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo4_quads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo4_quads">
+      <envs />
+    </configuration>
+    <configuration name="src_exo5_disque" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo5_disque" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo5_disque">
+      <envs />
+    </configuration>
+    <configuration name="src_exo6_disque" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo6_disque" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo6_disque">
+      <envs />
+    </configuration>
+    <configuration name="src_exo6_quads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImacGL" TARGET_NAME="src_exo6_quads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImacGL" RUN_TARGET_NAME="src_exo6_quads">
+      <envs />
+    </configuration>
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.glimac" />
+      <item index="2" class="java.lang.String" itemvalue="Application.src_exo1_triangle_blanc" />
+      <item index="3" class="java.lang.String" itemvalue="Application.src_exo2_triangle_couleurs" />
+      <item index="4" class="java.lang.String" itemvalue="Application.src_exo3_structure_vertex" />
+      <item index="5" class="java.lang.String" itemvalue="Application.src_exo4_quads" />
+      <item index="6" class="java.lang.String" itemvalue="Application.src_exo5_disque" />
+      <item index="7" class="java.lang.String" itemvalue="Application.src_exo6_disque" />
+      <item index="8" class="java.lang.String" itemvalue="Application.src_exo6_quads" />
+      <item index="9" class="java.lang.String" itemvalue="Application.src_SDLtemplate" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0287f0c4-e8ae-44e9-8e74-db629ef542d6" name="Default" comment="" />
+      <created>1508403671953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508403671953</updated>
+      <workItem from="1508403673146" duration="223000" />
+      <workItem from="1508497474669" duration="1221000" />
+      <workItem from="1508498791547" duration="752000" />
+      <workItem from="1508499551289" duration="1060000" />
+      <workItem from="1508500631584" duration="1445000" />
+      <workItem from="1508502522555" duration="750000" />
+      <workItem from="1508503566385" duration="1410000" />
+      <workItem from="1508843855693" duration="1083000" />
+      <workItem from="1508868794778" duration="21000" />
+      <workItem from="1508868836924" duration="1202000" />
+      <workItem from="1509019927909" duration="96000" />
+      <workItem from="1509186333765" duration="2697000" />
+      <workItem from="1509191221641" duration="14144000" />
+      <workItem from="1509231387960" duration="785000" />
+      <workItem from="1509275641720" duration="4000" />
+      <workItem from="1509284070377" duration="11030000" />
+      <workItem from="1509371286754" duration="4194000" />
+      <workItem from="1510319879282" duration="12459000" />
+      <workItem from="1510923226070" duration="10682000" />
+      <workItem from="1511527017699" duration="13530000" />
+      <workItem from="1511559800999" duration="4625000" />
+      <workItem from="1511695460040" duration="1583000" />
+      <workItem from="1512583454558" duration="228000" />
+      <workItem from="1512737893223" duration="13088000" />
+      <workItem from="1513358364403" duration="116000" />
+      <workItem from="1513601363003" duration="6000" />
+      <workItem from="1513611332492" duration="691000" />
+      <workItem from="1513613648098" duration="579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99704000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.glsl" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../GLSteeve/GLSteeve/CMakeLists.txt" />
+    <entry file="file://$USER_HOME$/Downloads/OPenGLSteeve_Windows/GLSteeve/GLSteeve/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/../SDLtemplate.cpp" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exo1_triangle_blanc.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo5_disque.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo6_disque.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/SDLtemplate.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/SDLtemplate.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/mandelbrot.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/mandelbrot.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/mandelbrot.vs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo4_quads.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/Shaders/triangle.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo1_triangle_blanc.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo2_triangle_couleurs.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo3_structure_vertex.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/color2D.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/color2D.vs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/tex2D.vs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP2/Shaders/tex2D.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP2/triangle_couleurs.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/triangle_gen.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP1/exo6_quads.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP2/var_uniformes.cpp" />
+    <entry file="file://$PROJECT_DIR$/third-party/include/glm/detail/type_vec.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glimac/include/glimac/glm.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/sphere.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/tex3D.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/multiTex3D.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/glimac/include/glimac/Sphere.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/normals.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/glimac/include/glimac/TrackballCamera.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glimac/src/TrackballCamera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glimac/include/glimac/FireflyCamera.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glimac/src/FireflyCamera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/fireflyCam.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/multishaders.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/3D.vs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP3/multitexturing.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/camera_trackball.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/pointlight.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP3/Shaders/directionallight.fs.glsl" />
+    <entry file="file://$PROJECT_DIR$/TP3/lumiereDir.cpp" />
+    <entry file="file://$PROJECT_DIR$/TP3/lumierePonct.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/exo1_triangle_blanc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#20#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMake/FindGLEW.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt.user.e99d394">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2646">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
