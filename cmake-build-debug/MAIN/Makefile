@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles\progress.marks
-	$(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\MAIN\CMakeFiles\progress.marks
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 MAIN/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 MAIN/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,44 +96,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 MAIN/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 MAIN/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named glimac
+# Convenience name for target.
+MAIN/CMakeFiles/itsatrap.dir/rule:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 MAIN/CMakeFiles/itsatrap.dir/rule
+.PHONY : MAIN/CMakeFiles/itsatrap.dir/rule
 
-# Build rule for target.
-glimac: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 glimac
-.PHONY : glimac
+# Convenience name for target.
+itsatrap: MAIN/CMakeFiles/itsatrap.dir/rule
 
-# fast build rule for target.
-glimac/fast:
-	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/build
-.PHONY : glimac/fast
-
-#=============================================================================
-# Target rules for targets named itsatrap
-
-# Build rule for target.
-itsatrap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 itsatrap
 .PHONY : itsatrap
 
 # fast build rule for target.
 itsatrap/fast:
-	$(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/build
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/build
 .PHONY : itsatrap/fast
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -141,10 +157,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... itsatrap
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... glimac
-	@echo ... itsatrap
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
@@ -156,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

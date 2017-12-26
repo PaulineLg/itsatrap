@@ -127,7 +127,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ImacGL
+CMAKE_PROJECT_NAME:STATIC=itsatrap
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -236,6 +236,12 @@ SDL_LIBRARY:STRING=mingw32;-mwindows;C:/MinGW/lib/SDLmain.lib;C:/MinGW/lib/SDL.l
 
 //Dependencies for target
 glimac_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+itsatrap_BINARY_DIR:STATIC=D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug
+
+//Value Computed by CMake
+itsatrap_SOURCE_DIR:STATIC=D:/IMAC2/S3/SI/PROJET/itsatrap
 
 
 ########################

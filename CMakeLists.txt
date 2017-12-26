@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(ImacGL)
+project(itsatrap)
 
 add_definitions(-std=c++11)
 
@@ -16,9 +16,8 @@ include_directories(${SDL_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLEW_INCLUDE_DIR}
 set(ALL_LIBRARIES mingw32 glimac SDL glew32s opengl32 glu32 freeglut) #add the libraries options in the LIB_LIST variable
 add_subdirectory(glimac)
 
-file(GLOB src_DIRECTORIES "src*")
+file(GLOB MAIN_DIRECTORIES "MAIN*")
 
-foreach(src ${src_DIRECTORIES})
-    add_subdirectory(${src})
+foreach(MAIN ${MAIN_DIRECTORIES})
+    add_subdirectory(${MAIN})
 endforeach()
-

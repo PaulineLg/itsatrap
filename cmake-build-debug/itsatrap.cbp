@@ -2,10 +2,10 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="ImacGL"/>
+		<Option title="itsatrap"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\MAIN\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug"/>
@@ -87,9 +87,9 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="src_exo1_triangle_blanc">
-				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/src_exo1_triangle_blanc.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
+			<Target title="itsatrap">
+				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -106,15 +106,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src_exo1_triangle_blanc"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 itsatrap"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="src_exo1_triangle_blanc/fast">
-				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/src_exo1_triangle_blanc.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
+			<Target title="itsatrap/fast">
+				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -131,63 +131,28 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src_exo1_triangle_blanc/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="src_SDLtemplate">
-				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/src_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
-					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src_SDLtemplate"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="src_SDLtemplate/fast">
-				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/src_SDLtemplate.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
-					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src_SDLtemplate/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 itsatrap/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/Shaders/triangle.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/Shaders/triangle.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/cmake-build-debug/shaders/triangle.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/cmake-build-debug/shaders/triangle.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/main.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp">
 			<Option target="glimac"/>
 		</Unit>
@@ -263,28 +228,6 @@
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/SDLtemplate.cpp">
-			<Option target="src_SDLtemplate"/>
-		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/triangle.fs.glsl">
-			<Option target="src_exo1_triangle_blanc"/>
-			<Option target="src_SDLtemplate"/>
-		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/triangle.vs.glsl">
-			<Option target="src_exo1_triangle_blanc"/>
-			<Option target="src_SDLtemplate"/>
-		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/cmake-build-debug/shaders/triangle.fs.glsl">
-			<Option target="src_exo1_triangle_blanc"/>
-			<Option target="src_SDLtemplate"/>
-		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/cmake-build-debug/shaders/triangle.vs.glsl">
-			<Option target="src_exo1_triangle_blanc"/>
-			<Option target="src_SDLtemplate"/>
-		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/exo1_triangle_blanc.cpp">
-			<Option target="src_exo1_triangle_blanc"/>
-		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -294,8 +237,8 @@
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glimac\"/>
 		</Unit>
-		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\"/>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MAIN\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

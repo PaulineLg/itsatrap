@@ -3,13 +3,6 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/CMakeFiles/edit_cache.dir
 D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir
 D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/CMakeFiles/rebuild_cache.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_SDLtemplate.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo1_triangle_blanc.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo5_disque.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo6_quads.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo3_structure_vertex.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo2_triangle_couleurs.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo4_quads.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/src_exo6_disque.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/CMakeFiles/itsatrap.dir
+D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/CMakeFiles/edit_cache.dir
+D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/MAIN/CMakeFiles/rebuild_cache.dir

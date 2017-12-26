@@ -114,330 +114,57 @@ clean: glimac/CMakeFiles/glimac.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src
+# Directory level rules for directory MAIN
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/src_SDLtemplate.dir/all
-src/all: src/CMakeFiles/src_exo1_triangle_blanc.dir/all
-src/all: src/CMakeFiles/src_exo5_disque.dir/all
-src/all: src/CMakeFiles/src_exo6_quads.dir/all
-src/all: src/CMakeFiles/src_exo3_structure_vertex.dir/all
-src/all: src/CMakeFiles/src_exo2_triangle_couleurs.dir/all
-src/all: src/CMakeFiles/src_exo4_quads.dir/all
-src/all: src/CMakeFiles/src_exo6_disque.dir/all
+MAIN/all: MAIN/CMakeFiles/itsatrap.dir/all
 
-.PHONY : src/all
+.PHONY : MAIN/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/src_SDLtemplate.dir/clean
-src/clean: src/CMakeFiles/src_exo1_triangle_blanc.dir/clean
-src/clean: src/CMakeFiles/src_exo5_disque.dir/clean
-src/clean: src/CMakeFiles/src_exo6_quads.dir/clean
-src/clean: src/CMakeFiles/src_exo3_structure_vertex.dir/clean
-src/clean: src/CMakeFiles/src_exo2_triangle_couleurs.dir/clean
-src/clean: src/CMakeFiles/src_exo4_quads.dir/clean
-src/clean: src/CMakeFiles/src_exo6_disque.dir/clean
+MAIN/clean: MAIN/CMakeFiles/itsatrap.dir/clean
 
-.PHONY : src/clean
+.PHONY : MAIN/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall:
+MAIN/preinstall:
 
-.PHONY : src/preinstall
+.PHONY : MAIN/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/src_SDLtemplate.dir
+# Target rules for target MAIN/CMakeFiles/itsatrap.dir
 
 # All Build rule for target.
-src/CMakeFiles/src_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_SDLtemplate.dir\build.make src/CMakeFiles/src_SDLtemplate.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_SDLtemplate.dir\build.make src/CMakeFiles/src_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target src_SDLtemplate"
-.PHONY : src/CMakeFiles/src_SDLtemplate.dir/all
+MAIN/CMakeFiles/itsatrap.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/depend
+	$(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target itsatrap"
+.PHONY : MAIN/CMakeFiles/itsatrap.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/src_SDLtemplate.dir/all
+all: MAIN/CMakeFiles/itsatrap.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/src_SDLtemplate.dir/rule: cmake_check_build_system
+MAIN/CMakeFiles/itsatrap.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_SDLtemplate.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 MAIN/CMakeFiles/itsatrap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_SDLtemplate.dir/rule
+.PHONY : MAIN/CMakeFiles/itsatrap.dir/rule
 
 # Convenience name for target.
-src_SDLtemplate: src/CMakeFiles/src_SDLtemplate.dir/rule
+itsatrap: MAIN/CMakeFiles/itsatrap.dir/rule
 
-.PHONY : src_SDLtemplate
-
-# clean rule for target.
-src/CMakeFiles/src_SDLtemplate.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_SDLtemplate.dir\build.make src/CMakeFiles/src_SDLtemplate.dir/clean
-.PHONY : src/CMakeFiles/src_SDLtemplate.dir/clean
+.PHONY : itsatrap
 
 # clean rule for target.
-clean: src/CMakeFiles/src_SDLtemplate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo1_triangle_blanc.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo1_triangle_blanc.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo1_triangle_blanc.dir\build.make src/CMakeFiles/src_exo1_triangle_blanc.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo1_triangle_blanc.dir\build.make src/CMakeFiles/src_exo1_triangle_blanc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target src_exo1_triangle_blanc"
-.PHONY : src/CMakeFiles/src_exo1_triangle_blanc.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo1_triangle_blanc.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo1_triangle_blanc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo1_triangle_blanc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo1_triangle_blanc.dir/rule
-
-# Convenience name for target.
-src_exo1_triangle_blanc: src/CMakeFiles/src_exo1_triangle_blanc.dir/rule
-
-.PHONY : src_exo1_triangle_blanc
+MAIN/CMakeFiles/itsatrap.dir/clean:
+	$(MAKE) -f MAIN\CMakeFiles\itsatrap.dir\build.make MAIN/CMakeFiles/itsatrap.dir/clean
+.PHONY : MAIN/CMakeFiles/itsatrap.dir/clean
 
 # clean rule for target.
-src/CMakeFiles/src_exo1_triangle_blanc.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo1_triangle_blanc.dir\build.make src/CMakeFiles/src_exo1_triangle_blanc.dir/clean
-.PHONY : src/CMakeFiles/src_exo1_triangle_blanc.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo1_triangle_blanc.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo5_disque.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo5_disque.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo5_disque.dir\build.make src/CMakeFiles/src_exo5_disque.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo5_disque.dir\build.make src/CMakeFiles/src_exo5_disque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target src_exo5_disque"
-.PHONY : src/CMakeFiles/src_exo5_disque.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo5_disque.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo5_disque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo5_disque.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo5_disque.dir/rule
-
-# Convenience name for target.
-src_exo5_disque: src/CMakeFiles/src_exo5_disque.dir/rule
-
-.PHONY : src_exo5_disque
-
-# clean rule for target.
-src/CMakeFiles/src_exo5_disque.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo5_disque.dir\build.make src/CMakeFiles/src_exo5_disque.dir/clean
-.PHONY : src/CMakeFiles/src_exo5_disque.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo5_disque.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo6_quads.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo6_quads.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo6_quads.dir\build.make src/CMakeFiles/src_exo6_quads.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo6_quads.dir\build.make src/CMakeFiles/src_exo6_quads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target src_exo6_quads"
-.PHONY : src/CMakeFiles/src_exo6_quads.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo6_quads.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo6_quads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo6_quads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo6_quads.dir/rule
-
-# Convenience name for target.
-src_exo6_quads: src/CMakeFiles/src_exo6_quads.dir/rule
-
-.PHONY : src_exo6_quads
-
-# clean rule for target.
-src/CMakeFiles/src_exo6_quads.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo6_quads.dir\build.make src/CMakeFiles/src_exo6_quads.dir/clean
-.PHONY : src/CMakeFiles/src_exo6_quads.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo6_quads.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo3_structure_vertex.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo3_structure_vertex.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo3_structure_vertex.dir\build.make src/CMakeFiles/src_exo3_structure_vertex.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo3_structure_vertex.dir\build.make src/CMakeFiles/src_exo3_structure_vertex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target src_exo3_structure_vertex"
-.PHONY : src/CMakeFiles/src_exo3_structure_vertex.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo3_structure_vertex.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo3_structure_vertex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo3_structure_vertex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo3_structure_vertex.dir/rule
-
-# Convenience name for target.
-src_exo3_structure_vertex: src/CMakeFiles/src_exo3_structure_vertex.dir/rule
-
-.PHONY : src_exo3_structure_vertex
-
-# clean rule for target.
-src/CMakeFiles/src_exo3_structure_vertex.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo3_structure_vertex.dir\build.make src/CMakeFiles/src_exo3_structure_vertex.dir/clean
-.PHONY : src/CMakeFiles/src_exo3_structure_vertex.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo3_structure_vertex.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo2_triangle_couleurs.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo2_triangle_couleurs.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo2_triangle_couleurs.dir\build.make src/CMakeFiles/src_exo2_triangle_couleurs.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo2_triangle_couleurs.dir\build.make src/CMakeFiles/src_exo2_triangle_couleurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target src_exo2_triangle_couleurs"
-.PHONY : src/CMakeFiles/src_exo2_triangle_couleurs.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo2_triangle_couleurs.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo2_triangle_couleurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo2_triangle_couleurs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo2_triangle_couleurs.dir/rule
-
-# Convenience name for target.
-src_exo2_triangle_couleurs: src/CMakeFiles/src_exo2_triangle_couleurs.dir/rule
-
-.PHONY : src_exo2_triangle_couleurs
-
-# clean rule for target.
-src/CMakeFiles/src_exo2_triangle_couleurs.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo2_triangle_couleurs.dir\build.make src/CMakeFiles/src_exo2_triangle_couleurs.dir/clean
-.PHONY : src/CMakeFiles/src_exo2_triangle_couleurs.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo2_triangle_couleurs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo4_quads.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo4_quads.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo4_quads.dir\build.make src/CMakeFiles/src_exo4_quads.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo4_quads.dir\build.make src/CMakeFiles/src_exo4_quads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target src_exo4_quads"
-.PHONY : src/CMakeFiles/src_exo4_quads.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo4_quads.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo4_quads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo4_quads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo4_quads.dir/rule
-
-# Convenience name for target.
-src_exo4_quads: src/CMakeFiles/src_exo4_quads.dir/rule
-
-.PHONY : src_exo4_quads
-
-# clean rule for target.
-src/CMakeFiles/src_exo4_quads.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo4_quads.dir\build.make src/CMakeFiles/src_exo4_quads.dir/clean
-.PHONY : src/CMakeFiles/src_exo4_quads.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo4_quads.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/src_exo6_disque.dir
-
-# All Build rule for target.
-src/CMakeFiles/src_exo6_disque.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f src\CMakeFiles\src_exo6_disque.dir\build.make src/CMakeFiles/src_exo6_disque.dir/depend
-	$(MAKE) -f src\CMakeFiles\src_exo6_disque.dir\build.make src/CMakeFiles/src_exo6_disque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target src_exo6_disque"
-.PHONY : src/CMakeFiles/src_exo6_disque.dir/all
-
-# Include target in all.
-all: src/CMakeFiles/src_exo6_disque.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/src_exo6_disque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 13
-	$(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/src_exo6_disque.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
-.PHONY : src/CMakeFiles/src_exo6_disque.dir/rule
-
-# Convenience name for target.
-src_exo6_disque: src/CMakeFiles/src_exo6_disque.dir/rule
-
-.PHONY : src_exo6_disque
-
-# clean rule for target.
-src/CMakeFiles/src_exo6_disque.dir/clean:
-	$(MAKE) -f src\CMakeFiles\src_exo6_disque.dir\build.make src/CMakeFiles/src_exo6_disque.dir/clean
-.PHONY : src/CMakeFiles/src_exo6_disque.dir/clean
-
-# clean rule for target.
-clean: src/CMakeFiles/src_exo6_disque.dir/clean
+clean: MAIN/CMakeFiles/itsatrap.dir/clean
 
 .PHONY : clean
 
