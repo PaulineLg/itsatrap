@@ -806,7 +806,7 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/MAIN/main.cpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/MAIN/main.cpp
 iostream
 -
 fstream
@@ -826,5 +826,7 @@ glimac/Program.hpp
 glimac/Image.hpp
 -
 glimac/SDLWindowManager.hpp
+-
+tinyxml2.h
 -
 

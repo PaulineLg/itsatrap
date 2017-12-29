@@ -26,6 +26,7 @@ struct Vertex2DColor{
 
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
+
     SDLWindowManager windowManager(800, 600, "GLImac");
 
     // Initialize glew for OpenGL3+ support

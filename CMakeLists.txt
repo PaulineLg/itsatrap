@@ -13,7 +13,7 @@ find_package(GLEW REQUIRED)
 include_directories(${SDL_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLEW_INCLUDE_DIR} glimac/include third-party/include)
 
 #set(ALL_LIBRARIES glimac ${SDL_LIBRARY} ${OPENGL_LIBRARIES} ${GLEW_LIBRARY} glu32 freeglut)
-set(ALL_LIBRARIES mingw32 glimac SDL glew32s opengl32 glu32 freeglut) #add the libraries options in the LIB_LIST variable
+set(ALL_LIBRARIES mingw32 glimac SDL glew32s opengl32 glu32 freeglut -ltinyxml2) #add the libraries options in the LIB_LIST variable
 add_subdirectory(glimac)
 
 file(GLOB MAIN_DIRECTORIES "MAIN*")

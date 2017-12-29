@@ -1,8 +1,8 @@
-# Install script for directory: D:/IMAC2/S3/SI/PROJET/itsatrap/glimac
+# Install script for directory: C:/Users/Ugo/Documents/IMAC/itsatrap/glimac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ImacGL")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/itsatrap")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
