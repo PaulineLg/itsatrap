@@ -10,6 +10,8 @@
 #include <glimac/Image.hpp>
 #include <glimac/SDLWindowManager.hpp>
 
+#include "GAME/game.hpp"
+
 using namespace glimac;
 
 struct Vertex2DColor{
@@ -25,6 +27,26 @@ struct Vertex2DColor{
 };
 
 int main(int argc, char** argv) {
+
+    /*
+    Game game;
+
+    game.Init();
+
+    game.ChangeState(FuturState::Instance());
+
+    while (game.isRunning()){
+        game.HandleEvents();
+        game.Update();
+        game.Draw();
+    }
+
+    game.Clean();
+
+    return 0;
+    */
+
+
     // Initialize SDL and open a window
 
     SDLWindowManager windowManager(800, 600, "GLImac");
