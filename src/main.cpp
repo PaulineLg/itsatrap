@@ -10,7 +10,8 @@
 #include <glimac/Image.hpp>
 #include <glimac/SDLWindowManager.hpp>
 
-#include "GAME/game.hpp"
+#include "../include/GAME/game.hpp"
+#include "../include/GAMESTATE/titlestate.hpp"
 
 using namespace glimac;
 
@@ -28,23 +29,30 @@ struct Vertex2DColor{
 
 int main(int argc, char** argv) {
 
-    /*
-    Game game;
+    /*//Game* game = Game::Instance();
+    Game* game;
+    game->init("ITSATRAP");
 
-    game.Init();
+    /*try {
+        game->init("ITSATRAP");
+    }
+    catch (const std::string &err){
+        std::cerr << "An error occurred during game init: " << err << std::endl;
+    }*/
 
-    game.ChangeState(FuturState::Instance());
+    /*game->changeState( TitleState::Instance() );
 
-    while (game.isRunning()){
-        game.HandleEvents();
-        game.Update();
-        game.Draw();
+    // Application loop:
+    while (game->isRunning()){
+        game->handleEvents();
+        game->update();
+        game->draw();
     }
 
-    game.Clean();
+    game->clean();
 
-    return 0;
-    */
+    return 0;*/
+
 
 
     // Initialize SDL and open a window

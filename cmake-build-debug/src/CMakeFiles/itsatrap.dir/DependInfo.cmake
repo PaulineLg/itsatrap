@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
+  "C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/titlestate.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
   "C:/Users/Ugo/Documents/IMAC/itsatrap/src/main.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

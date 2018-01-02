@@ -151,6 +151,33 @@ GAME/game.cpp.s:
 	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s
 .PHONY : GAME/game.cpp.s
 
+GAMESTATE/titlestate.obj: GAMESTATE/titlestate.cpp.obj
+
+.PHONY : GAMESTATE/titlestate.obj
+
+# target to build an object file
+GAMESTATE/titlestate.cpp.obj:
+	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
+.PHONY : GAMESTATE/titlestate.cpp.obj
+
+GAMESTATE/titlestate.i: GAMESTATE/titlestate.cpp.i
+
+.PHONY : GAMESTATE/titlestate.i
+
+# target to preprocess a source file
+GAMESTATE/titlestate.cpp.i:
+	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i
+.PHONY : GAMESTATE/titlestate.cpp.i
+
+GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
+
+.PHONY : GAMESTATE/titlestate.s
+
+# target to generate assembly for a file
+GAMESTATE/titlestate.cpp.s:
+	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
+.PHONY : GAMESTATE/titlestate.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... GAME/game.obj
 	@echo ... GAME/game.i
 	@echo ... GAME/game.s
+	@echo ... GAMESTATE/titlestate.obj
+	@echo ... GAMESTATE/titlestate.i
+	@echo ... GAMESTATE/titlestate.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

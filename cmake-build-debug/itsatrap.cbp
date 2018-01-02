@@ -213,13 +213,19 @@
 		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
+		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/gamestate.hpp">
+		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/titlestate.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/Shaders/triangle.fs.glsl">

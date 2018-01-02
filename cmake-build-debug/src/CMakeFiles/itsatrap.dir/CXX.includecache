@@ -74,6 +74,10 @@ glm/gtc/random.hpp
 glm/gtc/random.hpp
 -
 
+../third-party/include/glm/common.hpp
+detail/func_common.hpp
+../third-party/include/glm/detail/func_common.hpp
+
 ../third-party/include/glm/detail/_fixes.hpp
 cmath
 -
@@ -806,19 +810,37 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp
-game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.hpp
-
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
 vector
 -
-../GAMESTATE/gamestate.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/gamestate.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/gamestate.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
 ../GAME/game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
+gamestate.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
+
+C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp
+iostream
+-
+GL/glew.h
+-
+glimac/SDLWindowManager.hpp
+-
+../../include/GAME/game.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+../../include/GAMESTATE/gamestate.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
+
+C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/titlestate.cpp
+iostream
+-
+glimac/SDLWindowManager.hpp
+-
+../../include/GAMESTATE/titlestate.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
 
 C:/Users/Ugo/Documents/IMAC/itsatrap/src/main.cpp
 iostream
@@ -841,6 +863,8 @@ glimac/Image.hpp
 -
 glimac/SDLWindowManager.hpp
 -
-GAME/game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.hpp
+../include/GAME/game.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+../include/GAMESTATE/titlestate.hpp
+C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
 
