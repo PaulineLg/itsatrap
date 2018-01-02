@@ -29,18 +29,12 @@ struct Vertex2DColor{
 
 int main(int argc, char** argv) {
 
-    /*//Game* game = Game::Instance();
-    Game* game;
+    Game* game = Game::Instance();
+    //Game* game;
+
     game->init("ITSATRAP");
-
-    /*try {
-        game->init("ITSATRAP");
-    }
-    catch (const std::string &err){
-        std::cerr << "An error occurred during game init: " << err << std::endl;
-    }*/
-
-    /*game->changeState( TitleState::Instance() );
+    std::cout << "lets change the state" << std::endl;
+    game->changeState( TitleState::Instance() );
 
     // Application loop:
     while (game->isRunning()){
@@ -51,8 +45,23 @@ int main(int argc, char** argv) {
 
     game->clean();
 
-    return 0;*/
+    return 0;
 
+    /*Game game;
+
+    game.init("ITSATRAP");
+
+    game.changeState( TitleState::Instance() );
+
+    while (game.isRunning()) {
+        game.handleEvents();
+        game.update();
+        game.draw();
+    }
+
+    game.clean();
+
+    return 0;*/
 
 
     // Initialize SDL and open a window

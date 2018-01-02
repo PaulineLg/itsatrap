@@ -9,23 +9,22 @@
 #include "../../include/GAME/game.hpp"
 #include "../../include/GAMESTATE/gamestate.hpp"
 
-//Game Game::s_game;
+Game* Game::s_game;
 
 void Game::init(const char* title, uint32_t width, uint32_t height) {
 
-    m_window = glimac::SDLWindowManager(width, height, title);
+    glimac::SDLWindowManager windowManager(width, height, title);
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();
     if(GLEW_OK != glewInitError) {
         std::cerr << glewGetErrorString(glewInitError) << std::endl;
-        //throw glewGetErrorString(glewInitError);
-        //return EXIT_FAILURE;
     }
+
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
-    m_running = true;
+    m_window = windowManager;
 }
 
 void Game::clean() {
@@ -37,14 +36,17 @@ void Game::clean() {
 }
 
 void Game::changeState(GameState *state) {
+    std::cout << "entering change state" << std::endl;
     // Erase the current state
     if ( !m_states.empty() ) {
         m_states.back()->cleanup();
         m_states.pop_back();
     }
     // Add the new state to the stack, then initialize.
+    std::cout << "lets add the state" << std::endl;
     m_states.push_back(state);
     m_states.back()->init();
+    std::cout << "end of change state" << std::endl;
 }
 
 void Game::pushState(GameState *state) {

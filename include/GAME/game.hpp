@@ -30,15 +30,21 @@ class Game {
 
         glimac::SDLWindowManager getWindow(){ return m_window; }
 
-        /*static Game* Instance(){
-            return &s_game;
-        }*/
+        static Game* Instance(){
+            /*if (!s_game){
+                s_game = new Game;
+            }*/
+            return s_game;
+        }
 
-    protected:
-        //Game() = default;
+        ~Game() = default;
+
 
     private:
-        //static Game s_game;
+
+        static Game* s_game;
+        Game(): m_states(std::vector<GameState*>()), m_window(0,0,""), m_running(true){}
+
         std::vector<GameState*> m_states;
         glimac::SDLWindowManager m_window;
         bool m_running;
