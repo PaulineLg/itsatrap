@@ -49,12 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/TP1_SDLtemplate.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo1_triangle_blanc.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo5_disque.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo4_quads.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo2_triangle_couleurs.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo3_structure_vertex.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo6_disque.dir/DependInfo.cmake"
-  "CMakeFiles/TP1_exo6_quads.dir/DependInfo.cmake"
+  "CMakeFiles/itsatrap.dir/DependInfo.cmake"
   )
