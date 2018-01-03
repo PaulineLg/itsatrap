@@ -29,18 +29,24 @@ struct Vertex2DColor{
 
 int main(int argc, char** argv) {
 
-    Game* game = Game::Instance();
+    Game* game = Game::Instance("ITSATRAP");
     //Game* game;
 
-    game->init("ITSATRAP");
+    //game->init("ITSATRAP");
     std::cout << "lets change the state" << std::endl;
-    game->changeState( TitleState::Instance() );
+
+    //game->changeState( TitleState::Instance() );
 
     // Application loop:
+    glClearColor(0.f,0.f,0.f,1.f);
     while (game->isRunning()){
-        game->handleEvents();
-        game->update();
+        //std::cout << "while clion " << game->m_window << std::endl;
+
+        //game->handleEvents();
+        //game->update();
+
         game->draw();
+
     }
 
     game->clean();

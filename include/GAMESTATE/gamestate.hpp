@@ -24,8 +24,10 @@ class GameState {
             game->changeState(state);
         }
 
+        ~GameState() = default;
+
     protected:
-        GameState(){}
+        GameState() = default;
 };
 
 

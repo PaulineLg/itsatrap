@@ -23,7 +23,7 @@ class TitleState : public GameState {
         }
 
     protected:
-        TitleState() {}
+        TitleState() = default;
 
 private:
         static TitleState s_TitleState;
