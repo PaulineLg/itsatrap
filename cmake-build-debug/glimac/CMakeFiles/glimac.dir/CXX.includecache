@@ -1002,3 +1002,19 @@ vector
 map
 -
 
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.h
+tinyxml2.h
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/tinyxml2.h
+string
+-
+iostream
+-
+fstream
+-
+vector
+-
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
+../../include/BOARD/Board.h
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.h
+

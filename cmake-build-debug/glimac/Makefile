@@ -124,6 +124,33 @@ glimac/fast:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
+__/src/BOARD/Board.obj: __/src/BOARD/Board.cpp.obj
+
+.PHONY : __/src/BOARD/Board.obj
+
+# target to build an object file
+__/src/BOARD/Board.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+.PHONY : __/src/BOARD/Board.cpp.obj
+
+__/src/BOARD/Board.i: __/src/BOARD/Board.cpp.i
+
+.PHONY : __/src/BOARD/Board.i
+
+# target to preprocess a source file
+__/src/BOARD/Board.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i
+.PHONY : __/src/BOARD/Board.cpp.i
+
+__/src/BOARD/Board.s: __/src/BOARD/Board.cpp.s
+
+.PHONY : __/src/BOARD/Board.s
+
+# target to generate assembly for a file
+__/src/BOARD/Board.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s
+.PHONY : __/src/BOARD/Board.cpp.s
+
 src/Cone.obj: src/Cone.cpp.obj
 
 .PHONY : src/Cone.obj
@@ -403,6 +430,9 @@ help:
 	@echo ... edit_cache
 	@echo ... glimac
 	@echo ... rebuild_cache
+	@echo ... __/src/BOARD/Board.obj
+	@echo ... __/src/BOARD/Board.i
+	@echo ... __/src/BOARD/Board.s
 	@echo ... src/Cone.obj
 	@echo ... src/Cone.i
 	@echo ... src/Cone.s

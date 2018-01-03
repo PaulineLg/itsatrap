@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/cube.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/main.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

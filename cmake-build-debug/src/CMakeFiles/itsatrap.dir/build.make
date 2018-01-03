@@ -81,20 +81,74 @@ src/CMakeFiles/itsatrap.dir/main.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/m
 src/CMakeFiles/itsatrap.dir/main.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/main.cpp.obj
 
 
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: ../src/BOARD/cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\cube.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\cube.cpp
+
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\cube.cpp > CMakeFiles\itsatrap.dir\BOARD\cube.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\cube.cpp -o CMakeFiles\itsatrap.dir\BOARD\cube.cpp.s
+
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
+
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp > CMakeFiles\itsatrap.dir\BOARD\Board.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.s
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
+
+
 # Object files for target itsatrap
 itsatrap_OBJECTS = \
-"CMakeFiles/itsatrap.dir/main.cpp.obj"
+"CMakeFiles/itsatrap.dir/main.cpp.obj" \
+"CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj" \
+"CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
 
 # External object files for target itsatrap
 itsatrap_EXTERNAL_OBJECTS =
 
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/main.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/build.make
 src/itsatrap.exe: glimac/libglimac.a
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/linklibs.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/objects1.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable itsatrap.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable itsatrap.exe"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\itsatrap.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -103,6 +157,8 @@ src/CMakeFiles/itsatrap.dir/build: src/itsatrap.exe
 .PHONY : src/CMakeFiles/itsatrap.dir/build
 
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/main.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires
 
 .PHONY : src/CMakeFiles/itsatrap.dir/requires
 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/main.cpp.obj"
+  "CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
+  "CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
   "itsatrap.pdb"
   "itsatrap.exe"
   "itsatrap.exe.manifest"

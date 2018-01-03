@@ -124,6 +124,60 @@ itsatrap/fast:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/build
 .PHONY : itsatrap/fast
 
+BOARD/Board.obj: BOARD/Board.cpp.obj
+
+.PHONY : BOARD/Board.obj
+
+# target to build an object file
+BOARD/Board.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
+.PHONY : BOARD/Board.cpp.obj
+
+BOARD/Board.i: BOARD/Board.cpp.i
+
+.PHONY : BOARD/Board.i
+
+# target to preprocess a source file
+BOARD/Board.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i
+.PHONY : BOARD/Board.cpp.i
+
+BOARD/Board.s: BOARD/Board.cpp.s
+
+.PHONY : BOARD/Board.s
+
+# target to generate assembly for a file
+BOARD/Board.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
+.PHONY : BOARD/Board.cpp.s
+
+BOARD/cube.obj: BOARD/cube.cpp.obj
+
+.PHONY : BOARD/cube.obj
+
+# target to build an object file
+BOARD/cube.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
+.PHONY : BOARD/cube.cpp.obj
+
+BOARD/cube.i: BOARD/cube.cpp.i
+
+.PHONY : BOARD/cube.i
+
+# target to preprocess a source file
+BOARD/cube.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i
+.PHONY : BOARD/cube.cpp.i
+
+BOARD/cube.s: BOARD/cube.cpp.s
+
+.PHONY : BOARD/cube.s
+
+# target to generate assembly for a file
+BOARD/cube.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s
+.PHONY : BOARD/cube.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +214,12 @@ help:
 	@echo ... itsatrap
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BOARD/Board.obj
+	@echo ... BOARD/Board.i
+	@echo ... BOARD/Board.s
+	@echo ... BOARD/cube.obj
+	@echo ... BOARD/cube.i
+	@echo ... BOARD/cube.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

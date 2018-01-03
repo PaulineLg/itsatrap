@@ -213,6 +213,20 @@
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.h">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/cube.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/cube.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/triangle.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>

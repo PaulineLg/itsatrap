@@ -10,23 +10,12 @@
 #include <glimac/Image.hpp>
 #include <glimac/SDLWindowManager.hpp>
 
+#include "../include/BOARD/Board.h"
+
 using namespace glimac;
-
-struct Vertex2DColor{
-    glm::vec2 position;
-    glm::vec3 color;
-
-    Vertex2DColor(){}
-    Vertex2DColor(glm::vec2 p,glm::vec3 c)
-    {
-        position = p;
-        color = c;
-    }
-};
 
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-
     SDLWindowManager windowManager(800, 600, "GLImac");
 
     // Initialize glew for OpenGL3+ support
@@ -50,45 +39,55 @@ int main(int argc, char** argv) {
      *********************************/
 
 
-     GLuint vbo; 
-     glGenBuffers(1, &vbo); 
-     
-     glBindBuffer(GL_ARRAY_BUFFER, vbo);
 
-     Vertex2DColor vertices[] = { 
-     Vertex2DColor(glm::vec2(-0.5, -0.5), glm::vec3(1, 0, 0)),
-     Vertex2DColor(glm::vec2(0.5, -0.5), glm::vec3(0, 1, 0)),
-     Vertex2DColor(glm::vec2(0, 0.5), glm::vec3(0, 0, 1))
+
+    /********** TEST pour le XML **************/
+    Board board;
+    board.loadMatrix();
+    board.printMatrix();
+
+    /****************************************/
+
+
+    GLuint vbo;
+    glGenBuffers(1, &vbo);
+
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+
+    GLfloat vertices[] = {
+            -0.5f, -0.5f, 1.f, 0.f, 0.f, // premier sommet
+            0.5f, -0.5f, 0.f, 1.f, 0.f, // deuxième sommet
+            0.0f, 0.5f, 0.f, 0.f, 1.f // troisième sommet
     };
-     //on remplit le vbo avec le tableau des vertex
-     glBufferData(GL_ARRAY_BUFFER, 3 * sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
-     glBindBuffer(GL_ARRAY_BUFFER, 0);
+    //on remplit le vbo avec le tableau des vertex
+    glBufferData(GL_ARRAY_BUFFER, 15 * sizeof(GLfloat), vertices, GL_STATIC_DRAW);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-     GLuint vao;
-     glGenVertexArrays(1, &vao);
+    GLuint vao;
+    glGenVertexArrays(1, &vao);
 
-     glBindVertexArray(vao);
+    glBindVertexArray(vao);
 
-     const GLuint VERTEX_ATTR_POSITION = 3;
-     const GLuint VERTEX_ATTR_COLOR = 8;
-     glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
-     glEnableVertexAttribArray(VERTEX_ATTR_COLOR);
+    const GLuint VERTEX_ATTR_POSITION = 3;
+    const GLuint VERTEX_ATTR_COLOR = 8;
+    glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
+    glEnableVertexAttribArray(VERTEX_ATTR_COLOR);
 
-     glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
 
-     glVertexAttribPointer(
-        VERTEX_ATTR_POSITION,
-        2,GL_FLOAT,GL_FALSE,
-        sizeof(Vertex2DColor),
-        (const GLvoid*)offsetof(Vertex2DColor, position));
-     glVertexAttribPointer(
-        VERTEX_ATTR_COLOR,
-        3,GL_FLOAT,GL_FALSE,
-        sizeof(Vertex2DColor),
-        (const GLvoid*)offsetof(Vertex2DColor, color));
+    glVertexAttribPointer(
+            VERTEX_ATTR_POSITION,
+            2,GL_FLOAT,GL_FALSE,
+            5 * sizeof(GLfloat),
+            (const GLvoid*)0);
+    glVertexAttribPointer(
+            VERTEX_ATTR_COLOR,
+            3,GL_FLOAT,GL_FALSE,
+            5 * sizeof(GLfloat),
+            (const GLvoid*)(2 * sizeof(GLfloat)));
 
-     glBindBuffer(GL_ARRAY_BUFFER, 0); 
-     glBindVertexArray(0); 
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
 
     /**********************************/
     // Application loop:
@@ -106,11 +105,11 @@ int main(int argc, char** argv) {
          * HERE SHOULD COME THE RENDERING CODE
          *********************************/
 
-         //on nettoie la fenetre des tours précédents
-         glClear(GL_COLOR_BUFFER_BIT);
-         glBindVertexArray(vao);
-         glDrawArrays(GL_TRIANGLES,0,3);
-         glBindVertexArray(0); 
+        //on nettoie la fenetre des tours précédents
+        glClear(GL_COLOR_BUFFER_BIT);
+        glBindVertexArray(vao);
+        glDrawArrays(GL_TRIANGLES,0,3);
+        glBindVertexArray(0);
 
 
         // Update the display

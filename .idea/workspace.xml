@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="itsatrap" targetName="itsatrap" />
       <config projectName="itsatrap" targetName="TP1_exo1_triangle_blanc" />
       <config projectName="itsatrap" targetName="glimac" />
-      <config projectName="itsatrap" targetName="itsatrap" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,124 +14,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0287f0c4-e8ae-44e9-8e74-db629ef542d6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/.idea/TP1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/Shaders/triangle.fs.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/Shaders/triangle.vs.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeCache.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeRCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/Progress/5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/linklibs.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/objects1.rsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/Project.cbp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/cmake_install.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/shaders/triangle.fs.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/cmake-build-debug/shaders/triangle.vs.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MAIN/main.cpp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/BOARD/Board.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BOARD/Board.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/glimac/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/glimac/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/itsatrap.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/itsatrap.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/objects1.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glimac/CMakeLists.txt" afterPath="$PROJECT_DIR$/glimac/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,7 +54,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#20#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/BOARD/Board.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#93#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOARD/Board.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="board.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/xmlFiles/board.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="108" column="9" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,13 +144,20 @@
         <option value="$PROJECT_DIR$/TP3/lumiereDir.cpp" />
         <option value="$PROJECT_DIR$/TP3/Shaders/pointlight.fs.glsl" />
         <option value="$PROJECT_DIR$/TP3/lumierePonct.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/TP1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/GAME/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/MAIN/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/MAIN/main.cpp" />
+        <option value="$PROJECT_DIR$/include/BOARD/cube.hpp" />
+        <option value="$PROJECT_DIR$/src/BOARD/cube.cpp" />
+        <option value="$PROJECT_DIR$/src/main - Copie.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/BOARD/AssimpCylinderModel.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/asset/xmlFiles/board.xml" />
+        <option value="$PROJECT_DIR$/include/BOARD/Board.h" />
+        <option value="$PROJECT_DIR$/src/BOARD/Board.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -204,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="100" />
+    <option name="y" value="24" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -234,7 +198,35 @@
             <path>
               <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="BOARD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BOARD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,28 +324,34 @@
       <workItem from="1514651757234" duration="139000" />
       <workItem from="1514653298188" duration="97000" />
       <workItem from="1514653412240" duration="13000" />
+      <workItem from="1514901856021" duration="7950000" />
+      <workItem from="1514913152470" duration="1999000" />
+      <workItem from="1514915573573" duration="3860000" />
+      <workItem from="1514922942073" duration="1086000" />
+      <workItem from="1514969993158" duration="2535000" />
+      <workItem from="1514985519296" duration="12154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111200000" />
+    <option name="totallyTimeSpent" value="140784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123958334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,22 +362,22 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123958334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -393,19 +391,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TP2/SDLtemplate.cpp" />
-    <entry file="file://$PROJECT_DIR$/TP2/mandelbrot.cpp" />
-    <entry file="file://$PROJECT_DIR$/TP2/Shaders/mandelbrot.fs.glsl" />
-    <entry file="file://$PROJECT_DIR$/TP2/Shaders/mandelbrot.vs.glsl" />
-    <entry file="file://$PROJECT_DIR$/TP1/exo4_quads.cpp" />
-    <entry file="file://$PROJECT_DIR$/TP1/Shaders/triangle.fs.glsl" />
-    <entry file="file://$PROJECT_DIR$/TP1/exo1_triangle_blanc.cpp" />
-    <entry file="file://$PROJECT_DIR$/TP1/exo2_triangle_couleurs.cpp" />
-    <entry file="file://$PROJECT_DIR$/TP1/exo3_structure_vertex.cpp" />
     <entry file="file://$PROJECT_DIR$/TP2/Shaders/color2D.fs.glsl" />
     <entry file="file://$PROJECT_DIR$/TP2/Shaders/color2D.vs.glsl" />
     <entry file="file://$PROJECT_DIR$/TP2/Shaders/tex2D.vs.glsl" />
@@ -491,7 +482,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exo1_triangle_blanc.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/main.cpp" />
     <entry file="file://$PROJECT_DIR$/CMake/FindGLEW.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
@@ -506,19 +496,87 @@
     <entry file="file://$PROJECT_DIR$/MAIN/main.cpp" />
     <entry file="file://$PROJECT_DIR$/MAIN/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/ITEM/oops.txt" />
+    <entry file="file://$PROJECT_DIR$/include/BOARD/cube.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOARD/cube.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SDLtemplate.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/main - Copie.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/BOARD/AssimpCylinderModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/xmlFiles/board.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="108" column="9" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/tinyxml2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="764" column="0" lean-forward="false" selection-start-line="764" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/BOARD/Board.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOARD/Board.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="8" column="156" lean-forward="false" selection-start-line="8" selection-start-column="156" selection-end-line="8" selection-end-column="156" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="315">
+          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
