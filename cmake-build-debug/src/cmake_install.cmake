@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ugo/Documents/IMAC/itsatrap/src
+# Install script for directory: D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

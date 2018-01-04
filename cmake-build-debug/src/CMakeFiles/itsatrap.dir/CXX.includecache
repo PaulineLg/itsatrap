@@ -810,19 +810,19 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
 vector
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
 ../GAME/game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
 gamestate.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAME/game.cpp
 iostream
 -
 GL/glew.h
@@ -830,19 +830,19 @@ GL/glew.h
 glimac/SDLWindowManager.hpp
 -
 ../../include/GAME/game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
 ../../include/GAMESTATE/gamestate.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/titlestate.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAMESTATE/titlestate.cpp
 iostream
 -
 glimac/SDLWindowManager.hpp
 -
 ../../include/GAMESTATE/titlestate.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/src/main.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/main.cpp
 iostream
 -
 fstream
@@ -864,7 +864,7 @@ glimac/Image.hpp
 glimac/SDLWindowManager.hpp
 -
 ../include/GAME/game.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
 ../include/GAMESTATE/titlestate.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
 

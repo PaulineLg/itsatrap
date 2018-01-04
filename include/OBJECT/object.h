@@ -20,8 +20,9 @@ class Object:
 {
 public:
 
-    ~Object();
+
     Object(const FilePath & applicationPath);
+    ~Object();
     virtual void setPosition(float x, float y, float z);
     virtual gml::vec3 getPosition();
 

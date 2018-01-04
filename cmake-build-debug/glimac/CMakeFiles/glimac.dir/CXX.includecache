@@ -878,7 +878,7 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Cone.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Cone.cpp
 cmath
 -
 vector
@@ -886,47 +886,47 @@ vector
 iostream
 -
 glimac/common.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
 glimac/Cone.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Cone.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Cone.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/FireflyCamera.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/FireflyCamera.cpp
 glimac/FireflyCamera.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/FireflyCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/FireflyCamera.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Geometry.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Geometry.cpp
 glimac/Geometry.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Geometry.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Geometry.hpp
 tiny_obj_loader.h
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 iostream
 -
 algorithm
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Image.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Image.cpp
 glimac/Image.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Image.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Image.hpp
 stb_image.h
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/stb_image.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
 iostream
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Program.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Program.cpp
 glimac/Program.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Program.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Program.hpp
 stdexcept
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/SDLWindowManager.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/SDLWindowManager.cpp
 glimac/SDLWindowManager.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
 iostream
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Shader.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Shader.cpp
 glimac/Shader.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Shader.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Shader.hpp
 fstream
 -
 stdexcept
@@ -936,7 +936,7 @@ string
 sstream
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Sphere.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Sphere.cpp
 cmath
 -
 vector
@@ -944,15 +944,15 @@ vector
 iostream
 -
 glimac/common.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
 glimac/Sphere.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/Sphere.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Sphere.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/TrackballCamera.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/TrackballCamera.cpp
 glimac/TrackballCamera.hpp
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/glimac/TrackballCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/TrackballCamera.hpp
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/stb_image.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
 stdio.h
 -
 math.h
@@ -974,7 +974,7 @@ stddef.h
 stdint.h
 -
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.cpp
 cstdlib
 -
 cstring
@@ -992,9 +992,9 @@ fstream
 sstream
 -
 tiny_obj_loader.h
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 
-C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 string
 -
 vector
