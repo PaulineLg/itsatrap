@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ugo/Documents/IMAC/itsatrap/glimac
+# Install script for directory: G:/Documents/IMAC/S3/SI/itsatrap/glimac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

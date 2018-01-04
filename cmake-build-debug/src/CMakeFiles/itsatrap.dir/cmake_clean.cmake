@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/main.cpp.obj"
   "CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
   "CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
+  "CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
   "itsatrap.pdb"
   "itsatrap.exe"
   "itsatrap.exe.manifest"

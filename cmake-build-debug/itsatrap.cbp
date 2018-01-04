@@ -8,45 +8,45 @@
 		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glimac">
-				<Option output="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac"/>
+				<Option output="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/third-party/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -56,22 +56,22 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glimac/fast">
-				<Option output="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac"/>
+				<Option output="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/third-party/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -81,22 +81,22 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="itsatrap">
-				<Option output="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src"/>
+				<Option output="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/third-party/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -106,22 +106,22 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="itsatrap/fast">
-				<Option output="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src"/>
+				<Option output="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include"/>
-					<Add directory="C:/Users/Ugo/Documents/IMAC/itsatrap/third-party/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include"/>
+					<Add directory="G:/Documents/IMAC/S3/SI/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -131,128 +131,134 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/BBox.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Cone.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Cone.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/FilePath.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/FireflyCamera.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FireflyCamera.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Geometry.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Image.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Image.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Program.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/SDLWindowManager.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/SDLWindowManager.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Shader.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/Sphere.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Sphere.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/TrackballCamera.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/TrackballCamera.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/common.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include/glimac/glm.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Cone.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/FireflyCamera.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/FireflyCamera.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Geometry.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Geometry.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Image.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Image.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Program.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Program.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/SDLWindowManager.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/SDLWindowManager.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/SDLWindowManager.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/SDLWindowManager.hpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Shader.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Shader.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Sphere.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Sphere.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/TrackballCamera.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/TrackballCamera.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.cpp">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.h">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAME/game.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/gamestate.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/gamestate.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GAMESTATE/titlestate.hpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/playstate.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAME/game.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/GAMESTATE/titlestate.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/Shaders/triangle.fs.glsl">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/playstate.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/Shaders/triangle.vs.glsl">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/cmake-build-debug/shaders/triangle.fs.glsl">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/triangle.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/cmake-build-debug/shaders/triangle.vs.glsl">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/triangle.vs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/main.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/cmake-build-debug/shaders/triangle.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/CMakeLists.txt">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/cmake-build-debug/shaders/triangle.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/main.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/CMake/FindGLEW.cmake">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/CMake/FindGLEW.cmake">
 			<Option virtualFolder="CMake Files\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/CMakeLists.txt">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glimac\"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/src/CMakeLists.txt">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

@@ -1,1 +1,1 @@
--IC:/MinGW/include/SDL -IC:/Users/Ugo/Documents/IMAC/itsatrap/glimac/include -IC:/Users/Ugo/Documents/IMAC/itsatrap/third-party/include 
+-IC:/MinGW/include/SDL -IG:/Documents/IMAC/S3/SI/itsatrap/glimac/include -IG:/Documents/IMAC/S3/SI/itsatrap/third-party/include 

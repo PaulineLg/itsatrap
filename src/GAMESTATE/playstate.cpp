@@ -1,24 +1,23 @@
 #include <iostream>
 #include <glimac/SDLWindowManager.hpp>
-
-#include "../../include/GAMESTATE/titlestate.hpp"
 #include "../../include/GAMESTATE/playstate.hpp"
+#include "../../include/GAMESTATE/titlestate.hpp"
 
-TitleState TitleState::s_TitleState;
+PlayState PlayState::s_PlayState;
 
-void TitleState::init() {
-    std::cout << "Init of title state" << std::endl;
+void PlayState::init() {
+    std::cout << "Init of play state" << std::endl;
 }
 
-void TitleState::cleanup() {}
+void PlayState::cleanup() {}
 
-void TitleState::pause() {}
+void PlayState::pause() {}
 
-void TitleState::resume() {}
+void PlayState::resume() {}
 
-void TitleState::handleEvents(Game* game) {
+void PlayState::handleEvents(Game* game) {
     SDL_Event event;
-    if (game->getWindow()->pollEvent(event)){
+    while (game->getWindow()->pollEvent(event)){
         switch (event.type) {
 
             case SDL_QUIT:
@@ -28,12 +27,12 @@ void TitleState::handleEvents(Game* game) {
             case SDL_KEYDOWN:
                 switch (event.key.keysym.sym) {
 
-                    case SDLK_SPACE:
-                        game->changeState( PlayState::Instance() );
-                        break;
-
                     case SDLK_ESCAPE:
                         game->exit();
+                        break;
+
+                    case SDLK_b:
+                        game->changeState( TitleState::Instance() );
                         break;
 
                     default:
@@ -47,6 +46,6 @@ void TitleState::handleEvents(Game* game) {
     }
 }
 
-void TitleState::update(Game *game) {}
+void PlayState::update(Game *game) {}
 
-void TitleState::draw(Game *game) {}
+void PlayState::draw(Game *game) {}
