@@ -1,7 +1,3 @@
-//
-// Created by Ugo on 01/01/2018.
-//
-
 #ifndef ITSATRAP_TITLESTATE_HPP
 #define ITSATRAP_TITLESTATE_HPP
 

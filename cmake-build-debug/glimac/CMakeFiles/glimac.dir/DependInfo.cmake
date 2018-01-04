@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Cone.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/FireflyCamera.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Geometry.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Image.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Program.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/SDLWindowManager.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Shader.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/Sphere.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/TrackballCamera.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj"
-  "C:/Users/Ugo/Documents/IMAC/itsatrap/glimac/src/tiny_obj_loader.cpp" "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/FireflyCamera.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Geometry.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Image.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Program.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/SDLWindowManager.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Shader.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Sphere.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/TrackballCamera.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
