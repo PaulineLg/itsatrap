@@ -217,14 +217,47 @@
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cylinder.h">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/cube.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.h">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.h">
+			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp">
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cylinder.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/cube.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VAO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/3D.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/normals.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/tex3D.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/triangle.fs.glsl">

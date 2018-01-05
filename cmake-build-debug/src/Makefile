@@ -151,6 +151,33 @@ BOARD/Board.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
 .PHONY : BOARD/Board.cpp.s
 
+BOARD/Cylinder.obj: BOARD/Cylinder.cpp.obj
+
+.PHONY : BOARD/Cylinder.obj
+
+# target to build an object file
+BOARD/Cylinder.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
+.PHONY : BOARD/Cylinder.cpp.obj
+
+BOARD/Cylinder.i: BOARD/Cylinder.cpp.i
+
+.PHONY : BOARD/Cylinder.i
+
+# target to preprocess a source file
+BOARD/Cylinder.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i
+.PHONY : BOARD/Cylinder.cpp.i
+
+BOARD/Cylinder.s: BOARD/Cylinder.cpp.s
+
+.PHONY : BOARD/Cylinder.s
+
+# target to generate assembly for a file
+BOARD/Cylinder.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s
+.PHONY : BOARD/Cylinder.cpp.s
+
 BOARD/cube.obj: BOARD/cube.cpp.obj
 
 .PHONY : BOARD/cube.obj
@@ -177,6 +204,60 @@ BOARD/cube.s: BOARD/cube.cpp.s
 BOARD/cube.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s
 .PHONY : BOARD/cube.cpp.s
+
+GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
+
+.PHONY : GLTOOLS/VAO.obj
+
+# target to build an object file
+GLTOOLS/VAO.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
+.PHONY : GLTOOLS/VAO.cpp.obj
+
+GLTOOLS/VAO.i: GLTOOLS/VAO.cpp.i
+
+.PHONY : GLTOOLS/VAO.i
+
+# target to preprocess a source file
+GLTOOLS/VAO.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i
+.PHONY : GLTOOLS/VAO.cpp.i
+
+GLTOOLS/VAO.s: GLTOOLS/VAO.cpp.s
+
+.PHONY : GLTOOLS/VAO.s
+
+# target to generate assembly for a file
+GLTOOLS/VAO.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s
+.PHONY : GLTOOLS/VAO.cpp.s
+
+GLTOOLS/VBO.obj: GLTOOLS/VBO.cpp.obj
+
+.PHONY : GLTOOLS/VBO.obj
+
+# target to build an object file
+GLTOOLS/VBO.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
+.PHONY : GLTOOLS/VBO.cpp.obj
+
+GLTOOLS/VBO.i: GLTOOLS/VBO.cpp.i
+
+.PHONY : GLTOOLS/VBO.i
+
+# target to preprocess a source file
+GLTOOLS/VBO.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i
+.PHONY : GLTOOLS/VBO.cpp.i
+
+GLTOOLS/VBO.s: GLTOOLS/VBO.cpp.s
+
+.PHONY : GLTOOLS/VBO.s
+
+# target to generate assembly for a file
+GLTOOLS/VBO.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
+.PHONY : GLTOOLS/VBO.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -217,9 +298,18 @@ help:
 	@echo ... BOARD/Board.obj
 	@echo ... BOARD/Board.i
 	@echo ... BOARD/Board.s
+	@echo ... BOARD/Cylinder.obj
+	@echo ... BOARD/Cylinder.i
+	@echo ... BOARD/Cylinder.s
 	@echo ... BOARD/cube.obj
 	@echo ... BOARD/cube.i
 	@echo ... BOARD/cube.s
+	@echo ... GLTOOLS/VAO.obj
+	@echo ... GLTOOLS/VAO.i
+	@echo ... GLTOOLS/VAO.s
+	@echo ... GLTOOLS/VBO.obj
+	@echo ... GLTOOLS/VBO.i
+	@echo ... GLTOOLS/VBO.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

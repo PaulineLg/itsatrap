@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//The directory containing a CMake configuration file for ASSIMP.
-ASSIMP_DIR:PATH=ASSIMP_DIR-NOTFOUND
-
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
 
@@ -230,9 +227,6 @@ SDL_INCLUDE_DIR:PATH=C:/MinGW/include/SDL
 
 //Where the SDL Library can be found
 SDL_LIBRARY:STRING=mingw32;-mwindows;C:/MinGW/lib/SDLmain.lib;C:/MinGW/lib/SDL.lib
-
-//The directory containing a CMake configuration file for assimp.
-assimp_DIR:PATH=assimp_DIR-NOTFOUND
 
 //Dependencies for target
 glimac_LIB_DEPENDS:STATIC=
