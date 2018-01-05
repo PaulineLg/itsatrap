@@ -31,11 +31,11 @@ namespace glimac{
             }
             if(vertexAttribNormal != -1){
                 //glVertexAttribPointer(vertexAttribNormal, 3, GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*) offsetof(ShapeVertex, normal));
-                glVertexAttribPointer(vertexAttribPos, 3,GL_FLOAT, GL_FALSE, sizeof(type), (const GLvoid*)(sizeof(glm::vec3)));
+                glVertexAttribPointer(vertexAttribNormal, 3,GL_FLOAT, GL_FALSE, sizeof(type), (const GLvoid*)(sizeof(glm::vec3)));
             }
             if(vertexAttribTex != -1){
                 //glVertexAttribPointer(vertexAttribTex, 2, GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*) offsetof(ShapeVertex, texCoords));
-                glVertexAttribPointer(vertexAttribPos, 3,GL_FLOAT, GL_FALSE, sizeof(type), (const GLvoid*)(2*sizeof(glm::vec3)));
+                glVertexAttribPointer(vertexAttribTex, 2,GL_FLOAT, GL_FALSE, sizeof(type), (const GLvoid*)(2*sizeof(glm::vec3)));
             }
         }
 

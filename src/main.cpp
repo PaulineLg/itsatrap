@@ -97,8 +97,8 @@ int main(int argc, char** argv) {
     vbo.debind();
 
     // Création du VAO :
-    /*GLuint vao;
-    const GLuint VERTEX_ATTR_POSITION = 0;
+    //GLuint vao;
+    /*const GLuint VERTEX_ATTR_POSITION = 0;
     const GLuint VERTEX_ATTR_NORMAL = 1;
     const GLuint VERTEX_ATTR_TEX= 2;
     glGenVertexArrays(1, &vao);
