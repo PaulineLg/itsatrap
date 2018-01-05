@@ -150,7 +150,25 @@
 		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.h">
 			<Option target="itsatrap"/>
 		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/fruits.h">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/ghost.h">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.h">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.h">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacgomme.h">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.h">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/superpacgomme.h">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAME/game.cpp">

@@ -4,6 +4,8 @@
 
 
 #include "object.h"
+#include "item.h"
+
 
 class Character : public Object {
 
@@ -13,8 +15,8 @@ public:
     void move();
     void changeSuperState();
     void reset();
-    int interact(Character chara);
-    int eat(item it);
+    void interact(Character chara);
+    void eat(item it);
 
 
 protected:
