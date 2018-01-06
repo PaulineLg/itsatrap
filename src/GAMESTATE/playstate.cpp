@@ -48,4 +48,6 @@ void PlayState::handleEvents(Game* game) {
 
 void PlayState::update(Game *game) {}
 
-void PlayState::draw(Game *game) {}
+void PlayState::draw(Game *game) {
+    // Labyrinthe ici
+}

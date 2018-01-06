@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj"
   "CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj"
   "CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
+  "CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj"
+  "CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj"
   "libglimac.pdb"
   "libglimac.a"
 )
