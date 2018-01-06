@@ -124,6 +124,114 @@ glimac/fast:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
+__/src/BOARD/Board.obj: __/src/BOARD/Board.cpp.obj
+
+.PHONY : __/src/BOARD/Board.obj
+
+# target to build an object file
+__/src/BOARD/Board.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+.PHONY : __/src/BOARD/Board.cpp.obj
+
+__/src/BOARD/Board.i: __/src/BOARD/Board.cpp.i
+
+.PHONY : __/src/BOARD/Board.i
+
+# target to preprocess a source file
+__/src/BOARD/Board.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i
+.PHONY : __/src/BOARD/Board.cpp.i
+
+__/src/BOARD/Board.s: __/src/BOARD/Board.cpp.s
+
+.PHONY : __/src/BOARD/Board.s
+
+# target to generate assembly for a file
+__/src/BOARD/Board.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s
+.PHONY : __/src/BOARD/Board.cpp.s
+
+__/src/BOARD/Cylinder.obj: __/src/BOARD/Cylinder.cpp.obj
+
+.PHONY : __/src/BOARD/Cylinder.obj
+
+# target to build an object file
+__/src/BOARD/Cylinder.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
+.PHONY : __/src/BOARD/Cylinder.cpp.obj
+
+__/src/BOARD/Cylinder.i: __/src/BOARD/Cylinder.cpp.i
+
+.PHONY : __/src/BOARD/Cylinder.i
+
+# target to preprocess a source file
+__/src/BOARD/Cylinder.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i
+.PHONY : __/src/BOARD/Cylinder.cpp.i
+
+__/src/BOARD/Cylinder.s: __/src/BOARD/Cylinder.cpp.s
+
+.PHONY : __/src/BOARD/Cylinder.s
+
+# target to generate assembly for a file
+__/src/BOARD/Cylinder.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s
+.PHONY : __/src/BOARD/Cylinder.cpp.s
+
+__/src/GLTOOLS/VAO.obj: __/src/GLTOOLS/VAO.cpp.obj
+
+.PHONY : __/src/GLTOOLS/VAO.obj
+
+# target to build an object file
+__/src/GLTOOLS/VAO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
+.PHONY : __/src/GLTOOLS/VAO.cpp.obj
+
+__/src/GLTOOLS/VAO.i: __/src/GLTOOLS/VAO.cpp.i
+
+.PHONY : __/src/GLTOOLS/VAO.i
+
+# target to preprocess a source file
+__/src/GLTOOLS/VAO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i
+.PHONY : __/src/GLTOOLS/VAO.cpp.i
+
+__/src/GLTOOLS/VAO.s: __/src/GLTOOLS/VAO.cpp.s
+
+.PHONY : __/src/GLTOOLS/VAO.s
+
+# target to generate assembly for a file
+__/src/GLTOOLS/VAO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s
+.PHONY : __/src/GLTOOLS/VAO.cpp.s
+
+__/src/GLTOOLS/VBO.obj: __/src/GLTOOLS/VBO.cpp.obj
+
+.PHONY : __/src/GLTOOLS/VBO.obj
+
+# target to build an object file
+__/src/GLTOOLS/VBO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj
+.PHONY : __/src/GLTOOLS/VBO.cpp.obj
+
+__/src/GLTOOLS/VBO.i: __/src/GLTOOLS/VBO.cpp.i
+
+.PHONY : __/src/GLTOOLS/VBO.i
+
+# target to preprocess a source file
+__/src/GLTOOLS/VBO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i
+.PHONY : __/src/GLTOOLS/VBO.cpp.i
+
+__/src/GLTOOLS/VBO.s: __/src/GLTOOLS/VBO.cpp.s
+
+.PHONY : __/src/GLTOOLS/VBO.s
+
+# target to generate assembly for a file
+__/src/GLTOOLS/VBO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s
+.PHONY : __/src/GLTOOLS/VBO.cpp.s
+
 src/Cone.obj: src/Cone.cpp.obj
 
 .PHONY : src/Cone.obj
@@ -403,6 +511,18 @@ help:
 	@echo ... edit_cache
 	@echo ... glimac
 	@echo ... rebuild_cache
+	@echo ... __/src/BOARD/Board.obj
+	@echo ... __/src/BOARD/Board.i
+	@echo ... __/src/BOARD/Board.s
+	@echo ... __/src/BOARD/Cylinder.obj
+	@echo ... __/src/BOARD/Cylinder.i
+	@echo ... __/src/BOARD/Cylinder.s
+	@echo ... __/src/GLTOOLS/VAO.obj
+	@echo ... __/src/GLTOOLS/VAO.i
+	@echo ... __/src/GLTOOLS/VAO.s
+	@echo ... __/src/GLTOOLS/VBO.obj
+	@echo ... __/src/GLTOOLS/VBO.i
+	@echo ... __/src/GLTOOLS/VBO.s
 	@echo ... src/Cone.obj
 	@echo ... src/Cone.i
 	@echo ... src/Cone.s

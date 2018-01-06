@@ -306,6 +306,106 @@ glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj.provides: glimac/CMakeF
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj
 
 
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Board.cpp
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Board.cpp > CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Board.cpp -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.s
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.requires
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.provides: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.requires
+	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.provides
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: ../src/GLTOOLS/VBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VBO.cpp
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VBO.cpp > CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VBO.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.s
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.requires
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.provides: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.requires
+	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.provides
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj
+
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: ../src/GLTOOLS/VAO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VAO.cpp
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VAO.cpp > CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\VAO.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.s
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.requires
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.provides: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.requires
+	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.provides
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
+
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: ../src/BOARD/Cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cylinder.cpp
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cylinder.cpp > CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cylinder.cpp -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.s
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.requires
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.provides: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.requires
+	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.provides
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
+
+
 # Object files for target glimac
 glimac_OBJECTS = \
 "CMakeFiles/glimac.dir/src/Cone.cpp.obj" \
@@ -317,7 +417,11 @@ glimac_OBJECTS = \
 "CMakeFiles/glimac.dir/src/Shader.cpp.obj" \
 "CMakeFiles/glimac.dir/src/Sphere.cpp.obj" \
 "CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj" \
-"CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj"
+"CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj" \
+"CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj" \
+"CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj" \
+"CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj" \
+"CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
 
 # External object files for target glimac
 glimac_EXTERNAL_OBJECTS =
@@ -332,9 +436,17 @@ glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj
+glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj
+glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
+glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/build.make
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libglimac.a"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libglimac.a"
+>>>>>>> Board
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
 
@@ -353,6 +465,10 @@ glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Shader.c
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.requires
 
 .PHONY : glimac/CMakeFiles/glimac.dir/requires
 
