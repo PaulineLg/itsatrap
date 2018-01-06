@@ -2,14 +2,14 @@
 // Created by pauli on 05/01/2018.
 //
 
-#ifndef ITSATRAP_CYLINDER_H
-#define ITSATRAP_CYLINDER_H
+#ifndef ITSATRAP_CYLINDER_HPP
+#define ITSATRAP_CYLINDER_HPP
 #define GLEW_STATIC
 #include "../../glimac/include/glimac/FilePath.hpp"
 #include "../../glimac/include/glimac/Geometry.hpp"
 #include "../../glimac/include/glimac/common.hpp"
-#include "../../include/GLTOOLS/VAO.h"
-#include "../../include/GLTOOLS/VBO.h"
+#include "../GLTOOLS/VAO.hpp"
+#include "../GLTOOLS/VBO.hpp"
 
 namespace glimac{
     class Cylinder{
@@ -29,4 +29,4 @@ namespace glimac{
     };
 }
 
-#endif //ITSATRAP_CYLINDER_H
+#endif //ITSATRAP_CYLINDER_HPP

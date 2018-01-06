@@ -24,25 +24,25 @@ Cube::create(){
 
     // Bind indices and upload data
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbo[0]);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cube_triangleList), cube_triangleList, GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cube_triangleList), &cube_triangleList, GL_STATIC_DRAW);
 
     // Bind vertices and upload data
     glBindBuffer(GL_ARRAY_BUFFER, vbo[1]);
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(GL_FLOAT)*3, (void*)0);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_vertices), cube_vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_vertices), &cube_vertices, GL_STATIC_DRAW);
 
     // Bind normals and upload data
     glBindBuffer(GL_ARRAY_BUFFER, vbo[2]);
     glEnableVertexAttribArray(1);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(GL_FLOAT)*3, (void*)0);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_normals), cube_normals, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_normals), &cube_normals, GL_STATIC_DRAW);
 
     // Bind uv coords and upload data
     glBindBuffer(GL_ARRAY_BUFFER, vbo[3]);
     glEnableVertexAttribArray(2);
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(GL_FLOAT)*2, (void*)0);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_uvs), cube_uvs, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cube_uvs), &cube_uvs, GL_STATIC_DRAW);
 
     // Unbind everything
     glBindVertexArray(0);

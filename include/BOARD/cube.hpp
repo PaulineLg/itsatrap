@@ -22,10 +22,14 @@ class Cube{
 
     private:
     int cube_triangleCount;
-    int cube_triangleList[];
+    /*int cube_triangleList[];
     float cube_uvs[];
     float cube_vertices[];
-    float cube_normals[];
+    float cube_normals[];*/
+    std::vector<int> cube_triangleList;
+    std::vector<float> cube_uvs;
+    std::vector<float> cube_vertices;
+    std::vector<float> cube_normals;
     GLuint vbo[4];
     GLuint vao;
         // Texture tex;

@@ -11,8 +11,8 @@
 #include <glimac/SDLWindowManager.hpp>
 #include <vector>
 
-#include "../include/GLTOOLS/VBO.h"
-#include "../include/GLTOOLS/VAO.h"
+#include "../include/GLTOOLS/VBO.hpp"
+#include "../include/GLTOOLS/VAO.hpp"
 
 
 using namespace glimac;
@@ -31,8 +31,8 @@ int main(int argc, char** argv) {
     std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
     std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
-    std::unique_ptr<Image> ptrImage = loadImage("D:/IMAC2/S3/SI/OpenGL/TPS/asset/textures/EarthMap.jpg");
-    std::unique_ptr<Image> ptrImage2 = loadImage("D:/IMAC2/S3/SI/OpenGL/TPS/asset/textures/MoonMap.jpg");
+    std::unique_ptr<Image> ptrImage = loadImage("G:/Documents/IMAC/S3/SI/itsatrap/asset/textures/EarthMap.jpg");
+    std::unique_ptr<Image> ptrImage2 = loadImage("G:/Documents/IMAC/S3/SI/itsatrap/asset/textures/MoonMap.jpg");
 
 
     FilePath applicationPath(argv[0]);
@@ -100,14 +100,15 @@ int main(int argc, char** argv) {
     //GLuint vao;
     /*const GLuint VERTEX_ATTR_POSITION = 0;
     const GLuint VERTEX_ATTR_NORMAL = 1;
-    const GLuint VERTEX_ATTR_TEX= 2;
-    glGenVertexArrays(1, &vao);
+    const GLuint VERTEX_ATTR_TEX= 2;*/
+    /*glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
     glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
     glEnableVertexAttribArray(VERTEX_ATTR_NORMAL);
     glEnableVertexAttribArray(VERTEX_ATTR_TEX);*/
 
     VAO vao(0,1,2);
+    vao.bind();
     vao.activeAttrib();
 
     //glBindBuffer(GL_ARRAY_BUFFER, vbo);
@@ -162,6 +163,7 @@ int main(int argc, char** argv) {
          *********************************/
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glClearColor(0.2,0.2,0.2,0.0);
         //glBindVertexArray(vao);
         vao.bind();
 
@@ -210,7 +212,9 @@ int main(int argc, char** argv) {
     }
     glDeleteTextures(1, &earthMap);
     vbo.deleteVbo();
+    //glDeleteVertexArrays(1, &vao);
     vao.deleteVao();
+
 
     return EXIT_SUCCESS;
 }

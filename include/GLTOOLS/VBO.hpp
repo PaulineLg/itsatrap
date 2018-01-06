@@ -2,8 +2,8 @@
 // Created by pauli on 05/01/2018.
 //
 
-#ifndef ITSATRAP_VBO_H
-#define ITSATRAP_VBO_H
+#ifndef ITSATRAP_VBO_HPP
+#define ITSATRAP_VBO_HPP
 
 
 #define GLEW_STATIC
@@ -26,7 +26,6 @@ namespace glimac{
             }
 
             void fill(){
-
                 glBufferData(GL_ARRAY_BUFFER, vertices.size()*sizeof(type), vertices.data(), GL_STATIC_DRAW);
             }
 
@@ -48,4 +47,4 @@ namespace glimac{
     };
 }
 
-#endif //ITSATRAP_VBO_H
+#endif //ITSATRAP_VBO_HPP

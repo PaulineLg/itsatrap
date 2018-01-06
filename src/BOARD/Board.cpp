@@ -2,7 +2,7 @@
 // Created by pauli on 03/01/2018.
 //
 
-#include "../../include/BOARD/Board.h"
+#include "../../include/BOARD/Board.hpp"
 
 Board::Board(){
     dimX = 0;

@@ -2,7 +2,7 @@
 // Created by pauli on 05/01/2018.
 //
 
-#include "../../include/BOARD/Cylinder.h"
+#include "../../include/BOARD/Cylinder.hpp"
 
 namespace glimac{
     Cylinder::Cylinder(){

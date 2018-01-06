@@ -2,8 +2,8 @@
 // Created by pauli on 03/01/2018.
 //
 
-#ifndef ITSATRAP_BOARD_H
-#define ITSATRAP_BOARD_H
+#ifndef ITSATRAP_BOARD_HPP
+#define ITSATRAP_BOARD_HPP
 
 #include "tinyxml2.h"
 
@@ -28,4 +28,4 @@ class Board{
         std::vector< std::vector<int>> matrix;
 };
 
-#endif //ITSATRAP_BOARD_H
+#endif //ITSATRAP_BOARD_HPP
