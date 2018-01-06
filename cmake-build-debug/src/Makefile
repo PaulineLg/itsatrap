@@ -340,6 +340,33 @@ GLTOOLS/VBO.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
 .PHONY : GLTOOLS/VBO.cpp.s
 
+OBJECT/pacman.obj: OBJECT/pacman.cpp.obj
+
+.PHONY : OBJECT/pacman.obj
+
+# target to build an object file
+OBJECT/pacman.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+.PHONY : OBJECT/pacman.cpp.obj
+
+OBJECT/pacman.i: OBJECT/pacman.cpp.i
+
+.PHONY : OBJECT/pacman.i
+
+# target to preprocess a source file
+OBJECT/pacman.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i
+.PHONY : OBJECT/pacman.cpp.i
+
+OBJECT/pacman.s: OBJECT/pacman.cpp.s
+
+.PHONY : OBJECT/pacman.s
+
+# target to generate assembly for a file
+OBJECT/pacman.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s
+.PHONY : OBJECT/pacman.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -400,6 +427,9 @@ help:
 	@echo ... GLTOOLS/VBO.obj
 	@echo ... GLTOOLS/VBO.i
 	@echo ... GLTOOLS/VBO.s
+	@echo ... OBJECT/pacman.obj
+	@echo ... OBJECT/pacman.i
+	@echo ... OBJECT/pacman.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -213,36 +213,20 @@
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp">
 			<Option target="glimac"/>
-			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp">
 			<Option target="glimac"/>
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/cube.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/gamestate.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/playstate.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp">
-			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp">
 			<Option target="glimac"/>
-			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp">
 			<Option target="glimac"/>
-			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp">
 			<Option target="glimac"/>
@@ -270,6 +254,9 @@
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp">
 			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/pacman.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/3D.vs.glsl">

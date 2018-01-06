@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/pacman.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/main.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
