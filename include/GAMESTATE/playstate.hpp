@@ -2,6 +2,7 @@
 #define ITSATRAP_PLAYSTATE_HPP
 
 #include "gamestate.hpp"
+#include "../BOARD/Cube.hpp"
 
 class PlayState : public GameState {
     public:
@@ -22,6 +23,7 @@ class PlayState : public GameState {
 
     private:
         static PlayState s_PlayState;
+        glimac::Cube* m_cube;
 
 };
 

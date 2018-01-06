@@ -2,11 +2,14 @@
 #include <glimac/SDLWindowManager.hpp>
 #include "../../include/GAMESTATE/playstate.hpp"
 #include "../../include/GAMESTATE/titlestate.hpp"
+#include "../../include/BOARD/Cube.hpp"
 
 PlayState PlayState::s_PlayState;
 
 void PlayState::init() {
     std::cout << "Init of play state" << std::endl;
+    m_cube = new glimac::Cube("../../cmake-build-debug/src/itsatrap.exe");
+    m_cube->generate();
 }
 
 void PlayState::cleanup() {}
@@ -50,4 +53,6 @@ void PlayState::update(Game *game) {}
 
 void PlayState::draw(Game *game) {
     // Labyrinthe ici
+
+    m_cube->draw();
 }

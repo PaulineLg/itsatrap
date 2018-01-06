@@ -19,20 +19,13 @@ int main(int argc, char** argv) {
     //glClearColor(0.f,0.f,0.f,1.f);
     glClearColor(0.2,0.2,0.2,0.0);
 
-    Cube cube(argv);
-    cube.generate();
-
+    glEnable(GL_DEPTH_TEST);
 
     // Application loop:
     while (game->isRunning()){
         game->handleEvents();
         game->update();
         game->draw();
-
-        // Test de cube
-
-        cube.draw();
-
     }
 
     game->clean();

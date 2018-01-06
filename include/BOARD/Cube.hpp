@@ -35,7 +35,7 @@ namespace glimac{
                 uTexture = glGetUniformLocation(m_Program.getGLId(), "uTexture");
             }
         };
-            Cube(char** argv);
+            Cube(char* argv);
             ~Cube() = default;
 
             void generate();

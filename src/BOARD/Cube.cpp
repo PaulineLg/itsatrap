@@ -7,11 +7,12 @@
 
 namespace glimac{
 
-    Cube::Cube(char** argv){
+    Cube::Cube(char* argv){
         filepath = "../../asset/3DModels/Crate1.obj";
         mtlBasePath = "../../asset/3DModels/Crate1.mtl";
         geometry.loadOBJ(filepath, mtlBasePath, false);
-        FilePath applicationPath(argv[0]);
+        //std::cout << argv[0] << std::endl;
+        FilePath applicationPath(argv);
         wallProgram = new WallProgram(applicationPath);
         tex = new Texture("../../asset/textures/cubeMap.jpg");
         std::cout << "Identifiant : " << wallProgram->m_Program.getGLId() << std::endl;
@@ -33,10 +34,12 @@ namespace glimac{
         vbo->bind();
         vbo->fill();
         vbo->debind();
+
         vao = new VAO(0, 1, 2);
 
-        vao->activeAttrib();
         vao->bind();
+        vao->activeAttrib();
+
         vbo->bind();
         vao->specificAttrib<ShapeVertex>();
         vbo->debind();
@@ -46,7 +49,7 @@ namespace glimac{
         tex->send();
         tex->debind();
 
-        glEnable(GL_DEPTH_TEST); // Fonction à mettre dans le draw du playstate
+         // Fonction à mettre dans le draw du playstate
     }
 
     void Cube::transform(){
@@ -65,11 +68,12 @@ namespace glimac{
     }
 
     void Cube::draw(){
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Fonction à mettre dans le draw du playstate
+        //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Fonction à mettre dans le draw du playstate
         //glEnableClientState(GL_VERTEX_ARRAY); // Si ça sert à rien on enlève
         vao->bind();
-        transform();
         wallProgram->m_Program.use();
+        transform();
+
         sendUniform();
         glActiveTexture(GL_TEXTURE0);
         tex->bind();

@@ -1,19 +1,19 @@
 Determining if the include file pthread.h exists failed with the following output:
 Change Dir: G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_95bd9/fast"
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_95bd9.dir\build.make CMakeFiles/cmTC_95bd9.dir/build
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_44d04/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_44d04.dir\build.make CMakeFiles/cmTC_44d04.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95bd9.dir/CheckIncludeFile.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_95bd9.dir\CheckIncludeFile.c.obj   -c G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_44d04.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_44d04.dir\CheckIncludeFile.c.obj   -c G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
 G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
  #include <pthread.h>
                      ^
 compilation terminated.
-CMakeFiles\cmTC_95bd9.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_95bd9.dir/CheckIncludeFile.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_95bd9.dir/CheckIncludeFile.c.obj] Error 1
+CMakeFiles\cmTC_44d04.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_44d04.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_44d04.dir/CheckIncludeFile.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:125: recipe for target 'cmTC_95bd9/fast' failed
-mingw32-make.exe: *** [cmTC_95bd9/fast] Error 2
+Makefile:125: recipe for target 'cmTC_44d04/fast' failed
+mingw32-make.exe: *** [cmTC_44d04/fast] Error 2
 
 
