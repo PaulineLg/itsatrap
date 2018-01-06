@@ -213,7 +213,17 @@
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h">
 			<Option target="glimac"/>
 		</Unit>
-<<<<<<< HEAD
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/cube.hpp">
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
@@ -224,42 +234,6 @@
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/playstate.cpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/triangle.fs.glsl">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/triangle.vs.glsl">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/cmake-build-debug/shaders/triangle.fs.glsl">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/cmake-build-debug/shaders/triangle.vs.glsl">
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/main.cpp">
-			<Option target="itsatrap"/>
-		</Unit>
-=======
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp">
-			<Option target="glimac"/>
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp">
-			<Option target="glimac"/>
-			<Option target="itsatrap"/>
-		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/cube.hpp">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp">
@@ -279,6 +253,15 @@
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/cube.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/playstate.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp">
@@ -313,7 +296,6 @@
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/main.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
->>>>>>> Board
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

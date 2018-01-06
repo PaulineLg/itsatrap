@@ -878,8 +878,6 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-<<<<<<< HEAD
-=======
 G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp
 glm.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
@@ -936,7 +934,6 @@ glm/gtc/random.hpp
 glm/gtc/random.hpp
 -
 
->>>>>>> Board
 G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp
 cmath
 -

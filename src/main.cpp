@@ -1,7 +1,6 @@
 #include <GL/glew.h>
 #include <SDL/SDL.h>
 #include <glimac/SDLWindowManager.hpp>
-#include <vector>
 
 #include "../include/GAME/game.hpp"
 #include "../include/GAMESTATE/titlestate.hpp"
@@ -21,10 +20,6 @@ int main(int argc, char** argv) {
         game->update();
         game->draw();
     }
-    glDeleteTextures(1, &earthMap);
-    vbo.deleteVbo();
-    //glDeleteVertexArrays(1, &vao);
-    vao.deleteVao();
 
     game->clean();
 

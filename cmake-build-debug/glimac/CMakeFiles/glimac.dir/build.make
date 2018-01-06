@@ -442,11 +442,7 @@ glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/build.make
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/link.txt
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libglimac.a"
-=======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libglimac.a"
->>>>>>> Board
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
 
