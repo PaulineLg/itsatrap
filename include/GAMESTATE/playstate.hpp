@@ -3,6 +3,7 @@
 
 #include "gamestate.hpp"
 #include "../BOARD/Cube.hpp"
+#include "../BOARD/Board.hpp"
 
 class PlayState : public GameState {
     public:
@@ -24,6 +25,7 @@ class PlayState : public GameState {
     private:
         static PlayState s_PlayState;
         glimac::Cube* m_cube;
+        glimac::Board *m_board;
 
 };
 

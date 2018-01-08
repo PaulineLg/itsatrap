@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
   "CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
+  "CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
   "itsatrap.pdb"
   "itsatrap.exe"
   "itsatrap.exe.manifest"

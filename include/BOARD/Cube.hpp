@@ -12,6 +12,7 @@
 #include "../../glimac/include/glimac/Program.hpp"
 #include "../GLTOOLS/VAO.hpp"
 #include "../GLTOOLS/VBO.hpp"
+#include "../GLTOOLS/IBO.hpp"
 #include "../GLTOOLS/Texture.hpp"
 
 namespace glimac{
@@ -40,20 +41,21 @@ namespace glimac{
 
             void generate();
             void draw();
-            void transform();
+            void transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalMatrix);
             void sendUniform();
         private :
-            FilePath filepath;
-            FilePath mtlBasePath;
-            Geometry geometry;
-            VBO<ShapeVertex> *vbo;
-            VAO *vao;
-            std::vector<ShapeVertex> vertices;
-            WallProgram *wallProgram;
-            glm::mat4 ProjMatrix;
-            glm::mat4 MVMatrix;
-            glm::mat4 NormalMatrix;
-            Texture *tex;
+            FilePath m_filepath;
+            FilePath m_mtlBasePath;
+            Geometry m_geometry;
+            VBO<ShapeVertex> *m_vbo;
+            VAO *m_vao;
+            IBO m_ibo;
+            std::vector<ShapeVertex> m_vertices;
+            WallProgram *m_wallProgram;
+            glm::mat4 m_ProjMatrix;
+            glm::mat4 m_MVMatrix;
+            glm::mat4 m_NormalMatrix;
+            Texture *m_tex;
     };
 }
 
