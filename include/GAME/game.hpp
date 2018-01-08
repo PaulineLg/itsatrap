@@ -6,6 +6,7 @@
 class GameState;
 
 class Game {
+
     public:
 
         void clean();
@@ -32,12 +33,18 @@ class Game {
             return s_game;
         }
 
-        ~Game() = default;
+        static void kill(){
+            if ( s_game != NULL ) {
+                delete s_game;
+                s_game = NULL;
+            }
+        }
 
     private:
 
         static Game* s_game;
         Game(const char* title, uint32_t width, uint32_t height);
+        ~Game() = default;
         std::vector<GameState*> m_states;
         glimac::SDLWindowManager* m_window;
         bool m_running;

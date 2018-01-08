@@ -23,6 +23,8 @@ int main(int argc, char** argv) {
 
     game->clean();
 
+    Game::kill();
+
     return 0;
 
 }
