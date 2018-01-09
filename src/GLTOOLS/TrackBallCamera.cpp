@@ -1,6 +1,7 @@
-#include "glimac/TrackballCamera.hpp"
+#include "include/GLTOOLS/TrackballCamera.hpp"
 #include <iostream>
 #include <math.h>
+ #include "../OBJECT/character.hpp"
 
 namespace glimac {
 
