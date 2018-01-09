@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Ugo\Documents\IMAC\itsatrap
+"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\Documents\IMAC\S3\SI\itsatrap
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug
+-- Build files have been written to: G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug

@@ -1,11 +1,8 @@
-//
-// Created by Ugo on 01/01/2018.
-//
-
 #include <iostream>
 #include <glimac/SDLWindowManager.hpp>
 
 #include "../../include/GAMESTATE/titlestate.hpp"
+#include "../../include/GAMESTATE/playstate.hpp"
 
 TitleState TitleState::s_TitleState;
 
@@ -21,7 +18,7 @@ void TitleState::resume() {}
 
 void TitleState::handleEvents(Game* game) {
     SDL_Event event;
-    if (game->getWindow().pollEvent(event)){
+    if (game->getWindow()->pollEvent(event)){
         switch (event.type) {
 
             case SDL_QUIT:
@@ -30,17 +27,19 @@ void TitleState::handleEvents(Game* game) {
 
             case SDL_KEYDOWN:
                 switch (event.key.keysym.sym) {
-                    case SDLK_ESCAPE:
-                        game->exit();
+
+                    case SDLK_SPACE:
+                        game->changeState( PlayState::Instance() );
                         break;
 
-                    case SDLK_q:
+                    case SDLK_ESCAPE:
                         game->exit();
                         break;
 
                     default:
                         break;
                 }
+                break;
 
             default:
                 break;

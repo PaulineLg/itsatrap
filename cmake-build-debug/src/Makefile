@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Ugo\Documents\IMAC\itsatrap
+CMAKE_SOURCE_DIR = G:\Documents\IMAC\S3\SI\itsatrap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug
+CMAKE_BINARY_DIR = G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug\CMakeFiles C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug\src\CMakeFiles\progress.marks
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug\CMakeFiles 0
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src\CMakeFiles\progress.marks
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/clean
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/itsatrap.dir/rule:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/itsatrap.dir/rule
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/itsatrap.dir/rule
 .PHONY : src/CMakeFiles/itsatrap.dir/rule
 
 # Convenience name for target.
@@ -121,8 +121,89 @@ itsatrap: src/CMakeFiles/itsatrap.dir/rule
 
 # fast build rule for target.
 itsatrap/fast:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/build
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/build
 .PHONY : itsatrap/fast
+
+BOARD/Board.obj: BOARD/Board.cpp.obj
+
+.PHONY : BOARD/Board.obj
+
+# target to build an object file
+BOARD/Board.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
+.PHONY : BOARD/Board.cpp.obj
+
+BOARD/Board.i: BOARD/Board.cpp.i
+
+.PHONY : BOARD/Board.i
+
+# target to preprocess a source file
+BOARD/Board.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i
+.PHONY : BOARD/Board.cpp.i
+
+BOARD/Board.s: BOARD/Board.cpp.s
+
+.PHONY : BOARD/Board.s
+
+# target to generate assembly for a file
+BOARD/Board.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
+.PHONY : BOARD/Board.cpp.s
+
+BOARD/Cylinder.obj: BOARD/Cylinder.cpp.obj
+
+.PHONY : BOARD/Cylinder.obj
+
+# target to build an object file
+BOARD/Cylinder.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
+.PHONY : BOARD/Cylinder.cpp.obj
+
+BOARD/Cylinder.i: BOARD/Cylinder.cpp.i
+
+.PHONY : BOARD/Cylinder.i
+
+# target to preprocess a source file
+BOARD/Cylinder.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i
+.PHONY : BOARD/Cylinder.cpp.i
+
+BOARD/Cylinder.s: BOARD/Cylinder.cpp.s
+
+.PHONY : BOARD/Cylinder.s
+
+# target to generate assembly for a file
+BOARD/Cylinder.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s
+.PHONY : BOARD/Cylinder.cpp.s
+
+BOARD/cube.obj: BOARD/cube.cpp.obj
+
+.PHONY : BOARD/cube.obj
+
+# target to build an object file
+BOARD/cube.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
+.PHONY : BOARD/cube.cpp.obj
+
+BOARD/cube.i: BOARD/cube.cpp.i
+
+.PHONY : BOARD/cube.i
+
+# target to preprocess a source file
+BOARD/cube.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i
+.PHONY : BOARD/cube.cpp.i
+
+BOARD/cube.s: BOARD/cube.cpp.s
+
+.PHONY : BOARD/cube.s
+
+# target to generate assembly for a file
+BOARD/cube.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s
+.PHONY : BOARD/cube.cpp.s
 
 GAME/game.obj: GAME/game.cpp.obj
 
@@ -130,7 +211,7 @@ GAME/game.obj: GAME/game.cpp.obj
 
 # target to build an object file
 GAME/game.cpp.obj:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
 .PHONY : GAME/game.cpp.obj
 
 GAME/game.i: GAME/game.cpp.i
@@ -139,7 +220,7 @@ GAME/game.i: GAME/game.cpp.i
 
 # target to preprocess a source file
 GAME/game.cpp.i:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i
 .PHONY : GAME/game.cpp.i
 
 GAME/game.s: GAME/game.cpp.s
@@ -148,8 +229,35 @@ GAME/game.s: GAME/game.cpp.s
 
 # target to generate assembly for a file
 GAME/game.cpp.s:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s
 .PHONY : GAME/game.cpp.s
+
+GAMESTATE/playstate.obj: GAMESTATE/playstate.cpp.obj
+
+.PHONY : GAMESTATE/playstate.obj
+
+# target to build an object file
+GAMESTATE/playstate.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
+.PHONY : GAMESTATE/playstate.cpp.obj
+
+GAMESTATE/playstate.i: GAMESTATE/playstate.cpp.i
+
+.PHONY : GAMESTATE/playstate.i
+
+# target to preprocess a source file
+GAMESTATE/playstate.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i
+.PHONY : GAMESTATE/playstate.cpp.i
+
+GAMESTATE/playstate.s: GAMESTATE/playstate.cpp.s
+
+.PHONY : GAMESTATE/playstate.s
+
+# target to generate assembly for a file
+GAMESTATE/playstate.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s
+.PHONY : GAMESTATE/playstate.cpp.s
 
 GAMESTATE/titlestate.obj: GAMESTATE/titlestate.cpp.obj
 
@@ -157,7 +265,7 @@ GAMESTATE/titlestate.obj: GAMESTATE/titlestate.cpp.obj
 
 # target to build an object file
 GAMESTATE/titlestate.cpp.obj:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
 .PHONY : GAMESTATE/titlestate.cpp.obj
 
 GAMESTATE/titlestate.i: GAMESTATE/titlestate.cpp.i
@@ -166,7 +274,7 @@ GAMESTATE/titlestate.i: GAMESTATE/titlestate.cpp.i
 
 # target to preprocess a source file
 GAMESTATE/titlestate.cpp.i:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i
 .PHONY : GAMESTATE/titlestate.cpp.i
 
 GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
@@ -175,8 +283,89 @@ GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
 
 # target to generate assembly for a file
 GAMESTATE/titlestate.cpp.s:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
 .PHONY : GAMESTATE/titlestate.cpp.s
+
+GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
+
+.PHONY : GLTOOLS/VAO.obj
+
+# target to build an object file
+GLTOOLS/VAO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
+.PHONY : GLTOOLS/VAO.cpp.obj
+
+GLTOOLS/VAO.i: GLTOOLS/VAO.cpp.i
+
+.PHONY : GLTOOLS/VAO.i
+
+# target to preprocess a source file
+GLTOOLS/VAO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i
+.PHONY : GLTOOLS/VAO.cpp.i
+
+GLTOOLS/VAO.s: GLTOOLS/VAO.cpp.s
+
+.PHONY : GLTOOLS/VAO.s
+
+# target to generate assembly for a file
+GLTOOLS/VAO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s
+.PHONY : GLTOOLS/VAO.cpp.s
+
+GLTOOLS/VBO.obj: GLTOOLS/VBO.cpp.obj
+
+.PHONY : GLTOOLS/VBO.obj
+
+# target to build an object file
+GLTOOLS/VBO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
+.PHONY : GLTOOLS/VBO.cpp.obj
+
+GLTOOLS/VBO.i: GLTOOLS/VBO.cpp.i
+
+.PHONY : GLTOOLS/VBO.i
+
+# target to preprocess a source file
+GLTOOLS/VBO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i
+.PHONY : GLTOOLS/VBO.cpp.i
+
+GLTOOLS/VBO.s: GLTOOLS/VBO.cpp.s
+
+.PHONY : GLTOOLS/VBO.s
+
+# target to generate assembly for a file
+GLTOOLS/VBO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
+.PHONY : GLTOOLS/VBO.cpp.s
+
+OBJECT/pacman.obj: OBJECT/pacman.cpp.obj
+
+.PHONY : OBJECT/pacman.obj
+
+# target to build an object file
+OBJECT/pacman.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+.PHONY : OBJECT/pacman.cpp.obj
+
+OBJECT/pacman.i: OBJECT/pacman.cpp.i
+
+.PHONY : OBJECT/pacman.i
+
+# target to preprocess a source file
+OBJECT/pacman.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i
+.PHONY : OBJECT/pacman.cpp.i
+
+OBJECT/pacman.s: OBJECT/pacman.cpp.s
+
+.PHONY : OBJECT/pacman.s
+
+# target to generate assembly for a file
+OBJECT/pacman.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s
+.PHONY : OBJECT/pacman.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -184,7 +373,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.obj
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -193,7 +382,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.i
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -202,7 +391,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.s
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -214,12 +403,33 @@ help:
 	@echo ... itsatrap
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BOARD/Board.obj
+	@echo ... BOARD/Board.i
+	@echo ... BOARD/Board.s
+	@echo ... BOARD/Cylinder.obj
+	@echo ... BOARD/Cylinder.i
+	@echo ... BOARD/Cylinder.s
+	@echo ... BOARD/cube.obj
+	@echo ... BOARD/cube.i
+	@echo ... BOARD/cube.s
 	@echo ... GAME/game.obj
 	@echo ... GAME/game.i
 	@echo ... GAME/game.s
+	@echo ... GAMESTATE/playstate.obj
+	@echo ... GAMESTATE/playstate.i
+	@echo ... GAMESTATE/playstate.s
 	@echo ... GAMESTATE/titlestate.obj
 	@echo ... GAMESTATE/titlestate.i
 	@echo ... GAMESTATE/titlestate.s
+	@echo ... GLTOOLS/VAO.obj
+	@echo ... GLTOOLS/VAO.i
+	@echo ... GLTOOLS/VAO.s
+	@echo ... GLTOOLS/VBO.obj
+	@echo ... GLTOOLS/VBO.i
+	@echo ... GLTOOLS/VBO.s
+	@echo ... OBJECT/pacman.obj
+	@echo ... OBJECT/pacman.i
+	@echo ... OBJECT/pacman.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -234,6 +444,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Ugo\Documents\IMAC\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
