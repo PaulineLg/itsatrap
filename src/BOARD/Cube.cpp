@@ -8,13 +8,13 @@
 namespace glimac{
 
     Cube::Cube(char* argv){
-        m_filepath = "../../asset/3DModels/Crate1.obj";
-        m_mtlBasePath = "../../asset/3DModels/Crate1.mtl";
+        m_filepath = "../../asset/3DModels/cube.obj";
+        m_mtlBasePath = "../../asset/3DModels/cube.mtl";
         m_geometry.loadOBJ(m_filepath, m_mtlBasePath, false);
         //std::cout << argv[0] << std::endl;
         FilePath applicationPath(argv);
         m_wallProgram = new WallProgram(applicationPath);
-        m_tex = new Texture("../../asset/textures/vertfluo.jpg");
+        m_tex = new Texture("../../asset/textures/cubeMap.jpg");
         std::cout << "Identifiant : " << m_wallProgram->m_Program.getGLId() << std::endl;
     }
 
@@ -32,11 +32,11 @@ namespace glimac{
 
         m_vbo = new VBO<ShapeVertex>(m_vertices);
         m_vbo->bind();
-        m_vbo->fill(m_geometry.getIndexCount());
+        m_vbo->fill(m_geometry.getVertexCount());
         m_vbo->debind();
 
         m_ibo.bind();
-        m_ibo.fill(m_geometry.getIndexCount() ,m_geometry.getIndexBuffer());
+        m_ibo.fill(m_geometry.getIndexCount()*sizeof(uint32_t) ,m_geometry.getIndexBuffer());
         m_ibo.debind();
 
         m_vao = new VAO(0, 1, 2);
@@ -49,6 +49,7 @@ namespace glimac{
         m_vao->specificAttrib<ShapeVertex>();
         m_vbo->debind();
         m_vao->debind();
+        m_ibo.debind();
 
         m_tex->bind();
         m_tex->send();
@@ -72,22 +73,15 @@ namespace glimac{
     }
 
     void Cube::draw(){
-        /*glm::mat4 ProjMatrix;
-        glm::mat4 MVMatrix;
-        glm::mat4 NormalMatrix;
+       /* m_ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
+        m_MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0,0.0,-5.0));
+        m_MVMatrix = glm::rotate(m_MVMatrix, 1.f, glm::vec3(0,1,0));
+        m_NormalMatrix = glm::transpose(glm::inverse(m_MVMatrix));*/
 
-        ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
-        MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0,0.0,-5.0));
-        MVMatrix = glm::rotate(MVMatrix, 1.f, glm::vec3(0,1,0));
-        NormalMatrix = glm::transpose(glm::inverse(MVMatrix));*/
-
-
-
-        //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Fonction à mettre dans le draw du playstate
         //glEnableClientState(GL_VERTEX_ARRAY); // Si ça sert à rien on enlève
         m_vao->bind();
         m_wallProgram->m_Program.use();
-        //transform(ProjMatrix, MVMatrix, NormalMatrix);
+        //transform(m_ProjMatrix, m_MVMatrix, m_NormalMatrix);
 
         sendUniform();
         glActiveTexture(GL_TEXTURE0);

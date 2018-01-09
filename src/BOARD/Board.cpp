@@ -67,7 +67,7 @@ namespace glimac{
         glm::mat4 ProjMatrix;
         glm::mat4 MVMatrix;
         glm::mat4 NormalMatrix;
-        /*std::vector< std::vector<int> >::iterator row;
+        std::vector< std::vector<int> >::iterator row;
         std::vector<int>::iterator col;
         for (row = m_matrix.begin(); row !=m_matrix.end(); row++) {
             j = 0;
@@ -87,8 +87,7 @@ namespace glimac{
                 j++;
             }
             i++;
-            std::cout << std::endl;*/
-
+            std::cout << std::endl;
 
             ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
             MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)i,(float)j,-5.0));
@@ -96,6 +95,6 @@ namespace glimac{
             NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
             m_cube->transform(ProjMatrix, MVMatrix, NormalMatrix);
             m_cube->draw();
-        //}
+        }
     }
 }
