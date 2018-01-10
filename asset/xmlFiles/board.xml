@@ -2,25 +2,193 @@
 <board>
     <!-- Settings for MyApp -->
     <row>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+    </row>
+    <row>
+        <col>0</col>
         <col>1</col>
         <col>1</col>
         <col>1</col>
         <col>1</col>
         <col>0</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>1</col>
         <col>0</col>
         <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
         <col>0</col>
         <col>0</col>
+        <col>2</col>
         <col>0</col>
         <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
         <col>0</col>
         <col>0</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>2</col>
+        <col>1</col>
+        <col>2</col>
+        <col>2</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
         <col>0</col>
         <col>0</col>
         <col>0</col>
         <col>0</col>
         <col>0</col>
         <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>2</col>
+        <col>2</col>
+        <col>2</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>2</col>
+        <col>2</col>
+        <col>2</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+    </row>
+    <row>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
+        <col>0</col>
+        <col>1</col>
+        <col>0</col>
     </row>
     <row>
         <col>0</col>
@@ -32,36 +200,15 @@
         <col>1</col>
         <col>1</col>
         <col>1</col>
+        <col>2</col>
+        <col>1</col>
+        <col>1</col>
+        <col>1</col>
+        <col>0</col>
         <col>1</col>
         <col>1</col>
         <col>1</col>
         <col>1</col>
-        <col>1</col>
-        <col>0</col>
-        <col>1</col>
-        <col>1</col>
-        <col>1</col>
-        <col>1</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
         <col>0</col>
     </row>
     <row>
@@ -77,153 +224,6 @@
         <col>0</col>
         <col>0</col>
         <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-        <col>2</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-    </row>
-    <row>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>0</col>
-        <col>2</col>
         <col>0</col>
         <col>0</col>
         <col>0</col>

@@ -10,7 +10,11 @@ foreach(SRC_FILE ${SRC_FILES})
     add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include/GAMESTATE/gamestate.hpp GAME/game.cpp ../include/GAME/game.hpp GAMESTATE/titlestate.cpp ../include/GAMESTATE/titlestate.hpp OBJECT/object.h OBJECT/object.cpp)
 =======
     #add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include/GAMESTATE/gamestate.hpp GAME/game.cpp ../include/GAME/game.hpp GAMESTATE/titlestate.cpp ../include/GAMESTATE/titlestate.hpp GAMESTATE/playstate.cpp ../include/GAMESTATE/playstate.hpp ../include/BOARD/cube.hpp BOARD/cube.cpp ../include/BOARD/Board.hpp BOARD/Board.cpp ../include/GLTOOLS/VBO.hpp GLTOOLS/VBO.cpp ../include/GLTOOLS/VAO.hpp GLTOOLS/VAO.cpp ../include/BOARD/Cylinder.hpp BOARD/Cylinder.cpp ../include/OBJECT/object.hpp ../include/OBJECT/character.hpp ../include/OBJECT/item.hpp ../include/OBJECT/pacman.hpp)
+<<<<<<< HEAD
     add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include GAME/game.cpp GAMESTATE/titlestate.cpp GAMESTATE/playstate.cpp GLTOOLS/VAO.cpp GLTOOLS/VBO.cpp BOARD/Board.cpp BOARD/cube.cpp BOARD/Cylinder.cpp OBJECT/pacman.cpp)
+>>>>>>> master
+=======
+    add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include GAME/game.cpp GAMESTATE/titlestate.cpp GAMESTATE/playstate.cpp GLTOOLS/VAO.cpp GLTOOLS/VBO.cpp BOARD/Board.cpp BOARD/Cylinder.cpp OBJECT/pacman.cpp ../include/BOARD/Cube.hpp BOARD/Cube.cpp ../include/GLTOOLS/Texture.hpp GLTOOLS/Texture.cpp ../include/GLTOOLS/IBO.hpp GLTOOLS/IBO.cpp)
 >>>>>>> master
     target_link_libraries(${OUTPUT} ${ALL_LIBRARIES})
 endforeach()

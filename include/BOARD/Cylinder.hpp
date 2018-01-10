@@ -12,7 +12,7 @@
 #include "../GLTOOLS/VBO.hpp"
 
 namespace glimac{
-    class Cylinder{
+   /* class Cylinder{
         public:
             Cylinder();
             ~Cylinder();
@@ -26,7 +26,7 @@ namespace glimac{
             VBO<ShapeVertex> *vbo;
             VAO *vao;
             std::vector<ShapeVertex> vertices;
-    };
+    };*/
 }
 
 #endif //ITSATRAP_CYLINDER_HPP

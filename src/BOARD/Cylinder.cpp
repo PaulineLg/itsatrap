@@ -5,7 +5,7 @@
 #include "../../include/BOARD/Cylinder.hpp"
 
 namespace glimac{
-    Cylinder::Cylinder(){
+    /*Cylinder::Cylinder(){
         filepath = "../../asset/3DModels/Wood.obj";
         mtlBasePath = "../../asset/3DModels/Wood.mtl";
         geometry.loadOBJ(filepath, mtlBasePath, true);
@@ -44,7 +44,7 @@ namespace glimac{
         vao->bind();
         glDrawArrays(GL_TRIANGLES,0,geometry.getVertexCount());
         vao->debind();
-    }
+    }*/
 }
 
 

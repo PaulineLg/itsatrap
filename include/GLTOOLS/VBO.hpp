@@ -21,12 +21,10 @@ namespace glimac{
                 glGenBuffers(1, &vboId);
             }
 
-            ~VBO(){
+            ~VBO() = default;
 
-            }
-
-            void fill(){
-                glBufferData(GL_ARRAY_BUFFER, vertices.size()*sizeof(type), vertices.data(), GL_STATIC_DRAW);
+            void fill(int size){
+                glBufferData(GL_ARRAY_BUFFER, size*sizeof(type), vertices.data(), GL_STATIC_DRAW);
             }
 
             void bind(){

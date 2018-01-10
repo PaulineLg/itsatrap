@@ -25,7 +25,6 @@ namespace glimac{
         template <typename type>
         void specificAttrib(){
             if(m_vertexAttribPos != -1){
-                std::cout << "Here" << std::endl;
                 glVertexAttribPointer(m_vertexAttribPos, 3,GL_FLOAT, GL_FALSE, sizeof(ShapeVertex), (const GLvoid*) offsetof(ShapeVertex, position));
                 //glVertexAttribPointer(m_vertexAttribPos, 3,GL_FLOAT, GL_FALSE, sizeof(type), (const GLvoid*)0);
             }

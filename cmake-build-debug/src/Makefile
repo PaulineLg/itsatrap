@@ -151,6 +151,33 @@ BOARD/Board.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
 .PHONY : BOARD/Board.cpp.s
 
+BOARD/Cube.obj: BOARD/Cube.cpp.obj
+
+.PHONY : BOARD/Cube.obj
+
+# target to build an object file
+BOARD/Cube.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
+.PHONY : BOARD/Cube.cpp.obj
+
+BOARD/Cube.i: BOARD/Cube.cpp.i
+
+.PHONY : BOARD/Cube.i
+
+# target to preprocess a source file
+BOARD/Cube.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i
+.PHONY : BOARD/Cube.cpp.i
+
+BOARD/Cube.s: BOARD/Cube.cpp.s
+
+.PHONY : BOARD/Cube.s
+
+# target to generate assembly for a file
+BOARD/Cube.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s
+.PHONY : BOARD/Cube.cpp.s
+
 BOARD/Cylinder.obj: BOARD/Cylinder.cpp.obj
 
 .PHONY : BOARD/Cylinder.obj
@@ -177,33 +204,6 @@ BOARD/Cylinder.s: BOARD/Cylinder.cpp.s
 BOARD/Cylinder.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s
 .PHONY : BOARD/Cylinder.cpp.s
-
-BOARD/cube.obj: BOARD/cube.cpp.obj
-
-.PHONY : BOARD/cube.obj
-
-# target to build an object file
-BOARD/cube.cpp.obj:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
-.PHONY : BOARD/cube.cpp.obj
-
-BOARD/cube.i: BOARD/cube.cpp.i
-
-.PHONY : BOARD/cube.i
-
-# target to preprocess a source file
-BOARD/cube.cpp.i:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i
-.PHONY : BOARD/cube.cpp.i
-
-BOARD/cube.s: BOARD/cube.cpp.s
-
-.PHONY : BOARD/cube.s
-
-# target to generate assembly for a file
-BOARD/cube.cpp.s:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s
-.PHONY : BOARD/cube.cpp.s
 
 GAME/game.obj: GAME/game.cpp.obj
 
@@ -285,6 +285,60 @@ GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
 GAMESTATE/titlestate.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
 .PHONY : GAMESTATE/titlestate.cpp.s
+
+GLTOOLS/IBO.obj: GLTOOLS/IBO.cpp.obj
+
+.PHONY : GLTOOLS/IBO.obj
+
+# target to build an object file
+GLTOOLS/IBO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
+.PHONY : GLTOOLS/IBO.cpp.obj
+
+GLTOOLS/IBO.i: GLTOOLS/IBO.cpp.i
+
+.PHONY : GLTOOLS/IBO.i
+
+# target to preprocess a source file
+GLTOOLS/IBO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i
+.PHONY : GLTOOLS/IBO.cpp.i
+
+GLTOOLS/IBO.s: GLTOOLS/IBO.cpp.s
+
+.PHONY : GLTOOLS/IBO.s
+
+# target to generate assembly for a file
+GLTOOLS/IBO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s
+.PHONY : GLTOOLS/IBO.cpp.s
+
+GLTOOLS/Texture.obj: GLTOOLS/Texture.cpp.obj
+
+.PHONY : GLTOOLS/Texture.obj
+
+# target to build an object file
+GLTOOLS/Texture.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
+.PHONY : GLTOOLS/Texture.cpp.obj
+
+GLTOOLS/Texture.i: GLTOOLS/Texture.cpp.i
+
+.PHONY : GLTOOLS/Texture.i
+
+# target to preprocess a source file
+GLTOOLS/Texture.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i
+.PHONY : GLTOOLS/Texture.cpp.i
+
+GLTOOLS/Texture.s: GLTOOLS/Texture.cpp.s
+
+.PHONY : GLTOOLS/Texture.s
+
+# target to generate assembly for a file
+GLTOOLS/Texture.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s
+.PHONY : GLTOOLS/Texture.cpp.s
 
 GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
 
@@ -406,12 +460,12 @@ help:
 	@echo ... BOARD/Board.obj
 	@echo ... BOARD/Board.i
 	@echo ... BOARD/Board.s
+	@echo ... BOARD/Cube.obj
+	@echo ... BOARD/Cube.i
+	@echo ... BOARD/Cube.s
 	@echo ... BOARD/Cylinder.obj
 	@echo ... BOARD/Cylinder.i
 	@echo ... BOARD/Cylinder.s
-	@echo ... BOARD/cube.obj
-	@echo ... BOARD/cube.i
-	@echo ... BOARD/cube.s
 	@echo ... GAME/game.obj
 	@echo ... GAME/game.i
 	@echo ... GAME/game.s
@@ -421,6 +475,12 @@ help:
 	@echo ... GAMESTATE/titlestate.obj
 	@echo ... GAMESTATE/titlestate.i
 	@echo ... GAMESTATE/titlestate.s
+	@echo ... GLTOOLS/IBO.obj
+	@echo ... GLTOOLS/IBO.i
+	@echo ... GLTOOLS/IBO.s
+	@echo ... GLTOOLS/Texture.obj
+	@echo ... GLTOOLS/Texture.i
+	@echo ... GLTOOLS/Texture.s
 	@echo ... GLTOOLS/VAO.obj
 	@echo ... GLTOOLS/VAO.i
 	@echo ... GLTOOLS/VAO.s

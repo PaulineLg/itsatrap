@@ -151,6 +151,33 @@ __/src/BOARD/Board.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s
 .PHONY : __/src/BOARD/Board.cpp.s
 
+__/src/BOARD/Cube.obj: __/src/BOARD/Cube.cpp.obj
+
+.PHONY : __/src/BOARD/Cube.obj
+
+# target to build an object file
+__/src/BOARD/Cube.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj
+.PHONY : __/src/BOARD/Cube.cpp.obj
+
+__/src/BOARD/Cube.i: __/src/BOARD/Cube.cpp.i
+
+.PHONY : __/src/BOARD/Cube.i
+
+# target to preprocess a source file
+__/src/BOARD/Cube.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i
+.PHONY : __/src/BOARD/Cube.cpp.i
+
+__/src/BOARD/Cube.s: __/src/BOARD/Cube.cpp.s
+
+.PHONY : __/src/BOARD/Cube.s
+
+# target to generate assembly for a file
+__/src/BOARD/Cube.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s
+.PHONY : __/src/BOARD/Cube.cpp.s
+
 __/src/BOARD/Cylinder.obj: __/src/BOARD/Cylinder.cpp.obj
 
 .PHONY : __/src/BOARD/Cylinder.obj
@@ -177,6 +204,60 @@ __/src/BOARD/Cylinder.s: __/src/BOARD/Cylinder.cpp.s
 __/src/BOARD/Cylinder.cpp.s:
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s
 .PHONY : __/src/BOARD/Cylinder.cpp.s
+
+__/src/GLTOOLS/IBO.obj: __/src/GLTOOLS/IBO.cpp.obj
+
+.PHONY : __/src/GLTOOLS/IBO.obj
+
+# target to build an object file
+__/src/GLTOOLS/IBO.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj
+.PHONY : __/src/GLTOOLS/IBO.cpp.obj
+
+__/src/GLTOOLS/IBO.i: __/src/GLTOOLS/IBO.cpp.i
+
+.PHONY : __/src/GLTOOLS/IBO.i
+
+# target to preprocess a source file
+__/src/GLTOOLS/IBO.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i
+.PHONY : __/src/GLTOOLS/IBO.cpp.i
+
+__/src/GLTOOLS/IBO.s: __/src/GLTOOLS/IBO.cpp.s
+
+.PHONY : __/src/GLTOOLS/IBO.s
+
+# target to generate assembly for a file
+__/src/GLTOOLS/IBO.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s
+.PHONY : __/src/GLTOOLS/IBO.cpp.s
+
+__/src/GLTOOLS/Texture.obj: __/src/GLTOOLS/Texture.cpp.obj
+
+.PHONY : __/src/GLTOOLS/Texture.obj
+
+# target to build an object file
+__/src/GLTOOLS/Texture.cpp.obj:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj
+.PHONY : __/src/GLTOOLS/Texture.cpp.obj
+
+__/src/GLTOOLS/Texture.i: __/src/GLTOOLS/Texture.cpp.i
+
+.PHONY : __/src/GLTOOLS/Texture.i
+
+# target to preprocess a source file
+__/src/GLTOOLS/Texture.cpp.i:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i
+.PHONY : __/src/GLTOOLS/Texture.cpp.i
+
+__/src/GLTOOLS/Texture.s: __/src/GLTOOLS/Texture.cpp.s
+
+.PHONY : __/src/GLTOOLS/Texture.s
+
+# target to generate assembly for a file
+__/src/GLTOOLS/Texture.cpp.s:
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s
+.PHONY : __/src/GLTOOLS/Texture.cpp.s
 
 __/src/GLTOOLS/VAO.obj: __/src/GLTOOLS/VAO.cpp.obj
 
@@ -514,9 +595,18 @@ help:
 	@echo ... __/src/BOARD/Board.obj
 	@echo ... __/src/BOARD/Board.i
 	@echo ... __/src/BOARD/Board.s
+	@echo ... __/src/BOARD/Cube.obj
+	@echo ... __/src/BOARD/Cube.i
+	@echo ... __/src/BOARD/Cube.s
 	@echo ... __/src/BOARD/Cylinder.obj
 	@echo ... __/src/BOARD/Cylinder.i
 	@echo ... __/src/BOARD/Cylinder.s
+	@echo ... __/src/GLTOOLS/IBO.obj
+	@echo ... __/src/GLTOOLS/IBO.i
+	@echo ... __/src/GLTOOLS/IBO.s
+	@echo ... __/src/GLTOOLS/Texture.obj
+	@echo ... __/src/GLTOOLS/Texture.i
+	@echo ... __/src/GLTOOLS/Texture.s
 	@echo ... __/src/GLTOOLS/VAO.obj
 	@echo ... __/src/GLTOOLS/VAO.i
 	@echo ... __/src/GLTOOLS/VAO.s

@@ -5,7 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj"
+  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj"
   "G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj"

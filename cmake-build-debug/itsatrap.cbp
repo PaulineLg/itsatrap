@@ -219,8 +219,20 @@
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp">
 			<Option target="glimac"/>
 		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp">
 			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp">
 			<Option target="glimac"/>
@@ -232,11 +244,12 @@
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp">
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/cube.cpp">
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp">
+			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp">
@@ -246,6 +259,14 @@
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp">
+			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp">
@@ -260,6 +281,9 @@
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/3D.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/cube3D.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="G:/Documents/IMAC/S3/SI/itsatrap/src/Shaders/normals.fs.glsl">

@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
+../glimac/include/glimac/BBox.hpp
+glm.hpp
+../glimac/include/glimac/glm.hpp
+
 ../glimac/include/glimac/FilePath.hpp
 string
 -
+
+../glimac/include/glimac/Geometry.hpp
+glm/glm.hpp
+-
+vector
+-
+string
+-
+Image.hpp
+../glimac/include/glimac/Image.hpp
+FilePath.hpp
+../glimac/include/glimac/FilePath.hpp
+BBox.hpp
+../glimac/include/glimac/BBox.hpp
 
 ../glimac/include/glimac/Image.hpp
 vector
@@ -46,12 +64,6 @@ string
 FilePath.hpp
 ../glimac/include/glimac/FilePath.hpp
 
-../glimac/include/glimac/Sphere.hpp
-vector
--
-common.hpp
-../glimac/include/glimac/common.hpp
-
 ../glimac/include/glimac/common.hpp
 GL/glew.h
 -
@@ -73,6 +85,62 @@ glm/gtc/random.hpp
 -
 glm/gtc/random.hpp
 -
+
+../include/BOARD/Cube.hpp
+../../glimac/include/glimac/FilePath.hpp
+../glimac/include/glimac/FilePath.hpp
+../../glimac/include/glimac/Geometry.hpp
+../glimac/include/glimac/Geometry.hpp
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
+../../glimac/include/glimac/Program.hpp
+../glimac/include/glimac/Program.hpp
+../GLTOOLS/VAO.hpp
+../include/GLTOOLS/VAO.hpp
+../GLTOOLS/VBO.hpp
+../include/GLTOOLS/VBO.hpp
+../GLTOOLS/IBO.hpp
+../include/GLTOOLS/IBO.hpp
+../GLTOOLS/Texture.hpp
+../include/GLTOOLS/Texture.hpp
+
+../include/GLTOOLS/IBO.hpp
+GL/glew.h
+-
+GL/glut.h
+-
+
+../include/GLTOOLS/Texture.hpp
+iostream
+-
+GL/glew.h
+-
+GL/glut.h
+-
+../../glimac/include/glimac/Image.hpp
+-
+
+../include/GLTOOLS/VAO.hpp
+iostream
+-
+GL/glew.h
+-
+GL/glut.h
+-
+vector
+-
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
+
+../include/GLTOOLS/VBO.hpp
+GL/glew.h
+-
+GL/glut.h
+-
+vector
+-
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
 
 ../third-party/include/glm/common.hpp
 detail/func_common.hpp
@@ -844,6 +912,22 @@ G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
 FilePath.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
+GL/glew.h
+-
+Shader.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
+FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
+GL/glew.h
+-
+string
+-
+FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+
 G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 GL/glew.h
 -
@@ -877,6 +961,26 @@ fstream
 -
 vector
 -
+../../include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+../../glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+../../glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
+../../glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+../../glimac/include/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
+../GLTOOLS/VAO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
+../GLTOOLS/VBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
+../GLTOOLS/IBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+../GLTOOLS/Texture.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
 
 G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
 ../../glimac/include/glimac/FilePath.hpp
@@ -890,30 +994,6 @@ G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/cube.hpp
-iostream
--
-fstream
--
-GL/glew.h
--
-GL/glut.h
--
-memory
--
-SDL/SDL.h
--
-glimac/Sphere.hpp
--
-glimac/Program.hpp
--
-glimac/Image.hpp
--
-glimac/SDLWindowManager.hpp
--
-vector
--
-
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp
 vector
 -
@@ -925,10 +1005,30 @@ G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/playstate.hpp
 gamestate.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/gamestate.hpp
+../BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+../BOARD/Board.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
 
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp
 gamestate.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/gamestate.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+GL/glew.h
+-
+GL/glut.h
+-
+
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
+iostream
+-
+GL/glew.h
+-
+GL/glut.h
+-
+../../glimac/include/glimac/Image.hpp
+-
 
 G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
@@ -982,13 +1082,13 @@ G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
 
+G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp
+../../include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+
 G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp
 ../../include/BOARD/Cylinder.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
-
-G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/cube.cpp
-../../include/BOARD/cube.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/cube.hpp
 
 G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp
 iostream
@@ -1011,6 +1111,8 @@ glimac/SDLWindowManager.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/playstate.hpp
 ../../include/GAMESTATE/titlestate.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp
+../../include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
 
 G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp
 iostream
@@ -1021,6 +1123,14 @@ glimac/SDLWindowManager.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp
 ../../include/GAMESTATE/playstate.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/playstate.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp
+../../include/GLTOOLS/IBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp
+../../include/GLTOOLS/Texture.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
 
 G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp
 ../../include/GLTOOLS/VAO.hpp
@@ -1045,4 +1155,6 @@ glimac/SDLWindowManager.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAME/game.hpp
 ../include/GAMESTATE/titlestate.hpp
 G:/Documents/IMAC/S3/SI/itsatrap/include/GAMESTATE/titlestate.hpp
+../../include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/include/BOARD/Cube.hpp
 

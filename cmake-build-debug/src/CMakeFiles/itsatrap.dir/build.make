@@ -231,35 +231,10 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides: src/CMakeFiles/itsatra
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
 
 
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj: ../src/BOARD/cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\cube.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\cube.cpp
-
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/cube.cpp.i"
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\cube.cpp > CMakeFiles\itsatrap.dir\BOARD\cube.cpp.i
-
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/cube.cpp.s"
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\cube.cpp -o CMakeFiles\itsatrap.dir\BOARD\cube.cpp.s
-
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires:
-
-.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
-
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
-	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides.build
-.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides
-
-src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
-
-
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: ../src/BOARD/Cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cylinder.cpp
 
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i: cmake_force
@@ -284,7 +259,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj.provides.build: src/CMakeFile
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: ../src/OBJECT/pacman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\OBJECT\pacman.cpp
 
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i: cmake_force
@@ -306,6 +281,81 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj.provides: src/CMakeFiles/itsat
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
 
 
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: ../src/BOARD/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cube.cpp
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cube.cpp > CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\BOARD\Cube.cpp -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.s
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
+
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: ../src/GLTOOLS/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\Texture.cpp
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\Texture.cpp > CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\Texture.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.s
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
+
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: ../src/GLTOOLS/IBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.obj -c G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\IBO.cpp
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\IBO.cpp > CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s"
+	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Documents\IMAC\S3\SI\itsatrap\src\GLTOOLS\IBO.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.s
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
+
+
 # Object files for target itsatrap
 itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/main.cpp.obj" \
@@ -315,9 +365,11 @@ itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj" \
 "CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj" \
 "CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj" \
-"CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj" \
 "CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj" \
-"CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
+"CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj" \
+"CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj" \
+"CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj" \
+"CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
 
 # External object files for target itsatrap
 itsatrap_EXTERNAL_OBJECTS =
@@ -329,15 +381,17 @@ src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
-src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/build.make
 src/itsatrap.exe: glimac/libglimac.a
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/linklibs.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/objects1.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable itsatrap.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable itsatrap.exe"
 	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\itsatrap.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -352,9 +406,11 @@ src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GAMESTATE/play
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires
-src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires
 
 .PHONY : src/CMakeFiles/itsatrap.dir/requires
 

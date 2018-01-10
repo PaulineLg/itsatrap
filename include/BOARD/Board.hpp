@@ -13,19 +13,26 @@
 #include <fstream>
 #include <vector>
 
-class Board{
-    public :
-        Board();
-        ~Board();
+#include "../../include/BOARD/Cube.hpp"
 
-        loadMatrix();
-        printMatrix();
+namespace glimac{
+    class Board{
+            public :
+                Board();
+                ~Board() = default;
 
-    private:
-        int dimX;
-        int dimY;
-        //int matrix[dimX][dimY];
-        std::vector< std::vector<int>> matrix;
-};
+                void loadMatrix();
+                void printMatrix();
+                void loadCubes();
+                void draw();
+
+            private:
+                int m_dimX;
+                int m_dimY;
+                std::vector< std::vector<int>> m_matrix;
+                Cube *m_cube;
+    };
+}
+
 
 #endif //ITSATRAP_BOARD_HPP
