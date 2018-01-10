@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cube.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cylinder.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
@@ -13,25 +12,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/titlestate.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/Texture.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/TrackBallCamera.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VAO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacman.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/main.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
-=======
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GAME/game.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/playstate.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GAMESTATE/titlestate.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/TrackBallCamera.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/pacman.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
-  "G:/Documents/IMAC/S3/SI/itsatrap/src/main.cpp" "G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
->>>>>>> master
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

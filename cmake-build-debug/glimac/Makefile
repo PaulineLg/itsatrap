@@ -313,6 +313,33 @@ __/src/GLTOOLS/VBO.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s
 .PHONY : __/src/GLTOOLS/VBO.cpp.s
 
+__/src/OBJECT/Character.obj: __/src/OBJECT/Character.cpp.obj
+
+.PHONY : __/src/OBJECT/Character.obj
+
+# target to build an object file
+__/src/OBJECT/Character.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj
+.PHONY : __/src/OBJECT/Character.cpp.obj
+
+__/src/OBJECT/Character.i: __/src/OBJECT/Character.cpp.i
+
+.PHONY : __/src/OBJECT/Character.i
+
+# target to preprocess a source file
+__/src/OBJECT/Character.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.i
+.PHONY : __/src/OBJECT/Character.cpp.i
+
+__/src/OBJECT/Character.s: __/src/OBJECT/Character.cpp.s
+
+.PHONY : __/src/OBJECT/Character.s
+
+# target to generate assembly for a file
+__/src/OBJECT/Character.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.s
+.PHONY : __/src/OBJECT/Character.cpp.s
+
 src/Cone.obj: src/Cone.cpp.obj
 
 .PHONY : src/Cone.obj
@@ -613,6 +640,9 @@ help:
 	@echo ... __/src/GLTOOLS/VBO.obj
 	@echo ... __/src/GLTOOLS/VBO.i
 	@echo ... __/src/GLTOOLS/VBO.s
+	@echo ... __/src/OBJECT/Character.obj
+	@echo ... __/src/OBJECT/Character.i
+	@echo ... __/src/OBJECT/Character.s
 	@echo ... src/Cone.obj
 	@echo ... src/Cone.i
 	@echo ... src/Cone.s

@@ -14,6 +14,8 @@
 #include <vector>
 
 #include "../../include/BOARD/Cube.hpp"
+#include "../../include/OBJECT/Character.hpp"
+#include "../../include/OBJECT/Pacman.hpp"
 
 namespace glimac{
     class Board{
@@ -24,6 +26,7 @@ namespace glimac{
                 void loadMatrix();
                 void printMatrix();
                 void loadCubes();
+                void loadObjects();
                 void draw();
 
             private:
@@ -31,6 +34,8 @@ namespace glimac{
                 int m_dimY;
                 std::vector< std::vector<int>> m_matrix;
                 Cube *m_cube;
+                std::vector<Object*> m_objects;
+                Pacman *m_pacman;
     };
 }
 

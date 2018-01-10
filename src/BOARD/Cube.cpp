@@ -73,16 +73,8 @@ namespace glimac{
     }
 
     void Cube::draw(){
-       /* m_ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
-        m_MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0,0.0,-5.0));
-        m_MVMatrix = glm::rotate(m_MVMatrix, 1.f, glm::vec3(0,1,0));
-        m_NormalMatrix = glm::transpose(glm::inverse(m_MVMatrix));*/
-
-        //glEnableClientState(GL_VERTEX_ARRAY); // Si ça sert à rien on enlève
         m_vao->bind();
         m_wallProgram->m_Program.use();
-        //transform(m_ProjMatrix, m_MVMatrix, m_NormalMatrix);
-
         sendUniform();
         glActiveTexture(GL_TEXTURE0);
         m_tex->bind();

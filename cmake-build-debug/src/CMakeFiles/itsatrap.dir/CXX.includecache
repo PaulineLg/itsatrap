@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
+../glimac/include/glimac/BBox.hpp
+glm.hpp
+../glimac/include/glimac/glm.hpp
+
 ../glimac/include/glimac/FilePath.hpp
 string
 -
+
+../glimac/include/glimac/Geometry.hpp
+glm/glm.hpp
+-
+vector
+-
+string
+-
+Image.hpp
+../glimac/include/glimac/Image.hpp
+FilePath.hpp
+../glimac/include/glimac/FilePath.hpp
+BBox.hpp
+../glimac/include/glimac/BBox.hpp
 
 ../glimac/include/glimac/Image.hpp
 vector
@@ -46,6 +64,12 @@ string
 FilePath.hpp
 ../glimac/include/glimac/FilePath.hpp
 
+../glimac/include/glimac/common.hpp
+GL/glew.h
+-
+glm.hpp
+../glimac/include/glimac/glm.hpp
+
 ../glimac/include/glimac/glm.hpp
 glm/glm.hpp
 -
@@ -61,6 +85,66 @@ glm/gtc/random.hpp
 -
 glm/gtc/random.hpp
 -
+
+../include/BOARD/Cube.hpp
+../../glimac/include/glimac/FilePath.hpp
+../glimac/include/glimac/FilePath.hpp
+../../glimac/include/glimac/Geometry.hpp
+../glimac/include/glimac/Geometry.hpp
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
+../../glimac/include/glimac/Program.hpp
+../glimac/include/glimac/Program.hpp
+../GLTOOLS/VAO.hpp
+../include/GLTOOLS/VAO.hpp
+../GLTOOLS/VBO.hpp
+../include/GLTOOLS/VBO.hpp
+../GLTOOLS/IBO.hpp
+../include/GLTOOLS/IBO.hpp
+../GLTOOLS/Texture.hpp
+../include/GLTOOLS/Texture.hpp
+
+../include/GAMESTATE/titlestate.hpp
+gamestate.hpp
+../include/GAMESTATE/gamestate.hpp
+
+../include/GLTOOLS/IBO.hpp
+GL/glew.h
+-
+GL/glut.h
+-
+
+../include/GLTOOLS/Texture.hpp
+iostream
+-
+GL/glew.h
+-
+GL/glut.h
+-
+../../glimac/include/glimac/Image.hpp
+-
+
+../include/GLTOOLS/VAO.hpp
+iostream
+-
+GL/glew.h
+-
+GL/glut.h
+-
+vector
+-
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
+
+../include/GLTOOLS/VBO.hpp
+GL/glew.h
+-
+GL/glut.h
+-
+vector
+-
+../../glimac/include/glimac/common.hpp
+../glimac/include/glimac/common.hpp
 
 ../third-party/include/glm/common.hpp
 detail/func_common.hpp
@@ -848,6 +932,12 @@ string
 FilePath.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
 
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Sphere.hpp
+vector
+-
+common.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
 GL/glew.h
 -
@@ -883,6 +973,10 @@ vector
 -
 ../../include/BOARD/Cube.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
+../../include/OBJECT/Character.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
+../../include/OBJECT/Pacman.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
 ../../glimac/include/glimac/FilePath.hpp
@@ -934,31 +1028,17 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/titlestate.hpp
 gamestate.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/gamestate.hpp
 
-<<<<<<< HEAD
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Camera.hpp
+cstdint
+-
+SDL/SDL.h
+-
+glimac/glm.hpp
+-
+../OBJECT/pacman.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
-=======
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Camera.hpp
-cstdint
--
-SDL/SDL.h
--
-glimac/glm.hpp
--
-../OBJECT/pacman.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
-
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Camera.hpp
-cstdint
--
-SDL/SDL.h
--
-glimac/glm.hpp
--
-../OBJECT/pacman.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
-
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
->>>>>>> master
 GL/glew.h
 -
 GL/glut.h
@@ -974,13 +1054,7 @@ GL/glut.h
 ../../glimac/include/glimac/Image.hpp
 -
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
-=======
->>>>>>> Stashed changes
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/TrackballCamera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/TrackballCamera.hpp
 cstdint
 -
 SDL/SDL.h
@@ -988,12 +1062,11 @@ SDL/SDL.h
 glimac/glm.hpp
 -
 ../OBJECT/character.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/character.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
 Camera.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Camera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Camera.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
->>>>>>> master
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 GL/glew.h
@@ -1015,6 +1088,24 @@ vector
 ../../glimac/include/glimac/common.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
 
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
+object.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+item.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
+object.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+character.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
+../../glimac/include/glimac/Sphere.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Sphere.hpp
+../../glimac/include/glimac/Program.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Program.hpp
+../../glimac/include/glimac/Geometry.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
 object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
@@ -1034,12 +1125,24 @@ glimac/glm.hpp
 -
 GL/glew.h
 -
+../GLTOOLS/VAO.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
+../GLTOOLS/VBO.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
+../GLTOOLS/IBO.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
 object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 character.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
+../../glimac/include/glimac/Sphere.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Sphere.hpp
+../../glimac/include/glimac/Program.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Program.hpp
+../../glimac/include/glimac/Geometry.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
@@ -1103,37 +1206,27 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/Texture.cpp
 ../../include/GLTOOLS/Texture.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
 
-<<<<<<< HEAD
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
+../../include/GLTOOLS/TrackballCamera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/TrackballCamera.hpp
+iostream
+-
+math.h
+-
+../../include/OBJECT/pacman.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VAO.cpp
-=======
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
-../../include/GLTOOLS/TrackballCamera.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/TrackballCamera.hpp
-iostream
--
-math.h
--
-../../include/OBJECT/pacman.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
-
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
-../../include/GLTOOLS/TrackballCamera.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/TrackballCamera.hpp
-iostream
--
-math.h
--
-../../include/OBJECT/pacman.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
-
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp
->>>>>>> master
 ../../include/GLTOOLS/VAO.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp
+../../include/OBJECT/Character.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacman.cpp
 ../../include/OBJECT/pacman.hpp
