@@ -1,4 +1,4 @@
-# Install script for directory: D:/IMAC2/S3/SI/OpenGL/TPS/TP1
+# Install script for directory: D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

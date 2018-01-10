@@ -1,10 +1,3 @@
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_SDLtemplate.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo1_triangle_blanc.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo5_disque.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo4_quads.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo2_triangle_couleurs.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo3_structure_vertex.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo6_disque.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/TP1_exo6_quads.dir
-D:/IMAC2/S3/SI/OpenGL/TPS/TP1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/CMakeFiles/itsatrap.dir
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

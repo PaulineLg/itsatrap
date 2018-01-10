@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
   "CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
   "CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
+<<<<<<< HEAD
   "CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
   "CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
@@ -11,6 +12,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
+=======
+  "CMakeFiles/itsatrap.dir/BOARD/cube.cpp.obj"
+  "CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
+  "CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
+  "CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
+  "CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
+>>>>>>> camera
   "itsatrap.pdb"
   "itsatrap.exe"
   "itsatrap.exe.manifest"

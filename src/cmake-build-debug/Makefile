@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\OpenGL\TPS\TP1
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\OpenGL\TPS\TP1\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\OpenGL\TPS\TP1\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\OpenGL\TPS\TP1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\cmake-build-debug\CMakeFiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\OpenGL\TPS\TP1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,228 +110,77 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TP1_SDLtemplate
+# Target rules for targets named itsatrap
 
 # Build rule for target.
-TP1_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_SDLtemplate
-.PHONY : TP1_SDLtemplate
+itsatrap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 itsatrap
+.PHONY : itsatrap
 
 # fast build rule for target.
-TP1_SDLtemplate/fast:
-	$(MAKE) -f CMakeFiles\TP1_SDLtemplate.dir\build.make CMakeFiles/TP1_SDLtemplate.dir/build
-.PHONY : TP1_SDLtemplate/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo1_triangle_blanc
-
-# Build rule for target.
-TP1_exo1_triangle_blanc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo1_triangle_blanc
-.PHONY : TP1_exo1_triangle_blanc
-
-# fast build rule for target.
-TP1_exo1_triangle_blanc/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo1_triangle_blanc.dir\build.make CMakeFiles/TP1_exo1_triangle_blanc.dir/build
-.PHONY : TP1_exo1_triangle_blanc/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo5_disque
-
-# Build rule for target.
-TP1_exo5_disque: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo5_disque
-.PHONY : TP1_exo5_disque
-
-# fast build rule for target.
-TP1_exo5_disque/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo5_disque.dir\build.make CMakeFiles/TP1_exo5_disque.dir/build
-.PHONY : TP1_exo5_disque/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo4_quads
-
-# Build rule for target.
-TP1_exo4_quads: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo4_quads
-.PHONY : TP1_exo4_quads
-
-# fast build rule for target.
-TP1_exo4_quads/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo4_quads.dir\build.make CMakeFiles/TP1_exo4_quads.dir/build
-.PHONY : TP1_exo4_quads/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo2_triangle_couleurs
-
-# Build rule for target.
-TP1_exo2_triangle_couleurs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo2_triangle_couleurs
-.PHONY : TP1_exo2_triangle_couleurs
-
-# fast build rule for target.
-TP1_exo2_triangle_couleurs/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo2_triangle_couleurs.dir\build.make CMakeFiles/TP1_exo2_triangle_couleurs.dir/build
-.PHONY : TP1_exo2_triangle_couleurs/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo3_structure_vertex
-
-# Build rule for target.
-TP1_exo3_structure_vertex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo3_structure_vertex
-.PHONY : TP1_exo3_structure_vertex
-
-# fast build rule for target.
-TP1_exo3_structure_vertex/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo3_structure_vertex.dir\build.make CMakeFiles/TP1_exo3_structure_vertex.dir/build
-.PHONY : TP1_exo3_structure_vertex/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo6_disque
-
-# Build rule for target.
-TP1_exo6_disque: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo6_disque
-.PHONY : TP1_exo6_disque
-
-# fast build rule for target.
-TP1_exo6_disque/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo6_disque.dir\build.make CMakeFiles/TP1_exo6_disque.dir/build
-.PHONY : TP1_exo6_disque/fast
-
-#=============================================================================
-# Target rules for targets named TP1_exo6_quads
-
-# Build rule for target.
-TP1_exo6_quads: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TP1_exo6_quads
-.PHONY : TP1_exo6_quads
-
-# fast build rule for target.
-TP1_exo6_quads/fast:
-	$(MAKE) -f CMakeFiles\TP1_exo6_quads.dir\build.make CMakeFiles/TP1_exo6_quads.dir/build
-.PHONY : TP1_exo6_quads/fast
+itsatrap/fast:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/build
+.PHONY : itsatrap/fast
 
 # target to build an object file
-SDLtemplate.obj:
-	$(MAKE) -f CMakeFiles\TP1_SDLtemplate.dir\build.make CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.obj
-.PHONY : SDLtemplate.obj
+GAME/game.obj:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAME/game.obj
+.PHONY : GAME/game.obj
 
 # target to preprocess a source file
-SDLtemplate.i:
-	$(MAKE) -f CMakeFiles\TP1_SDLtemplate.dir\build.make CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.i
-.PHONY : SDLtemplate.i
+GAME/game.i:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAME/game.i
+.PHONY : GAME/game.i
 
 # target to generate assembly for a file
-SDLtemplate.s:
-	$(MAKE) -f CMakeFiles\TP1_SDLtemplate.dir\build.make CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.s
-.PHONY : SDLtemplate.s
+GAME/game.s:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAME/game.s
+.PHONY : GAME/game.s
 
 # target to build an object file
-exo1_triangle_blanc.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo1_triangle_blanc.dir\build.make CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.obj
-.PHONY : exo1_triangle_blanc.obj
+GAMESTATE/titlestate.obj:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.obj
+.PHONY : GAMESTATE/titlestate.obj
 
 # target to preprocess a source file
-exo1_triangle_blanc.i:
-	$(MAKE) -f CMakeFiles\TP1_exo1_triangle_blanc.dir\build.make CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.i
-.PHONY : exo1_triangle_blanc.i
+GAMESTATE/titlestate.i:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.i
+.PHONY : GAMESTATE/titlestate.i
 
 # target to generate assembly for a file
-exo1_triangle_blanc.s:
-	$(MAKE) -f CMakeFiles\TP1_exo1_triangle_blanc.dir\build.make CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.s
-.PHONY : exo1_triangle_blanc.s
+GAMESTATE/titlestate.s:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.s
+.PHONY : GAMESTATE/titlestate.s
 
 # target to build an object file
-exo2_triangle_couleurs.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo2_triangle_couleurs.dir\build.make CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.obj
-.PHONY : exo2_triangle_couleurs.obj
+OBJECT/object.obj:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/OBJECT/object.obj
+.PHONY : OBJECT/object.obj
 
 # target to preprocess a source file
-exo2_triangle_couleurs.i:
-	$(MAKE) -f CMakeFiles\TP1_exo2_triangle_couleurs.dir\build.make CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.i
-.PHONY : exo2_triangle_couleurs.i
+OBJECT/object.i:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/OBJECT/object.i
+.PHONY : OBJECT/object.i
 
 # target to generate assembly for a file
-exo2_triangle_couleurs.s:
-	$(MAKE) -f CMakeFiles\TP1_exo2_triangle_couleurs.dir\build.make CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.s
-.PHONY : exo2_triangle_couleurs.s
+OBJECT/object.s:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/OBJECT/object.s
+.PHONY : OBJECT/object.s
 
 # target to build an object file
-exo3_structure_vertex.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo3_structure_vertex.dir\build.make CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.obj
-.PHONY : exo3_structure_vertex.obj
+main.obj:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/main.obj
+.PHONY : main.obj
 
 # target to preprocess a source file
-exo3_structure_vertex.i:
-	$(MAKE) -f CMakeFiles\TP1_exo3_structure_vertex.dir\build.make CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.i
-.PHONY : exo3_structure_vertex.i
+main.i:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/main.i
+.PHONY : main.i
 
 # target to generate assembly for a file
-exo3_structure_vertex.s:
-	$(MAKE) -f CMakeFiles\TP1_exo3_structure_vertex.dir\build.make CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.s
-.PHONY : exo3_structure_vertex.s
-
-# target to build an object file
-exo4_quads.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo4_quads.dir\build.make CMakeFiles/TP1_exo4_quads.dir/exo4_quads.obj
-.PHONY : exo4_quads.obj
-
-# target to preprocess a source file
-exo4_quads.i:
-	$(MAKE) -f CMakeFiles\TP1_exo4_quads.dir\build.make CMakeFiles/TP1_exo4_quads.dir/exo4_quads.i
-.PHONY : exo4_quads.i
-
-# target to generate assembly for a file
-exo4_quads.s:
-	$(MAKE) -f CMakeFiles\TP1_exo4_quads.dir\build.make CMakeFiles/TP1_exo4_quads.dir/exo4_quads.s
-.PHONY : exo4_quads.s
-
-# target to build an object file
-exo5_disque.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo5_disque.dir\build.make CMakeFiles/TP1_exo5_disque.dir/exo5_disque.obj
-.PHONY : exo5_disque.obj
-
-# target to preprocess a source file
-exo5_disque.i:
-	$(MAKE) -f CMakeFiles\TP1_exo5_disque.dir\build.make CMakeFiles/TP1_exo5_disque.dir/exo5_disque.i
-.PHONY : exo5_disque.i
-
-# target to generate assembly for a file
-exo5_disque.s:
-	$(MAKE) -f CMakeFiles\TP1_exo5_disque.dir\build.make CMakeFiles/TP1_exo5_disque.dir/exo5_disque.s
-.PHONY : exo5_disque.s
-
-# target to build an object file
-exo6_disque.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo6_disque.dir\build.make CMakeFiles/TP1_exo6_disque.dir/exo6_disque.obj
-.PHONY : exo6_disque.obj
-
-# target to preprocess a source file
-exo6_disque.i:
-	$(MAKE) -f CMakeFiles\TP1_exo6_disque.dir\build.make CMakeFiles/TP1_exo6_disque.dir/exo6_disque.i
-.PHONY : exo6_disque.i
-
-# target to generate assembly for a file
-exo6_disque.s:
-	$(MAKE) -f CMakeFiles\TP1_exo6_disque.dir\build.make CMakeFiles/TP1_exo6_disque.dir/exo6_disque.s
-.PHONY : exo6_disque.s
-
-# target to build an object file
-exo6_quads.obj:
-	$(MAKE) -f CMakeFiles\TP1_exo6_quads.dir\build.make CMakeFiles/TP1_exo6_quads.dir/exo6_quads.obj
-.PHONY : exo6_quads.obj
-
-# target to preprocess a source file
-exo6_quads.i:
-	$(MAKE) -f CMakeFiles\TP1_exo6_quads.dir\build.make CMakeFiles/TP1_exo6_quads.dir/exo6_quads.i
-.PHONY : exo6_quads.i
-
-# target to generate assembly for a file
-exo6_quads.s:
-	$(MAKE) -f CMakeFiles\TP1_exo6_quads.dir\build.make CMakeFiles/TP1_exo6_quads.dir/exo6_quads.s
-.PHONY : exo6_quads.s
+main.s:
+	$(MAKE) -f CMakeFiles\itsatrap.dir\build.make CMakeFiles/itsatrap.dir/main.s
+.PHONY : main.s
 
 # Help Target
 help:
@@ -339,40 +188,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... TP1_SDLtemplate
-	@echo ... TP1_exo1_triangle_blanc
-	@echo ... TP1_exo5_disque
+	@echo ... itsatrap
 	@echo ... edit_cache
-	@echo ... TP1_exo4_quads
-	@echo ... TP1_exo2_triangle_couleurs
-	@echo ... TP1_exo3_structure_vertex
-	@echo ... TP1_exo6_disque
-	@echo ... TP1_exo6_quads
 	@echo ... rebuild_cache
-	@echo ... SDLtemplate.obj
-	@echo ... SDLtemplate.i
-	@echo ... SDLtemplate.s
-	@echo ... exo1_triangle_blanc.obj
-	@echo ... exo1_triangle_blanc.i
-	@echo ... exo1_triangle_blanc.s
-	@echo ... exo2_triangle_couleurs.obj
-	@echo ... exo2_triangle_couleurs.i
-	@echo ... exo2_triangle_couleurs.s
-	@echo ... exo3_structure_vertex.obj
-	@echo ... exo3_structure_vertex.i
-	@echo ... exo3_structure_vertex.s
-	@echo ... exo4_quads.obj
-	@echo ... exo4_quads.i
-	@echo ... exo4_quads.s
-	@echo ... exo5_disque.obj
-	@echo ... exo5_disque.i
-	@echo ... exo5_disque.s
-	@echo ... exo6_disque.obj
-	@echo ... exo6_disque.i
-	@echo ... exo6_disque.s
-	@echo ... exo6_quads.obj
-	@echo ... exo6_quads.i
-	@echo ... exo6_quads.s
+	@echo ... GAME/game.obj
+	@echo ... GAME/game.i
+	@echo ... GAME/game.s
+	@echo ... GAMESTATE/titlestate.obj
+	@echo ... GAMESTATE/titlestate.i
+	@echo ... GAMESTATE/titlestate.s
+	@echo ... OBJECT/object.obj
+	@echo ... OBJECT/object.i
+	@echo ... OBJECT/object.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

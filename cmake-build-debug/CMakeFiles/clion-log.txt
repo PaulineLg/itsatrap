@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\Documents\IMAC\S3\SI\itsatrap
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
@@ -18,6 +19,9 @@
 -- Found Threads: TRUE  
 -- Found SDL: mingw32;-mwindows;C:/MinGW/lib/SDLmain.lib;C:/MinGW/lib/SDL.lib (found version "1.2.15") 
 -- Found OpenGL: opengl32  
+=======
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+>>>>>>> camera
 -- Configuring done
 -- Generating done
--- Build files have been written to: G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug
+-- Build files have been written to: D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug
