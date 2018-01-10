@@ -3,13 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="itsatrap" targetName="itsatrap" />
-      <config projectName="itsatrap" targetName="TP1_exo1_triangle_blanc" />
       <config projectName="itsatrap" targetName="glimac" />
+      <config projectName="itsatrap" targetName="TP1_exo1_triangle_blanc" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
@@ -81,6 +81,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FavoritesManager">
     <favorites_list name="itsatrap" />
@@ -95,6 +97,7 @@
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -163,17 +166,18 @@
             <state relative-caret-position="165">
               <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="25" />
               <folding />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cube.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/BOARD/Cube.hpp">
+      <file leaf-file-name="pacman.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/OBJECT/pacman.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="330">
+              <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding>
-                <element signature="e#115#166#0" expanded="true" />
+                <element signature="e#59#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,8 +195,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playstate.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GAMESTATE/playstate.cpp">
+      <file leaf-file-name="Cube.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOARD/Cube.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
@@ -240,18 +244,22 @@
         <option value="$PROJECT_DIR$/src/GAME/game.hpp" />
         <option value="$PROJECT_DIR$/src/GAMESTATE/gamestate.hpp" />
         <option value="$PROJECT_DIR$/include/GAMESTATE/gamestate.hpp" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/src/GAME/game.cpp" />
         <option value="$PROJECT_DIR$/src/GAMESTATE/titlestate.cpp" />
         <option value="$PROJECT_DIR$/include/GAMESTATE/titlestate.hpp" />
         <option value="$PROJECT_DIR$/include/GAMESTATE/playstate.hpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/glimac/CMakeFiles/glimac.dir/depend.make" />
         <option value="$PROJECT_DIR$/include/OBJECT/ghost.hpp" />
-        <option value="$PROJECT_DIR$/include/OBJECT/object.hpp" />
         <option value="$PROJECT_DIR$/include/OBJECT/item.hpp" />
         <option value="$PROJECT_DIR$/include/OBJECT/fruits.hpp" />
         <option value="$PROJECT_DIR$/include/OBJECT/pacgomme.hpp" />
         <option value="$PROJECT_DIR$/include/OBJECT/superpacgomme.hpp" />
+        <option value="$PROJECT_DIR$/include/OBJECT/character.hpp" />
+        <option value="$PROJECT_DIR$/include/GAME/game.hpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/itsatrap.dir/depend.make" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+        <option value="$PROJECT_DIR$/asset/xmlFiles/board.xml" />
         <option value="$PROJECT_DIR$/include/OBJECT/pacman.hpp" />
         <option value="$PROJECT_DIR$/src/OBJECT/pacman.cpp" />
         <option value="$PROJECT_DIR$/include/OBJECT/character.hpp" />
@@ -274,6 +282,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+=======
     <option name="x" value="1760" />
     <option name="y" value="-34" />
     <option name="width" value="1942" />
@@ -310,7 +324,11 @@
               <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
               <item name="asset" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="xmlFiles" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="3DModels" type="462c0819:PsiDirectoryNode" />
+>>>>>>> master
             </path>
             <path>
               <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -322,6 +340,7 @@
               <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
               <item name="GLTOOLS" type="462c0819:PsiDirectoryNode" />
+>>>>>>> master
             </path>
             <path>
               <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -338,25 +357,7 @@
               <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GAME" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GAMESTATE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GLTOOLS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itsatrap" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="itsatrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Shaders" type="462c0819:PsiDirectoryNode" />
+              <item name="OBJECT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,20 +476,21 @@
     <option name="totallyTimeSpent" value="132542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123697914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32451034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874537" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255691" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,16 +507,16 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.50208336" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3245033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32560706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -550,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/xmlFiles/board.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -713,10 +708,11 @@
         <state relative-caret-position="336">
           <caret line="16" column="24" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="24" />
           <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/GAMESTATE/titlestate.hpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
@@ -731,7 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/OBJECT/character.hpp">
+    <entry file="file://$PROJECT_DIR$/asset/xmlFiles/board.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
@@ -767,7 +763,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmake-build-debug/Makefile">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/include/OBJECT/object.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />

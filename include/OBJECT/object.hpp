@@ -6,6 +6,10 @@
 #include <glimac/glm.hpp>
 #include <GL/glew.h>
 
+#include "../GLTOOLS/VAO.hpp"
+#include "../GLTOOLS/VBO.hpp"
+#include "../GLTOOLS/IBO.hpp"
+
 class Object
 
 {
@@ -32,6 +36,10 @@ protected:
     GLuint m_Shininess;
     GLuint m_uLightPos_vs;
     GLuint m_uLightIntensity;
+
+    VBO<glimac::ShapeVertex> *m_vbo;
+    VAO *m_vao;
+    IBO m_ibo;
 
 
 };
