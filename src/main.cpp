@@ -5,11 +5,8 @@
 #include "../include/GAME/game.hpp"
 #include "../include/GAMESTATE/titlestate.hpp"
 
-#include "../../include/BOARD/Cube.hpp"
 
-
-
-using namespace glimac;
+//using namespace glimac;
 
 int main(int argc, char** argv) {
     Game *game = Game::Instance("ITSATRAP");

@@ -1,7 +1,9 @@
-#include "include/GLTOOLS/TrackballCamera.hpp"
+#include "../../include/GLTOOLS/TrackballCamera.hpp"
 #include <iostream>
 #include <math.h>
- #include "../OBJECT/pacman.hpp"
+ #include "../../include/OBJECT/pacman.hpp"
+
+#define M_PI 3.14159265359
 
 namespace glimac {
 

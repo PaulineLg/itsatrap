@@ -1,7 +1,9 @@
 #pragma once
 #include "glimac/glm.hpp"
 #include "../OBJECT/pacman.hpp"
-#include "Camera.h"
+#include "Camera.hpp"
+
+using namespace glimac;
 
 class FreeFlyCamera: public Camera{
 

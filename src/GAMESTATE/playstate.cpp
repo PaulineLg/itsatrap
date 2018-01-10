@@ -2,7 +2,7 @@
 #include <glimac/SDLWindowManager.hpp>
 #include "../../include/GAMESTATE/playstate.hpp"
 #include "../../include/GAMESTATE/titlestate.hpp"
-#include "../../include/BOARD/Cube.hpp"
+//#include "../../include/BOARD/Cube.hpp"
 
 PlayState PlayState::s_PlayState;
 

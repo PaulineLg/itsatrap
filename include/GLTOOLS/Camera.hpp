@@ -2,7 +2,7 @@
 
 #include <cstdint>
 #include <SDL/SDL.h>
-#include "glm.hpp"
+#include <glimac/glm.hpp>
 #include "../OBJECT/pacman.hpp"
 
 
