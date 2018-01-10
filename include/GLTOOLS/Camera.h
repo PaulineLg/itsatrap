@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <SDL/SDL.h>
 #include "glm.hpp"
-#include "../OBJECT/character.hpp"
+#include "../OBJECT/pacman.hpp"
 
 
 namespace glimac {

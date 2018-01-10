@@ -1,6 +1,6 @@
 #pragma once
 #include "glimac/glm.hpp"
-#include "../OBJECT/character.hpp"
+#include "../OBJECT/pacman.hpp"
 #include "Camera.h"
 
 class FreeFlyCamera: public Camera{
