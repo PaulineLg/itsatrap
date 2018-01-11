@@ -4,8 +4,6 @@
 #include "../../include/GLTOOLS/VAO.hpp"
 #include <iostream>
 
-using namespace glimac;
-
 VAO::VAO(GLuint vertexAttribPos, GLuint vertexAttribNormal, GLuint vertexAttribTex){
     glGenVertexArrays(1, &vaoId);
     m_vertexAttribPos = vertexAttribPos;

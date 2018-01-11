@@ -448,6 +448,60 @@ OBJECT/Character.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.s
 .PHONY : OBJECT/Character.cpp.s
 
+OBJECT/Item.obj: OBJECT/Item.cpp.obj
+
+.PHONY : OBJECT/Item.obj
+
+# target to build an object file
+OBJECT/Item.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
+.PHONY : OBJECT/Item.cpp.obj
+
+OBJECT/Item.i: OBJECT/Item.cpp.i
+
+.PHONY : OBJECT/Item.i
+
+# target to preprocess a source file
+OBJECT/Item.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.i
+.PHONY : OBJECT/Item.cpp.i
+
+OBJECT/Item.s: OBJECT/Item.cpp.s
+
+.PHONY : OBJECT/Item.s
+
+# target to generate assembly for a file
+OBJECT/Item.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.s
+.PHONY : OBJECT/Item.cpp.s
+
+OBJECT/pacgomme.obj: OBJECT/pacgomme.cpp.obj
+
+.PHONY : OBJECT/pacgomme.obj
+
+# target to build an object file
+OBJECT/pacgomme.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
+.PHONY : OBJECT/pacgomme.cpp.obj
+
+OBJECT/pacgomme.i: OBJECT/pacgomme.cpp.i
+
+.PHONY : OBJECT/pacgomme.i
+
+# target to preprocess a source file
+OBJECT/pacgomme.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.i
+.PHONY : OBJECT/pacgomme.cpp.i
+
+OBJECT/pacgomme.s: OBJECT/pacgomme.cpp.s
+
+.PHONY : OBJECT/pacgomme.s
+
+# target to generate assembly for a file
+OBJECT/pacgomme.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.s
+.PHONY : OBJECT/pacgomme.cpp.s
+
 OBJECT/pacman.obj: OBJECT/pacman.cpp.obj
 
 .PHONY : OBJECT/pacman.obj
@@ -547,6 +601,12 @@ help:
 	@echo ... OBJECT/Character.obj
 	@echo ... OBJECT/Character.i
 	@echo ... OBJECT/Character.s
+	@echo ... OBJECT/Item.obj
+	@echo ... OBJECT/Item.i
+	@echo ... OBJECT/Item.s
+	@echo ... OBJECT/pacgomme.obj
+	@echo ... OBJECT/pacgomme.i
+	@echo ... OBJECT/pacgomme.s
 	@echo ... OBJECT/pacman.obj
 	@echo ... OBJECT/pacman.i
 	@echo ... OBJECT/pacman.s

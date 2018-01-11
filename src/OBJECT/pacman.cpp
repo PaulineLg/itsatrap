@@ -8,12 +8,17 @@ Pacman::Pacman(char* argv){
     m_id = 1;
     // Chargement du modèle :
     m_filepath = "../../asset/3DModels/3d-model.obj";
-   // m_mtlBasePath = "../../asset/3DModels/3d-model.mtl";
+    //m_mtlBasePath = "../../asset/3DModels/3d-model.mtl";
     m_geometry.loadOBJ(m_filepath, m_mtlBasePath, false);
 
     //Initialisation du programme :
     glimac::FilePath applicationPath(argv);
     m_pacProgram = new PacProgram(applicationPath);
+}
+
+Pacman::~Pacman(){
+    delete m_vao;
+    delete m_vbo;
 }
 
 void Pacman::generate(){
@@ -27,7 +32,7 @@ void Pacman::generate(){
         temporaire.texCoords = tmp[i].m_TexCoords;
         m_vertices.push_back(temporaire);
     }
-    m_vbo = new glimac::VBO<glimac::ShapeVertex>(m_vertices);
+    m_vbo = new VBO<glimac::ShapeVertex>(m_vertices);
     m_vbo->bind();
     m_vbo->fill(m_geometry.getVertexCount());
     m_vbo->debind();
@@ -36,7 +41,7 @@ void Pacman::generate(){
     m_ibo.fill(m_geometry.getIndexCount()*sizeof(uint32_t) ,m_geometry.getIndexBuffer());
     m_ibo.debind();
 
-    m_vao = new glimac::VAO(0, 1, 2);
+    m_vao = new VAO(0, 1, 2);
 
     m_vao->bind();
     m_ibo.bind();
@@ -82,9 +87,9 @@ int Pacman::getPoints() {
 }
 
 void Pacman::setPosition(float x, float y, float z){
-
+    m_position = glm::vec3(x, y, z);
 }
 
 glm::vec3 Pacman::getPosition(){
-
+    return m_position;
 }

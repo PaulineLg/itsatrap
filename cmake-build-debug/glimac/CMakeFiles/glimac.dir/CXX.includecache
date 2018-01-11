@@ -1097,6 +1097,8 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
 ../../include/OBJECT/Pacman.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
+../../include/OBJECT/pacgomme.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
 ../../glimac/include/glimac/FilePath.hpp
@@ -1176,6 +1178,18 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 item.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
 
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Item.hpp
+object.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+../../glimac/include/glimac/Geometry.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
+object.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+item.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
 object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
@@ -1197,6 +1211,8 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
 object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+../../glimac/include/glimac/Geometry.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 glimac/FilePath.hpp
@@ -1214,9 +1230,17 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
 ../GLTOOLS/IBO.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
 
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
+object.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+item.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.hpp
+../../include/OBJECT/Pacgomme.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cube.cpp
 ../../include/BOARD/Cube.hpp
@@ -1245,4 +1269,12 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp
 ../../include/OBJECT/Character.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Item.cpp
+../../include/OBJECT/Item.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Item.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacgomme.cpp
+../../include/OBJECT/pacgomme.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
 

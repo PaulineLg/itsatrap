@@ -406,6 +406,56 @@ src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj.provides: src/CMakeFiles/it
 src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
 
 
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj: ../src/OBJECT/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\OBJECT\Item.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\Item.cpp
+
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.i"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\Item.cpp > CMakeFiles\itsatrap.dir\OBJECT\Item.cpp.i
+
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.s"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\Item.cpp -o CMakeFiles\itsatrap.dir\OBJECT\Item.cpp.s
+
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
+
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj: ../src/OBJECT/pacgomme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\OBJECT\pacgomme.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\pacgomme.cpp
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.i"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\pacgomme.cpp > CMakeFiles\itsatrap.dir\OBJECT\pacgomme.cpp.i
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.s"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\pacgomme.cpp -o CMakeFiles\itsatrap.dir\OBJECT\pacgomme.cpp.s
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.requires
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
+
+
 # Object files for target itsatrap
 itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/main.cpp.obj" \
@@ -421,7 +471,9 @@ itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj" \
 "CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj" \
 "CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj" \
-"CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj"
+"CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj" \
+"CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj" \
+"CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj"
 
 # External object files for target itsatrap
 itsatrap_EXTERNAL_OBJECTS =
@@ -440,12 +492,14 @@ src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
+src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/build.make
 src/itsatrap.exe: glimac/libglimac.a
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/linklibs.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/objects1.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable itsatrap.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable itsatrap.exe"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\itsatrap.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -467,6 +521,8 @@ src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/Textur
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.requires
+src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.requires
 
 .PHONY : src/CMakeFiles/itsatrap.dir/requires
 

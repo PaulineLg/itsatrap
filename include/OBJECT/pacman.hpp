@@ -32,7 +32,7 @@ public:
     };
 
     Pacman(char* argv);
-    ~Pacman() = default;
+    ~Pacman();
 
     int getNbLife();
     int getPoints();

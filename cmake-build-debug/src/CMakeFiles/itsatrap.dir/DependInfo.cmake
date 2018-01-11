@@ -16,6 +16,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VAO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Item.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacgomme.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacman.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/main.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/main.cpp.obj"
   )

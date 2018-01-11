@@ -13,36 +13,35 @@
 
 #include "../../glimac/include/glimac/common.hpp"
 
-namespace glimac{
-    template<typename type>
-    class VBO{
-        public :
-            VBO(std::vector<type>vertices):vertices(vertices){
-                glGenBuffers(1, &vboId);
-            }
+template<typename type>
+class VBO{
+    public :
+        VBO(std::vector<type>vertices):vertices(vertices){
+            glGenBuffers(1, &vboId);
+        }
 
-            ~VBO() = default;
+        ~VBO() = default;
 
-            void fill(int size){
-                glBufferData(GL_ARRAY_BUFFER, size*sizeof(type), vertices.data(), GL_STATIC_DRAW);
-            }
+        void fill(int size){
+            glBufferData(GL_ARRAY_BUFFER, size*sizeof(type), vertices.data(), GL_STATIC_DRAW);
+        }
 
-            void bind(){
-                glBindBuffer(GL_ARRAY_BUFFER, vboId);
-            }
+        void bind(){
+            glBindBuffer(GL_ARRAY_BUFFER, vboId);
+        }
 
-            void debind(){
-                glBindBuffer(GL_ARRAY_BUFFER, 0);
-            }
+        void debind(){
+            glBindBuffer(GL_ARRAY_BUFFER, 0);
+        }
 
-            void deleteVbo(){
-                glDeleteBuffers(1, &vboId);
-            }
+        void deleteVbo(){
+            glDeleteBuffers(1, &vboId);
+        }
 
-        private :
-            GLuint vboId;
-            std::vector<type> vertices;
-    };
-}
+    private :
+        GLuint vboId;
+        std::vector<type> vertices;
+};
+
 
 #endif //ITSATRAP_VBO_HPP
