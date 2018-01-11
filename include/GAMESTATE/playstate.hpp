@@ -24,8 +24,8 @@ class PlayState : public GameState {
 
     private:
         static PlayState s_PlayState;
-        glimac::Cube* m_cube;
-        glimac::Board *m_board;
+        //Cube* m_cube;
+        Board *m_board;
 
 };
 

@@ -346,7 +346,7 @@ GLTOOLS/TrackBallCamera.obj: GLTOOLS/TrackBallCamera.cpp.obj
 
 # target to build an object file
 GLTOOLS/TrackBallCamera.cpp.obj:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
 .PHONY : GLTOOLS/TrackBallCamera.cpp.obj
 
 GLTOOLS/TrackBallCamera.i: GLTOOLS/TrackBallCamera.cpp.i
@@ -355,7 +355,7 @@ GLTOOLS/TrackBallCamera.i: GLTOOLS/TrackBallCamera.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/TrackBallCamera.cpp.i:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i
 .PHONY : GLTOOLS/TrackBallCamera.cpp.i
 
 GLTOOLS/TrackBallCamera.s: GLTOOLS/TrackBallCamera.cpp.s
@@ -364,7 +364,7 @@ GLTOOLS/TrackBallCamera.s: GLTOOLS/TrackBallCamera.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/TrackBallCamera.cpp.s:
-	cd /d G:\Documents\IMAC\S3\SI\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s
 .PHONY : GLTOOLS/TrackBallCamera.cpp.s
 
 GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
@@ -420,6 +420,87 @@ GLTOOLS/VBO.s: GLTOOLS/VBO.cpp.s
 GLTOOLS/VBO.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
 .PHONY : GLTOOLS/VBO.cpp.s
+
+OBJECT/Character.obj: OBJECT/Character.cpp.obj
+
+.PHONY : OBJECT/Character.obj
+
+# target to build an object file
+OBJECT/Character.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
+.PHONY : OBJECT/Character.cpp.obj
+
+OBJECT/Character.i: OBJECT/Character.cpp.i
+
+.PHONY : OBJECT/Character.i
+
+# target to preprocess a source file
+OBJECT/Character.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.i
+.PHONY : OBJECT/Character.cpp.i
+
+OBJECT/Character.s: OBJECT/Character.cpp.s
+
+.PHONY : OBJECT/Character.s
+
+# target to generate assembly for a file
+OBJECT/Character.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.s
+.PHONY : OBJECT/Character.cpp.s
+
+OBJECT/Item.obj: OBJECT/Item.cpp.obj
+
+.PHONY : OBJECT/Item.obj
+
+# target to build an object file
+OBJECT/Item.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
+.PHONY : OBJECT/Item.cpp.obj
+
+OBJECT/Item.i: OBJECT/Item.cpp.i
+
+.PHONY : OBJECT/Item.i
+
+# target to preprocess a source file
+OBJECT/Item.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.i
+.PHONY : OBJECT/Item.cpp.i
+
+OBJECT/Item.s: OBJECT/Item.cpp.s
+
+.PHONY : OBJECT/Item.s
+
+# target to generate assembly for a file
+OBJECT/Item.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.s
+.PHONY : OBJECT/Item.cpp.s
+
+OBJECT/pacgomme.obj: OBJECT/pacgomme.cpp.obj
+
+.PHONY : OBJECT/pacgomme.obj
+
+# target to build an object file
+OBJECT/pacgomme.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
+.PHONY : OBJECT/pacgomme.cpp.obj
+
+OBJECT/pacgomme.i: OBJECT/pacgomme.cpp.i
+
+.PHONY : OBJECT/pacgomme.i
+
+# target to preprocess a source file
+OBJECT/pacgomme.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.i
+.PHONY : OBJECT/pacgomme.cpp.i
+
+OBJECT/pacgomme.s: OBJECT/pacgomme.cpp.s
+
+.PHONY : OBJECT/pacgomme.s
+
+# target to generate assembly for a file
+OBJECT/pacgomme.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.s
+.PHONY : OBJECT/pacgomme.cpp.s
 
 OBJECT/pacman.obj: OBJECT/pacman.cpp.obj
 
@@ -517,6 +598,15 @@ help:
 	@echo ... GLTOOLS/VBO.obj
 	@echo ... GLTOOLS/VBO.i
 	@echo ... GLTOOLS/VBO.s
+	@echo ... OBJECT/Character.obj
+	@echo ... OBJECT/Character.i
+	@echo ... OBJECT/Character.s
+	@echo ... OBJECT/Item.obj
+	@echo ... OBJECT/Item.i
+	@echo ... OBJECT/Item.s
+	@echo ... OBJECT/pacgomme.obj
+	@echo ... OBJECT/pacgomme.i
+	@echo ... OBJECT/pacgomme.s
 	@echo ... OBJECT/pacman.obj
 	@echo ... OBJECT/pacman.i
 	@echo ... OBJECT/pacman.s

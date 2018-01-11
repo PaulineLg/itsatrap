@@ -14,25 +14,31 @@
 #include <vector>
 
 #include "../../include/BOARD/Cube.hpp"
+#include "../../include/OBJECT/Character.hpp"
+#include "../../include/OBJECT/Pacman.hpp"
+#include "../../include/OBJECT/pacgomme.hpp"
 
-namespace glimac{
-    class Board{
-            public :
-                Board();
-                ~Board() = default;
+class Board{
+        public :
+            Board();
+            ~Board();
 
-                void loadMatrix();
-                void printMatrix();
-                void loadCubes();
-                void draw();
+            void loadMatrix();
+            void printMatrix();
+            void loadCubes();
+            void loadObjects();
+            void movePacman(bool up, bool down, bool right, bool left);
+            void draw();
 
-            private:
-                int m_dimX;
-                int m_dimY;
-                std::vector< std::vector<int>> m_matrix;
-                Cube *m_cube;
-    };
-}
+        private:
+            int m_dimX;
+            int m_dimY;
+            std::vector< std::vector<int>> m_matrix;
+            Cube *m_cube;
+            Pacgomme *m_pacgomme;
+            Pacman *m_pacman;
+};
+
 
 
 #endif //ITSATRAP_BOARD_HPP

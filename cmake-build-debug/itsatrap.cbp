@@ -280,6 +280,18 @@
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Item.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacgomme.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacman.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
@@ -287,6 +299,9 @@
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/cube3D.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/gom3D.fs.glsl">
 			<Option target="itsatrap"/>
 		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/Shaders/normals.fs.glsl">

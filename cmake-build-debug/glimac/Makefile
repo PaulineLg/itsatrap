@@ -313,6 +313,87 @@ __/src/GLTOOLS/VBO.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s
 .PHONY : __/src/GLTOOLS/VBO.cpp.s
 
+__/src/OBJECT/Character.obj: __/src/OBJECT/Character.cpp.obj
+
+.PHONY : __/src/OBJECT/Character.obj
+
+# target to build an object file
+__/src/OBJECT/Character.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj
+.PHONY : __/src/OBJECT/Character.cpp.obj
+
+__/src/OBJECT/Character.i: __/src/OBJECT/Character.cpp.i
+
+.PHONY : __/src/OBJECT/Character.i
+
+# target to preprocess a source file
+__/src/OBJECT/Character.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.i
+.PHONY : __/src/OBJECT/Character.cpp.i
+
+__/src/OBJECT/Character.s: __/src/OBJECT/Character.cpp.s
+
+.PHONY : __/src/OBJECT/Character.s
+
+# target to generate assembly for a file
+__/src/OBJECT/Character.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.s
+.PHONY : __/src/OBJECT/Character.cpp.s
+
+__/src/OBJECT/Item.obj: __/src/OBJECT/Item.cpp.obj
+
+.PHONY : __/src/OBJECT/Item.obj
+
+# target to build an object file
+__/src/OBJECT/Item.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj
+.PHONY : __/src/OBJECT/Item.cpp.obj
+
+__/src/OBJECT/Item.i: __/src/OBJECT/Item.cpp.i
+
+.PHONY : __/src/OBJECT/Item.i
+
+# target to preprocess a source file
+__/src/OBJECT/Item.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.i
+.PHONY : __/src/OBJECT/Item.cpp.i
+
+__/src/OBJECT/Item.s: __/src/OBJECT/Item.cpp.s
+
+.PHONY : __/src/OBJECT/Item.s
+
+# target to generate assembly for a file
+__/src/OBJECT/Item.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.s
+.PHONY : __/src/OBJECT/Item.cpp.s
+
+__/src/OBJECT/pacgomme.obj: __/src/OBJECT/pacgomme.cpp.obj
+
+.PHONY : __/src/OBJECT/pacgomme.obj
+
+# target to build an object file
+__/src/OBJECT/pacgomme.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj
+.PHONY : __/src/OBJECT/pacgomme.cpp.obj
+
+__/src/OBJECT/pacgomme.i: __/src/OBJECT/pacgomme.cpp.i
+
+.PHONY : __/src/OBJECT/pacgomme.i
+
+# target to preprocess a source file
+__/src/OBJECT/pacgomme.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.i
+.PHONY : __/src/OBJECT/pacgomme.cpp.i
+
+__/src/OBJECT/pacgomme.s: __/src/OBJECT/pacgomme.cpp.s
+
+.PHONY : __/src/OBJECT/pacgomme.s
+
+# target to generate assembly for a file
+__/src/OBJECT/pacgomme.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.s
+.PHONY : __/src/OBJECT/pacgomme.cpp.s
+
 src/Cone.obj: src/Cone.cpp.obj
 
 .PHONY : src/Cone.obj
@@ -613,6 +694,15 @@ help:
 	@echo ... __/src/GLTOOLS/VBO.obj
 	@echo ... __/src/GLTOOLS/VBO.i
 	@echo ... __/src/GLTOOLS/VBO.s
+	@echo ... __/src/OBJECT/Character.obj
+	@echo ... __/src/OBJECT/Character.i
+	@echo ... __/src/OBJECT/Character.s
+	@echo ... __/src/OBJECT/Item.obj
+	@echo ... __/src/OBJECT/Item.i
+	@echo ... __/src/OBJECT/Item.s
+	@echo ... __/src/OBJECT/pacgomme.obj
+	@echo ... __/src/OBJECT/pacgomme.i
+	@echo ... __/src/OBJECT/pacgomme.s
 	@echo ... src/Cone.obj
 	@echo ... src/Cone.i
 	@echo ... src/Cone.s

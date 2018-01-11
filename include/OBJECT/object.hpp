@@ -1,6 +1,7 @@
 #ifndef ITSATRAP_OBJECT_HPP
 #define ITSATRAP_OBJECT_HPP
 
+#define GLEW_STATIC
 #include <glimac/FilePath.hpp>
 #include <glimac/Program.hpp>
 #include <glimac/glm.hpp>
@@ -10,26 +11,20 @@
 #include "../GLTOOLS/VBO.hpp"
 #include "../GLTOOLS/IBO.hpp"
 
-class Object
-
-{
+class Object {
 public:
-
-
-    Object(const glimac::FilePath & applicationPath);
-    ~Object() = default;
+    Object() = default; //const glimac::FilePath & applicationPath
+    virtual ~Object()= default;
     virtual void setPosition(float x, float y, float z) = 0;
     virtual glm::vec3 getPosition() = 0;
-
-
 
 protected:
     int m_id;
     glm::vec3 m_position;
     glimac::Program m_program;
-    GLuint m_uMVPMatrix;
-    GLuint m_uMVMatrix;
-    GLuint m_uNormalMatrix;
+    glm::mat4 m_ProjMatrix;
+    glm::mat4 m_MVMatrix;
+    glm::mat4 m_NormalMatrix;
     GLuint m_uTexture;
     GLuint m_uKd;
     GLuint m_uKs;
@@ -40,8 +35,6 @@ protected:
     VBO<glimac::ShapeVertex> *m_vbo;
     VAO *m_vao;
     IBO m_ibo;
-
-
 };
 
 #endif //ITSATRAP_OBJECT_HPP
