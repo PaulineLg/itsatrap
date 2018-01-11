@@ -1118,6 +1118,24 @@ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
 
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+vector
+-
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+../GAME/game.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/playstate.hpp
+gamestate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+../BOARD/Cube.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+../BOARD/Board.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+../../include/GLTOOLS/TrackBallCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
 cstdint
 -
@@ -1155,6 +1173,8 @@ glimac/glm.hpp
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
 Camera.hpp
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+../../include/GAMESTATE/playstate.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/playstate.hpp
 
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 iostream

@@ -5,6 +5,7 @@
 #include <glimac/glm.hpp>
 #include "../OBJECT/character.hpp"
 #include "Camera.hpp"
+
 namespace glimac {
 
     class TrackballCamera {
@@ -12,11 +13,12 @@ namespace glimac {
 
         TrackballCamera(); //Constructeur
         ~TrackballCamera(); //Destructeur
-        void CameraControl();
+        //void CameraControl();
         void moveFront(float delta);
         void rotateLeft(float degrees);
         void rotateUp(float degrees);
         glm::mat4 getViewMatrix() const;
+
 
 
     private:

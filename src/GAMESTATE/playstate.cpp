@@ -2,9 +2,11 @@
 #include <glimac/SDLWindowManager.hpp>
 #include "../../include/GAMESTATE/playstate.hpp"
 #include "../../include/GAMESTATE/titlestate.hpp"
+
 //#include "../../include/BOARD/Cube.hpp"
 
 PlayState PlayState::s_PlayState;
+
 
 void PlayState::init() {
     std::cout << "Init of play state" << std::endl;
@@ -45,6 +47,7 @@ void PlayState::handleEvents(Game* game) {
                         break;
                 }
                 break;
+
 
             default:
                 break;

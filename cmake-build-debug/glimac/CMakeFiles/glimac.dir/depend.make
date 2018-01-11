@@ -106,6 +106,9 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glima
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glimac/glm.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/BOARD/Board.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/BOARD/Cube.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GAME/game.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GAMESTATE/gamestate.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GAMESTATE/playstate.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/Camera.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/IBO.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/Texture.hpp

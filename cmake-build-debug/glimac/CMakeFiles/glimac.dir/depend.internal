@@ -107,6 +107,9 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/playstate.hpp
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
  D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp

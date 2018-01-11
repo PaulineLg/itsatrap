@@ -9,6 +9,7 @@ namespace glimac{
     Board::Board(){
         m_dimX = 0;
         m_dimY = 0;
+        TrackballCamera Camera;
     }
 
     void Board::loadMatrix(){
@@ -68,7 +69,6 @@ namespace glimac{
         glm::mat4 ProjMatrix;
         glm::mat4 MVMatrix;
         glm::mat4 NormalMatrix;
-        TrackballCamera Camera;
         std::vector< std::vector<int> >::iterator row;
         std::vector<int>::iterator col;
         for (row = m_matrix.begin(); row !=m_matrix.end(); row++) {

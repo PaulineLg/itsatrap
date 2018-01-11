@@ -5,7 +5,7 @@
 
 using namespace glimac;
 
-class FreeFlyCamera: public Camera{
+class FreeFlyCamera{
 
 public:
     FreeFlyCamera();

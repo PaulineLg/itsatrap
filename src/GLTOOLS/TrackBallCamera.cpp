@@ -1,7 +1,12 @@
+#pragma once
+
 #include "../../include/GLTOOLS/TrackballCamera.hpp"
+#include "../../include/GAME/game.hpp"
+#include <glimac/SDLWindowManager.hpp>
 #include <iostream>
 #include <math.h>
- #include "../../include/OBJECT/pacman.hpp"
+#include "../../include/OBJECT/pacman.hpp"
+
 
 #define M_PI 3.14159265359
 
@@ -27,6 +32,16 @@ namespace glimac {
     void TrackballCamera::rotateUp(float degrees){
         m_fAngleY = degrees / 180 * M_PI;
     }
+
+ /*   void TrackballCamera::CameraControl() {
+        glm::ivec2 mousePos = m_window.getMousePosition();
+        if(m_window.isMouseButtonPressed(SDL_BUTTON_LEFT)) Camera.moveFront(0.01);
+        else if(m_window.isMouseButtonPressed(SDL_BUTTON_RIGHT)) Camera.moveFront(-0.01);
+
+        Camera.rotateLeft( mousePos.y );
+        Camera.rotateUp( mousePos.x );
+
+    }*/
 
 
 
