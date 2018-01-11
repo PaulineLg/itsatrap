@@ -8,7 +8,6 @@
 
 #define M_PI 3.14159265359
 
-namespace glimac {
 
     TrackballCamera::TrackballCamera() {
         m_fDistance = 5;
@@ -53,5 +52,3 @@ namespace glimac {
 
         return matrixMoveFront * matrixrotateLeft * matrixrotateUp;
     }
-
-}

@@ -83,25 +83,25 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
     float i = m_pacman->getPosition().x;
     float y = m_pacman->getPosition().y;
     if(up){
-        i += 1.0;
+        y += 1.0;
         if(m_matrix[i][y] != 0){
             m_pacman->setPosition(i, y, -25.0);
         }
     }
     if(down){
-        i -= 1.0;
+        y -= 1.0;
         if(m_matrix[i][y] != 0){
             m_pacman->setPosition(i, y, -25.0);
         }
     }
     if(right){
-        ++y;
+        ++i;
         if(m_matrix[i][y] != 0){
             m_pacman->setPosition(i, y, -25.0);
         }
     }
     if(left){
-        --y;
+        --i;
         if(m_matrix[i][y] != 0){
             m_pacman->setPosition(i, y, -25.0);
         }
@@ -116,6 +116,7 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
         TrackballCamera Camera;
 
         std::vector< std::vector<int> >::iterator row;
+        std::vector<int>::iterator col;
 
     ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
     for (row = m_matrix.begin(); row !=m_matrix.end(); row++) {

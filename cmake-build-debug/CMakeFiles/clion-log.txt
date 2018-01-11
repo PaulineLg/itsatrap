@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\IMAC2\S3\SI\PROJET\itsatrap
+"C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\Documents\IMAC\S3\SI\itsatrap
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug
-=======
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug
->>>>>>> camera-wip
+-- Build files have been written to: G:/Documents/IMAC/S3/SI/itsatrap/cmake-build-debug

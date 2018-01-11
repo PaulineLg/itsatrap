@@ -1,5 +1,1 @@
-<<<<<<< HEAD
--IC:/MinGW/include/SDL -ID:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include -ID:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include 
-=======
--IC:/MinGW/include/SDL -I"D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include" -I"D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include" 
->>>>>>> camera-wip
+-IC:/MinGW/include/SDL -IG:/Documents/IMAC/S3/SI/itsatrap/glimac/include -IG:/Documents/IMAC/S3/SI/itsatrap/third-party/include 

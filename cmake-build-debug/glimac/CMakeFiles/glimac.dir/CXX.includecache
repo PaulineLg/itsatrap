@@ -878,27 +878,15 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp
 glm.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/glm.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 string
 -
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
-glm.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-string
--
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 glm/glm.hpp
 -
 vector
@@ -906,23 +894,13 @@ vector
 string
 -
 Image.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Image.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Image.hpp
 FilePath.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 BBox.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Image.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
-FilePath.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-BBox.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Image.hpp
 vector
 -
 memory
@@ -930,67 +908,39 @@ memory
 unordered_map
 -
 glm.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/glm.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
 FilePath.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
 GL/glew.h
 -
 Shader.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Shader.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
 FilePath.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Shader.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
-FilePath.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
-GL/glew.h
--
-Shader.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
-FilePath.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
 GL/glew.h
 -
 string
 -
 FilePath.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Sphere.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Sphere.hpp
 vector
 -
 common.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 GL/glew.h
 -
 glm.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/glm.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/glm.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
-GL/glew.h
--
-glm.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -1006,11 +956,7 @@ glm/gtc/random.hpp
 glm/gtc/random.hpp
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Cone.cpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Cone.cpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp
 cmath
 -
 vector
@@ -1018,89 +964,47 @@ vector
 iostream
 -
 glimac/common.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/common.hpp
 glimac/Cone.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Cone.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Cone.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/FireflyCamera.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/FireflyCamera.cpp
 glimac/FireflyCamera.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/FireflyCamera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/FireflyCamera.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Geometry.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Geometry.cpp
 glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Geometry.hpp
 tiny_obj_loader.h
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.h
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
-glimac/Cone.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Cone.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/FireflyCamera.cpp
-glimac/FireflyCamera.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/FireflyCamera.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Geometry.cpp
-glimac/Geometry.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Geometry.hpp
-tiny_obj_loader.h
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
 iostream
 -
 algorithm
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Image.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Image.cpp
 glimac/Image.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Image.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Image.hpp
 stb_image.h
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/stb_image.h
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/stb_image.h
 iostream
 -
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Program.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Program.cpp
 glimac/Program.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Program.hpp
 stdexcept
 -
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/SDLWindowManager.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/SDLWindowManager.cpp
 glimac/SDLWindowManager.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
 iostream
 -
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Shader.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Shader.cpp
 glimac/Shader.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Shader.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Image.cpp
-glimac/Image.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Image.hpp
-stb_image.h
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
-iostream
--
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Program.cpp
-glimac/Program.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Program.hpp
-stdexcept
--
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/SDLWindowManager.cpp
-glimac/SDLWindowManager.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
-iostream
--
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Shader.cpp
-glimac/Shader.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Shader.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Shader.hpp
 fstream
 -
 stdexcept
@@ -1110,11 +1014,7 @@ string
 sstream
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/Sphere.cpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Sphere.cpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Sphere.cpp
 cmath
 -
 vector
@@ -1122,27 +1022,15 @@ vector
 iostream
 -
 glimac/common.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/common.hpp
 glimac/Sphere.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/Sphere.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Sphere.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/TrackballCamera.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/TrackballCamera.cpp
 glimac/TrackballCamera.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/glimac/TrackballCamera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/TrackballCamera.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/stb_image.h
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
-glimac/Sphere.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Sphere.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/TrackballCamera.cpp
-glimac/TrackballCamera.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/TrackballCamera.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/stb_image.h
 stdio.h
 -
 math.h
@@ -1164,11 +1052,7 @@ stddef.h
 stdint.h
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.cpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.cpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.cpp
 cstdlib
 -
 cstring
@@ -1186,15 +1070,9 @@ fstream
 sstream
 -
 tiny_obj_loader.h
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.h
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/src/tiny_obj_loader.h
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
 string
 -
 vector
@@ -1202,15 +1080,9 @@ vector
 map
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
 tinyxml2.h
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/tinyxml2.h
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
-tinyxml2.h
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/tinyxml2.h
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/tinyxml2.h
 string
 -
 iostream
@@ -1220,84 +1092,45 @@ fstream
 vector
 -
 ../../include/BOARD/Cube.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
 ../../include/OBJECT/Character.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Character.hpp
 ../../include/OBJECT/Pacman.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Pacman.hpp
 ../../include/OBJECT/pacgomme.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacgomme.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
 ../../glimac/include/glimac/FilePath.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 ../../glimac/include/glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 ../../glimac/include/glimac/common.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 ../../glimac/include/glimac/Program.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
 ../GLTOOLS/VAO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
 ../GLTOOLS/IBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
-../GLTOOLS/Texture.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cylinder.hpp
-../../glimac/include/glimac/FilePath.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
-../../glimac/include/glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
-../../glimac/include/glimac/common.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
-../GLTOOLS/VAO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
-../GLTOOLS/VBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
-=======
->>>>>>> Stashed changes
 G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
->>>>>>> master
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
-../../glimac/include/glimac/FilePath.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
-../../glimac/include/glimac/Geometry.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
-../../glimac/include/glimac/common.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
-../../glimac/include/glimac/Program.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
-../GLTOOLS/VAO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
-../GLTOOLS/VBO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
-../GLTOOLS/IBO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
 ../GLTOOLS/Texture.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
 ../../glimac/include/glimac/FilePath.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
 ../../glimac/include/glimac/Geometry.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 ../../glimac/include/glimac/common.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 ../GLTOOLS/VAO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Camera.hpp
 cstdint
 -
 SDL/SDL.h
@@ -1305,20 +1138,15 @@ SDL/SDL.h
 glimac/glm.hpp
 -
 ../OBJECT/pacman.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
 GL/glew.h
 -
 GL/glut.h
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
 iostream
 -
 GL/glew.h
@@ -1328,10 +1156,7 @@ GL/glut.h
 ../../glimac/include/glimac/Image.hpp
 -
 
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
 cstdint
 -
 SDL/SDL.h
@@ -1339,12 +1164,11 @@ SDL/SDL.h
 glimac/glm.hpp
 -
 ../OBJECT/character.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/character.hpp
 Camera.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Camera.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 GL/glew.h
@@ -1354,15 +1178,9 @@ GL/glut.h
 vector
 -
 ../../glimac/include/glimac/common.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
 GL/glew.h
 -
 GL/glut.h
@@ -1370,52 +1188,51 @@ GL/glut.h
 vector
 -
 ../../glimac/include/glimac/common.hpp
-<<<<<<< HEAD
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Character.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/item.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Item.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 ../../glimac/include/glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Pacgomme.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/item.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Pacman.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 character.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/character.hpp
 ../../glimac/include/glimac/Sphere.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Sphere.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Sphere.hpp
 ../../glimac/include/glimac/Program.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
 ../../glimac/include/glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/character.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/item.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/item.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 ../../glimac/include/glimac/Geometry.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 glimac/FilePath.hpp
 -
 glimac/Program.hpp
@@ -1425,116 +1242,71 @@ glimac/glm.hpp
 GL/glew.h
 -
 ../GLTOOLS/VAO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
 ../GLTOOLS/IBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacgomme.hpp
 object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/item.hpp
 
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
-../../include/BOARD/Board.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.hpp
-../../include/OBJECT/Pacgomme.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cube.cpp
-../../include/BOARD/Cube.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cylinder.cpp
-../../include/BOARD/Cylinder.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cylinder.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp
-../../include/GLTOOLS/IBO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/Texture.cpp
-../../include/GLTOOLS/Texture.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VAO.cpp
-../../include/GLTOOLS/VAO.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
-iostream
--
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/VBO.cpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp
-../../include/OBJECT/Character.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Item.cpp
-../../include/OBJECT/Item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Item.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacgomme.cpp
-../../include/OBJECT/pacgomme.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
-=======
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacman.hpp
 object.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
-item.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
-object.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
-glimac/FilePath.hpp
--
-glimac/Program.hpp
--
-glimac/glm.hpp
--
-GL/glew.h
--
-
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
-object.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/object.hpp
 character.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/character.hpp
+../../glimac/include/glimac/Sphere.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Sphere.hpp
+../../glimac/include/glimac/Program.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
+../../glimac/include/glimac/Geometry.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Board.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
 ../../include/GLTOOLS/TrackBallCamera.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+../../include/OBJECT/Pacgomme.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Pacgomme.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cube.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp
 ../../include/BOARD/Cube.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cylinder.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp
 ../../include/BOARD/Cylinder.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/IBO.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp
 ../../include/GLTOOLS/IBO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/Texture.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp
 ../../include/GLTOOLS/Texture.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VAO.cpp
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp
 ../../include/GLTOOLS/VAO.hpp
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 
-D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VBO.cpp
->>>>>>> camera-wip
+G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/Character.cpp
+../../include/OBJECT/Character.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Character.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/Item.cpp
+../../include/OBJECT/Item.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/Item.hpp
+
+G:/Documents/IMAC/S3/SI/itsatrap/src/OBJECT/pacgomme.cpp
+../../include/OBJECT/pacgomme.hpp
+G:/Documents/IMAC/S3/SI/itsatrap/include/OBJECT/pacgomme.hpp
 
