@@ -12,11 +12,13 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <list>
 
 #include "../../include/BOARD/Cube.hpp"
 #include "../../include/OBJECT/Character.hpp"
 #include "../../include/OBJECT/Pacman.hpp"
 #include "../../include/OBJECT/pacgomme.hpp"
+#include "../../include/GLTOOLS/TrackBallCamera.hpp"
 
 class Board{
         public :
@@ -35,10 +37,9 @@ class Board{
             int m_dimY;
             std::vector< std::vector<int>> m_matrix;
             Cube *m_cube;
-            Pacgomme *m_pacgomme;
+            std::list<Pacgomme*> m_pacgomme;
             Pacman *m_pacman;
+            TrackballCamera m_camera;
 };
-
-
 
 #endif //ITSATRAP_BOARD_HPP

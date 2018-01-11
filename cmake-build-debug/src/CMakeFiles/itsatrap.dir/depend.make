@@ -538,8 +538,10 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GAME/game.hp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GAMESTATE/gamestate.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GAMESTATE/playstate.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GAMESTATE/titlestate.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/Camera.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/IBO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/Texture.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/TrackBallCamera.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/VAO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/GLTOOLS/VBO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/Character.hpp
@@ -548,6 +550,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/chara
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/item.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/object.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/pacgomme.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../include/OBJECT/pacman.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../src/GAMESTATE/playstate.cpp
 
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../glimac/include/glimac/FilePath.hpp
@@ -660,8 +663,10 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GAME/game.h
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GAMESTATE/gamestate.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GAMESTATE/playstate.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GAMESTATE/titlestate.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/Camera.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/IBO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/Texture.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/TrackBallCamera.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/VAO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/GLTOOLS/VBO.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/Character.hpp
@@ -670,6 +675,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/char
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/item.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/object.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/pacgomme.hpp
+src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../include/OBJECT/pacman.hpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../src/GAMESTATE/titlestate.cpp
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: ../include/GLTOOLS/IBO.hpp
