@@ -753,6 +753,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Program.hpp
+ ../glimac/include/glimac/SDLWindowManager.hpp
  ../glimac/include/glimac/Shader.hpp
  ../glimac/include/glimac/glm.hpp
  ../third-party/include/glm/common.hpp

@@ -1,7 +1,5 @@
-#pragma once
 
 #include "../../include/GLTOOLS/TrackballCamera.hpp"
-#include "../../include/GAME/game.hpp"
 #include <glimac/SDLWindowManager.hpp>
 #include <iostream>
 #include <math.h>

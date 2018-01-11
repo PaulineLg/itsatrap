@@ -1089,6 +1089,8 @@ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
 ../../include/GLTOOLS/TrackballCamera.hpp
 D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackballCamera.hpp
+glimac/SDLWindowManager.hpp
+-
 iostream
 -
 math.h

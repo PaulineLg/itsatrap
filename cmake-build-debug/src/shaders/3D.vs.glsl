@@ -12,13 +12,11 @@ out vec3 vFragPosition;
 out vec3 vFragNormale;
 out vec2 vFragTexCoords;
 
-
-
-
 void main() {
   vFragPosition = vec3(uMVMatrix * vec4(aVertexPosition, 1));
   vFragNormale = vec3(uMVMatrix * vec4(aVertexNormale, 0));
   vFragTexCoords = aVertexTexCoords;
 
   gl_Position = vec4(uMVPMatrix * vec4(aVertexPosition, 1));
+
 };
