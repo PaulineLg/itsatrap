@@ -42,10 +42,17 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug"
+>>>>>>> camera-wip
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/itsatrap.dir/depend.make
@@ -59,6 +66,7 @@ include src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../src/main.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/itsatrap.dir/main.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\main.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\main.cpp
 
@@ -69,6 +77,18 @@ src/CMakeFiles/itsatrap.dir/main.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/main.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\main.cpp -o CMakeFiles\itsatrap.dir\main.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/itsatrap.dir/main.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\main.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\main.cpp"
+
+src/CMakeFiles/itsatrap.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/main.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\main.cpp" > CMakeFiles\itsatrap.dir\main.cpp.i
+
+src/CMakeFiles/itsatrap.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/main.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\main.cpp" -o CMakeFiles\itsatrap.dir\main.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/main.cpp.obj.requires:
 
@@ -84,6 +104,7 @@ src/CMakeFiles/itsatrap.dir/main.cpp.obj.provides.build: src/CMakeFiles/itsatrap
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj: ../src/GAME/game.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAME\game.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAME\game.cpp
 
@@ -94,6 +115,18 @@ src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAME/game.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAME\game.cpp -o CMakeFiles\itsatrap.dir\GAME\game.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAME\game.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAME\game.cpp"
+
+src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GAME/game.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAME\game.cpp" > CMakeFiles\itsatrap.dir\GAME\game.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAME/game.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAME\game.cpp" -o CMakeFiles\itsatrap.dir\GAME\game.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj.requires:
 
@@ -109,6 +142,7 @@ src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj.provides.build: src/CMakeFiles/its
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj: ../src/GAMESTATE/titlestate.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAMESTATE\titlestate.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAMESTATE\titlestate.cpp
 
@@ -119,6 +153,18 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAMESTATE\titlestate.cpp -o CMakeFiles\itsatrap.dir\GAMESTATE\titlestate.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAMESTATE\titlestate.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\titlestate.cpp"
+
+src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\titlestate.cpp" > CMakeFiles\itsatrap.dir\GAMESTATE\titlestate.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\titlestate.cpp" -o CMakeFiles\itsatrap.dir\GAMESTATE\titlestate.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj.requires:
 
@@ -134,6 +180,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj.provides.build: src/CMa
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj: ../src/GAMESTATE/playstate.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAMESTATE\playstate.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAMESTATE\playstate.cpp
 
@@ -144,6 +191,18 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GAMESTATE\playstate.cpp -o CMakeFiles\itsatrap.dir\GAMESTATE\playstate.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GAMESTATE\playstate.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\playstate.cpp"
+
+src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\playstate.cpp" > CMakeFiles\itsatrap.dir\GAMESTATE\playstate.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GAMESTATE\playstate.cpp" -o CMakeFiles\itsatrap.dir\GAMESTATE\playstate.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj.requires:
 
@@ -159,6 +218,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj.provides.build: src/CMak
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj: ../src/GLTOOLS/VAO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\VAO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VAO.cpp
 
@@ -169,6 +229,18 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VAO.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\VAO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\VAO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp"
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp" > CMakeFiles\itsatrap.dir\GLTOOLS\VAO.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp" -o CMakeFiles\itsatrap.dir\GLTOOLS\VAO.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj.requires:
 
@@ -184,6 +256,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj.provides.build: src/CMakeFiles/i
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj: ../src/GLTOOLS/VBO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\VBO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VBO.cpp
 
@@ -194,6 +267,18 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VBO.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\VBO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\VBO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp"
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp" > CMakeFiles\itsatrap.dir\GLTOOLS\VBO.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp" -o CMakeFiles\itsatrap.dir\GLTOOLS\VBO.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj.requires:
 
@@ -209,6 +294,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj.provides.build: src/CMakeFiles/i
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp
 
@@ -219,6 +305,18 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp"
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp" > CMakeFiles\itsatrap.dir\BOARD\Board.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp" -o CMakeFiles\itsatrap.dir\BOARD\Board.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.requires:
 
@@ -234,6 +332,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj.provides.build: src/CMakeFiles/i
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj: ../src/BOARD/Cylinder.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cylinder.cpp
 
@@ -244,6 +343,18 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cylinder.cpp -o CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp"
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp" > CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp" -o CMakeFiles\itsatrap.dir\BOARD\Cylinder.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj.requires:
 
@@ -259,6 +370,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj.provides.build: src/CMakeFile
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: ../src/OBJECT/pacman.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\pacman.cpp
 
@@ -269,6 +381,18 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\OBJECT\pacman.cpp -o CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\OBJECT\pacman.cpp"
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\OBJECT\pacman.cpp" > CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.i
+
+src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\OBJECT\pacman.cpp" -o CMakeFiles\itsatrap.dir\OBJECT\pacman.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj.requires:
 
@@ -284,6 +408,7 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj.provides.build: src/CMakeFiles
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: ../src/BOARD/Cube.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cube.cpp
 
@@ -294,6 +419,18 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cube.cpp -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp"
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp" > CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.i
+
+src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp" -o CMakeFiles\itsatrap.dir\BOARD\Cube.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.requires:
 
@@ -309,6 +446,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj.provides.build: src/CMakeFiles/it
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: ../src/GLTOOLS/Texture.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\Texture.cpp
 
@@ -319,6 +457,18 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\Texture.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp"
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp" > CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp" -o CMakeFiles\itsatrap.dir\GLTOOLS\Texture.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires:
 
@@ -334,6 +484,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.provides.build: src/CMakeFil
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj: ../src/GLTOOLS/IBO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\IBO.cpp
 
@@ -344,6 +495,18 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\IBO.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp"
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp" > CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp" -o CMakeFiles\itsatrap.dir\GLTOOLS\IBO.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires:
 
@@ -359,6 +522,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.provides.build: src/CMakeFiles/i
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../src/GLTOOLS/TrackBallCamera.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\TrackBallCamera.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\TrackBallCamera.cpp
 
@@ -369,6 +533,18 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i: cmake_force
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\TrackBallCamera.cpp -o CMakeFiles\itsatrap.dir\GLTOOLS\TrackBallCamera.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\itsatrap.dir\GLTOOLS\TrackBallCamera.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\TrackBallCamera.cpp"
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\TrackBallCamera.cpp" > CMakeFiles\itsatrap.dir\GLTOOLS\TrackBallCamera.cpp.i
+
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\TrackBallCamera.cpp" -o CMakeFiles\itsatrap.dir\GLTOOLS\TrackBallCamera.cpp.s
+>>>>>>> camera-wip
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj.requires:
 
@@ -381,6 +557,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj.provides: src/CMakeF
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
 
 
+<<<<<<< HEAD
 src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj: src/CMakeFiles/itsatrap.dir/flags.make
 src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj: src/CMakeFiles/itsatrap.dir/includes_CXX.rsp
 src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj: ../src/OBJECT/Character.cpp
@@ -456,6 +633,8 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides: src/CMakeFiles/its
 src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.provides.build: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
 
 
+=======
+>>>>>>> camera-wip
 # Object files for target itsatrap
 itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/main.cpp.obj" \
@@ -470,10 +649,14 @@ itsatrap_OBJECTS = \
 "CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj" \
 "CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj" \
 "CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj" \
+<<<<<<< HEAD
 "CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj" \
 "CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj" \
 "CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj" \
 "CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj"
+=======
+"CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"
+>>>>>>> camera-wip
 
 # External object files for target itsatrap
 itsatrap_EXTERNAL_OBJECTS =
@@ -491,16 +674,24 @@ src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
+<<<<<<< HEAD
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj
+=======
+>>>>>>> camera-wip
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/build.make
 src/itsatrap.exe: glimac/libglimac.a
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/linklibs.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/objects1.rsp
 src/itsatrap.exe: src/CMakeFiles/itsatrap.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable itsatrap.exe"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\itsatrap.dir\link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable itsatrap.exe"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\itsatrap.dir\link.txt --verbose=$(VERBOSE)
+>>>>>>> camera-wip
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/itsatrap.dir/build: src/itsatrap.exe
@@ -520,17 +711,28 @@ src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj.requires
+<<<<<<< HEAD
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj.requires
 src/CMakeFiles/itsatrap.dir/requires: src/CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj.requires
+=======
+>>>>>>> camera-wip
 
 .PHONY : src/CMakeFiles/itsatrap.dir/requires
 
 src/CMakeFiles/itsatrap.dir/clean:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\itsatrap.dir\cmake_clean.cmake
 .PHONY : src/CMakeFiles/itsatrap.dir/clean
 
 src/CMakeFiles/itsatrap.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\IMAC2\S3\SI\PROJET\itsatrap D:\IMAC2\S3\SI\PROJET\itsatrap\src D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src\CMakeFiles\itsatrap.dir\DependInfo.cmake --color=$(COLOR)
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" && $(CMAKE_COMMAND) -P CMakeFiles\itsatrap.dir\cmake_clean.cmake
+.PHONY : src/CMakeFiles/itsatrap.dir/clean
+
+src/CMakeFiles/itsatrap.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src\CMakeFiles\itsatrap.dir\DependInfo.cmake" --color=$(COLOR)
+>>>>>>> camera-wip
 .PHONY : src/CMakeFiles/itsatrap.dir/depend
 

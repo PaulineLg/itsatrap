@@ -47,10 +47,17 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug"
+>>>>>>> camera-wip
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +86,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\src\CMakeFiles\progress.marks
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\src\CMakeFiles\progress.marks"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" 0
+>>>>>>> camera-wip
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/clean
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 src/clean
+>>>>>>> camera-wip
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +113,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+>>>>>>> camera-wip
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 src/preinstall
+>>>>>>> camera-wip
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+>>>>>>> camera-wip
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/itsatrap.dir/rule:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/itsatrap.dir/rule
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 src/CMakeFiles/itsatrap.dir/rule
+>>>>>>> camera-wip
 .PHONY : src/CMakeFiles/itsatrap.dir/rule
 
 # Convenience name for target.
@@ -121,7 +154,11 @@ itsatrap: src/CMakeFiles/itsatrap.dir/rule
 
 # fast build rule for target.
 itsatrap/fast:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/build
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/build
+>>>>>>> camera-wip
 .PHONY : itsatrap/fast
 
 BOARD/Board.obj: BOARD/Board.cpp.obj
@@ -130,7 +167,11 @@ BOARD/Board.obj: BOARD/Board.cpp.obj
 
 # target to build an object file
 BOARD/Board.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
+>>>>>>> camera-wip
 .PHONY : BOARD/Board.cpp.obj
 
 BOARD/Board.i: BOARD/Board.cpp.i
@@ -139,7 +180,11 @@ BOARD/Board.i: BOARD/Board.cpp.i
 
 # target to preprocess a source file
 BOARD/Board.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.i
+>>>>>>> camera-wip
 .PHONY : BOARD/Board.cpp.i
 
 BOARD/Board.s: BOARD/Board.cpp.s
@@ -148,7 +193,11 @@ BOARD/Board.s: BOARD/Board.cpp.s
 
 # target to generate assembly for a file
 BOARD/Board.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.s
+>>>>>>> camera-wip
 .PHONY : BOARD/Board.cpp.s
 
 BOARD/Cube.obj: BOARD/Cube.cpp.obj
@@ -157,7 +206,11 @@ BOARD/Cube.obj: BOARD/Cube.cpp.obj
 
 # target to build an object file
 BOARD/Cube.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
+>>>>>>> camera-wip
 .PHONY : BOARD/Cube.cpp.obj
 
 BOARD/Cube.i: BOARD/Cube.cpp.i
@@ -166,7 +219,11 @@ BOARD/Cube.i: BOARD/Cube.cpp.i
 
 # target to preprocess a source file
 BOARD/Cube.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.i
+>>>>>>> camera-wip
 .PHONY : BOARD/Cube.cpp.i
 
 BOARD/Cube.s: BOARD/Cube.cpp.s
@@ -175,7 +232,11 @@ BOARD/Cube.s: BOARD/Cube.cpp.s
 
 # target to generate assembly for a file
 BOARD/Cube.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.s
+>>>>>>> camera-wip
 .PHONY : BOARD/Cube.cpp.s
 
 BOARD/Cylinder.obj: BOARD/Cylinder.cpp.obj
@@ -184,7 +245,11 @@ BOARD/Cylinder.obj: BOARD/Cylinder.cpp.obj
 
 # target to build an object file
 BOARD/Cylinder.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
+>>>>>>> camera-wip
 .PHONY : BOARD/Cylinder.cpp.obj
 
 BOARD/Cylinder.i: BOARD/Cylinder.cpp.i
@@ -193,7 +258,11 @@ BOARD/Cylinder.i: BOARD/Cylinder.cpp.i
 
 # target to preprocess a source file
 BOARD/Cylinder.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.i
+>>>>>>> camera-wip
 .PHONY : BOARD/Cylinder.cpp.i
 
 BOARD/Cylinder.s: BOARD/Cylinder.cpp.s
@@ -202,7 +271,11 @@ BOARD/Cylinder.s: BOARD/Cylinder.cpp.s
 
 # target to generate assembly for a file
 BOARD/Cylinder.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.s
+>>>>>>> camera-wip
 .PHONY : BOARD/Cylinder.cpp.s
 
 GAME/game.obj: GAME/game.cpp.obj
@@ -211,7 +284,11 @@ GAME/game.obj: GAME/game.cpp.obj
 
 # target to build an object file
 GAME/game.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GAME/game.cpp.obj
 
 GAME/game.i: GAME/game.cpp.i
@@ -220,7 +297,11 @@ GAME/game.i: GAME/game.cpp.i
 
 # target to preprocess a source file
 GAME/game.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.i
+>>>>>>> camera-wip
 .PHONY : GAME/game.cpp.i
 
 GAME/game.s: GAME/game.cpp.s
@@ -229,7 +310,11 @@ GAME/game.s: GAME/game.cpp.s
 
 # target to generate assembly for a file
 GAME/game.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAME/game.cpp.s
+>>>>>>> camera-wip
 .PHONY : GAME/game.cpp.s
 
 GAMESTATE/playstate.obj: GAMESTATE/playstate.cpp.obj
@@ -238,7 +323,11 @@ GAMESTATE/playstate.obj: GAMESTATE/playstate.cpp.obj
 
 # target to build an object file
 GAMESTATE/playstate.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/playstate.cpp.obj
 
 GAMESTATE/playstate.i: GAMESTATE/playstate.cpp.i
@@ -247,7 +336,11 @@ GAMESTATE/playstate.i: GAMESTATE/playstate.cpp.i
 
 # target to preprocess a source file
 GAMESTATE/playstate.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.i
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/playstate.cpp.i
 
 GAMESTATE/playstate.s: GAMESTATE/playstate.cpp.s
@@ -256,7 +349,11 @@ GAMESTATE/playstate.s: GAMESTATE/playstate.cpp.s
 
 # target to generate assembly for a file
 GAMESTATE/playstate.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.s
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/playstate.cpp.s
 
 GAMESTATE/titlestate.obj: GAMESTATE/titlestate.cpp.obj
@@ -265,7 +362,11 @@ GAMESTATE/titlestate.obj: GAMESTATE/titlestate.cpp.obj
 
 # target to build an object file
 GAMESTATE/titlestate.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/titlestate.cpp.obj
 
 GAMESTATE/titlestate.i: GAMESTATE/titlestate.cpp.i
@@ -274,7 +375,11 @@ GAMESTATE/titlestate.i: GAMESTATE/titlestate.cpp.i
 
 # target to preprocess a source file
 GAMESTATE/titlestate.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.i
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/titlestate.cpp.i
 
 GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
@@ -283,7 +388,11 @@ GAMESTATE/titlestate.s: GAMESTATE/titlestate.cpp.s
 
 # target to generate assembly for a file
 GAMESTATE/titlestate.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
+>>>>>>> camera-wip
 .PHONY : GAMESTATE/titlestate.cpp.s
 
 GLTOOLS/IBO.obj: GLTOOLS/IBO.cpp.obj
@@ -292,7 +401,11 @@ GLTOOLS/IBO.obj: GLTOOLS/IBO.cpp.obj
 
 # target to build an object file
 GLTOOLS/IBO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/IBO.cpp.obj
 
 GLTOOLS/IBO.i: GLTOOLS/IBO.cpp.i
@@ -301,7 +414,11 @@ GLTOOLS/IBO.i: GLTOOLS/IBO.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/IBO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.i
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/IBO.cpp.i
 
 GLTOOLS/IBO.s: GLTOOLS/IBO.cpp.s
@@ -310,7 +427,11 @@ GLTOOLS/IBO.s: GLTOOLS/IBO.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/IBO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.s
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/IBO.cpp.s
 
 GLTOOLS/Texture.obj: GLTOOLS/Texture.cpp.obj
@@ -319,7 +440,11 @@ GLTOOLS/Texture.obj: GLTOOLS/Texture.cpp.obj
 
 # target to build an object file
 GLTOOLS/Texture.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/Texture.cpp.obj
 
 GLTOOLS/Texture.i: GLTOOLS/Texture.cpp.i
@@ -328,7 +453,11 @@ GLTOOLS/Texture.i: GLTOOLS/Texture.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/Texture.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.i
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/Texture.cpp.i
 
 GLTOOLS/Texture.s: GLTOOLS/Texture.cpp.s
@@ -337,7 +466,11 @@ GLTOOLS/Texture.s: GLTOOLS/Texture.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/Texture.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.s
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/Texture.cpp.s
 
 GLTOOLS/TrackBallCamera.obj: GLTOOLS/TrackBallCamera.cpp.obj
@@ -346,7 +479,11 @@ GLTOOLS/TrackBallCamera.obj: GLTOOLS/TrackBallCamera.cpp.obj
 
 # target to build an object file
 GLTOOLS/TrackBallCamera.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/TrackBallCamera.cpp.obj
 
 GLTOOLS/TrackBallCamera.i: GLTOOLS/TrackBallCamera.cpp.i
@@ -355,7 +492,11 @@ GLTOOLS/TrackBallCamera.i: GLTOOLS/TrackBallCamera.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/TrackBallCamera.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.i
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/TrackBallCamera.cpp.i
 
 GLTOOLS/TrackBallCamera.s: GLTOOLS/TrackBallCamera.cpp.s
@@ -364,7 +505,11 @@ GLTOOLS/TrackBallCamera.s: GLTOOLS/TrackBallCamera.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/TrackBallCamera.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.s
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/TrackBallCamera.cpp.s
 
 GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
@@ -373,7 +518,11 @@ GLTOOLS/VAO.obj: GLTOOLS/VAO.cpp.obj
 
 # target to build an object file
 GLTOOLS/VAO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VAO.cpp.obj
 
 GLTOOLS/VAO.i: GLTOOLS/VAO.cpp.i
@@ -382,7 +531,11 @@ GLTOOLS/VAO.i: GLTOOLS/VAO.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/VAO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.i
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VAO.cpp.i
 
 GLTOOLS/VAO.s: GLTOOLS/VAO.cpp.s
@@ -391,7 +544,11 @@ GLTOOLS/VAO.s: GLTOOLS/VAO.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/VAO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.s
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VAO.cpp.s
 
 GLTOOLS/VBO.obj: GLTOOLS/VBO.cpp.obj
@@ -400,7 +557,11 @@ GLTOOLS/VBO.obj: GLTOOLS/VBO.cpp.obj
 
 # target to build an object file
 GLTOOLS/VBO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VBO.cpp.obj
 
 GLTOOLS/VBO.i: GLTOOLS/VBO.cpp.i
@@ -409,7 +570,11 @@ GLTOOLS/VBO.i: GLTOOLS/VBO.cpp.i
 
 # target to preprocess a source file
 GLTOOLS/VBO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.i
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VBO.cpp.i
 
 GLTOOLS/VBO.s: GLTOOLS/VBO.cpp.s
@@ -418,7 +583,11 @@ GLTOOLS/VBO.s: GLTOOLS/VBO.cpp.s
 
 # target to generate assembly for a file
 GLTOOLS/VBO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.s
+>>>>>>> camera-wip
 .PHONY : GLTOOLS/VBO.cpp.s
 
 OBJECT/Character.obj: OBJECT/Character.cpp.obj
@@ -508,7 +677,11 @@ OBJECT/pacman.obj: OBJECT/pacman.cpp.obj
 
 # target to build an object file
 OBJECT/pacman.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+>>>>>>> camera-wip
 .PHONY : OBJECT/pacman.cpp.obj
 
 OBJECT/pacman.i: OBJECT/pacman.cpp.i
@@ -517,7 +690,11 @@ OBJECT/pacman.i: OBJECT/pacman.cpp.i
 
 # target to preprocess a source file
 OBJECT/pacman.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.i
+>>>>>>> camera-wip
 .PHONY : OBJECT/pacman.cpp.i
 
 OBJECT/pacman.s: OBJECT/pacman.cpp.s
@@ -526,7 +703,11 @@ OBJECT/pacman.s: OBJECT/pacman.cpp.s
 
 # target to generate assembly for a file
 OBJECT/pacman.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.s
+>>>>>>> camera-wip
 .PHONY : OBJECT/pacman.cpp.s
 
 main.obj: main.cpp.obj
@@ -535,7 +716,11 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.obj
+>>>>>>> camera-wip
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -544,7 +729,11 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.i
+>>>>>>> camera-wip
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -553,7 +742,11 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/main.cpp.s
+>>>>>>> camera-wip
 .PHONY : main.cpp.s
 
 # Help Target
@@ -624,6 +817,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+>>>>>>> camera-wip
 .PHONY : cmake_check_build_system
 

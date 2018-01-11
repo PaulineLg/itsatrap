@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: D:/IMAC2/S3/SI/PROJET/itsatrap/src
+=======
+# Install script for directory: D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src
+>>>>>>> camera-wip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

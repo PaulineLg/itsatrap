@@ -5,6 +5,10 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glima
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glimac/Image.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glimac/Program.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glimac/glm.hpp
+<<<<<<< HEAD
+=======
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../third-party/include/glm/common.hpp
+>>>>>>> camera-wip
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_fixes.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_swizzle.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_swizzle_func.hpp
@@ -106,10 +110,13 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glima
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../glimac/include/glimac/glm.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/BOARD/Board.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/BOARD/Cube.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/Camera.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/IBO.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/Texture.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/TrackBallCamera.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/VAO.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/GLTOOLS/VBO.hpp
+<<<<<<< HEAD
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/Character.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/Pacgomme.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/Pacman.hpp
@@ -117,6 +124,12 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/chara
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/item.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/object.hpp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/pacgomme.hpp
+=======
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/character.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/item.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/object.hpp
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../include/OBJECT/pacman.hpp
+>>>>>>> camera-wip
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
 
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj: ../glimac/include/glimac/Image.hpp

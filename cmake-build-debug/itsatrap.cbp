@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -40,11 +41,46 @@
 			<Target title="glimac">
 				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac"/>
+=======
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac">
+				<Option output="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac"/>
+>>>>>>> camera-wip
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
+<<<<<<< HEAD
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
@@ -65,11 +101,34 @@
 			<Target title="glimac/fast">
 				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac"/>
+=======
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include"/>
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac/fast">
+				<Option output="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac"/>
+>>>>>>> camera-wip
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
+<<<<<<< HEAD
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
@@ -90,11 +149,34 @@
 			<Target title="itsatrap">
 				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
+=======
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include"/>
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="itsatrap">
+				<Option output="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src"/>
+>>>>>>> camera-wip
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
+<<<<<<< HEAD
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
@@ -115,11 +197,34 @@
 			<Target title="itsatrap/fast">
 				<Option output="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src"/>
+=======
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include"/>
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="itsatrap/fast">
+				<Option output="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/itsatrap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src"/>
+>>>>>>> camera-wip
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/MinGW/include/SDL"/>
+<<<<<<< HEAD
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include"/>
 					<Add directory="D:/IMAC2/S3/SI/PROJET/itsatrap/third-party/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
@@ -335,6 +440,208 @@
 			<Option virtualFolder="CMake Files\glimac\"/>
 		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/CMakeLists.txt">
+=======
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include"/>
+					<Add directory="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 itsatrap/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Documents/Cours/IMAC 2/Pacman/itsatrap/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Cone.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FireflyCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Sphere.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/TrackballCamera.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Cone.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/FireflyCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Geometry.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Image.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Program.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/SDLWindowManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Shader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Sphere.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/TrackballCamera.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Board.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cube.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cylinder.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAME/game.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAMESTATE/playstate.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAMESTATE/titlestate.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/IBO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/Texture.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/TrackBallCamera.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VAO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VBO.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/OBJECT/pacman.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/3D.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/cube3D.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/normals.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/tex3D.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/triangle.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/Shaders/triangle.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/shaders/triangle.fs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/cmake-build-debug/shaders/triangle.vs.glsl">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/main.cpp">
+			<Option target="itsatrap"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/CMake/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glimac\"/>
+		</Unit>
+		<Unit filename="D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/CMakeLists.txt">
+>>>>>>> camera-wip
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

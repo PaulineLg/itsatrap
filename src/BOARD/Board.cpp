@@ -3,6 +3,7 @@
 //
 
 #include "../../include/BOARD/Board.hpp"
+#include "../../include/GLTOOLS/TrackBallCamera.hpp"
 #include "../../include/OBJECT/Pacgomme.hpp"
 
 Board::Board(){
@@ -107,18 +108,22 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
     }
 }
 
-void Board::draw(){
-    int i = 0, j = 0;
-    glm::mat4 ProjMatrix;
-    glm::mat4 MVMatrix;
-    glm::mat4 NormalMatrix;
-    std::vector< std::vector<int> >::iterator row;
-    std::vector<int>::iterator col;
+    void Board::draw(){
+        int i = 0, j = 0, x = 0, y = 0;
+        glm::mat4 ProjMatrix;
+        glm::mat4 MVMatrix;
+        glm::mat4 NormalMatrix;
+        TrackballCamera Camera;
+
+        std::vector< std::vector<int> >::iterator row;
 
     ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
     for (row = m_matrix.begin(); row !=m_matrix.end(); row++) {
         j = 0;
         for (col = row->begin(); col != row->end(); col++) {
+
+                    glm::mat4 ViewMatrix = Camera.getViewMatrix();
+                    NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
 
             if(m_matrix[i][j] == 0){
                 MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)i,(float)j,-25.0)); // Au depart c'était -5 ici

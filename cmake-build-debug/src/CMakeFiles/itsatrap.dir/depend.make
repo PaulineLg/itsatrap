@@ -5,6 +5,10 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/FilePa
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/Image.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/Program.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/glm.hpp
+<<<<<<< HEAD
+=======
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../third-party/include/glm/common.hpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_fixes.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_swizzle.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../third-party/include/glm/detail/_swizzle_func.hpp
@@ -106,10 +110,13 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/common
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../glimac/include/glimac/glm.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/BOARD/Board.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/BOARD/Cube.hpp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/Camera.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/IBO.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/Texture.hpp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/TrackBallCamera.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/VAO.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/GLTOOLS/VBO.hpp
+<<<<<<< HEAD
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/Character.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/Pacgomme.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/Pacman.hpp
@@ -117,6 +124,12 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/character.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/item.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/object.hpp
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/pacgomme.hpp
+=======
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/character.hpp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/item.hpp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/object.hpp
+src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../include/OBJECT/pacman.hpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
 
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj: ../glimac/include/glimac/Image.hpp
@@ -771,7 +784,14 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj: ../src/GLTOOLS/Texture.cpp
 
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/FilePath.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/Program.hpp
+<<<<<<< HEAD
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/glm.hpp
+=======
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/SDLWindowManager.hpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/Shader.hpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/glm.hpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/common.hpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/detail/_fixes.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/detail/_swizzle.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/detail/_swizzle_func.hpp
@@ -862,6 +882,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/incl
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/vec3.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/vec4.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/BBox.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/FilePath.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../glimac/include/glimac/Geometry.hpp
@@ -876,6 +897,10 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/TrackballCamera.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/VAO.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/VBO.hpp
+=======
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/Camera.hpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/GLTOOLS/TrackballCamera.hpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/OBJECT/character.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/OBJECT/item.hpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj: ../include/OBJECT/object.hpp
@@ -1415,20 +1440,8 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: ../include/OBJECT/object.hpp
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: ../include/OBJECT/pacman.hpp
 src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj: ../src/OBJECT/pacman.cpp
 
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/BBox.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/FilePath.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/Geometry.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/Image.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/Program.hpp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/SDLWindowManager.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/Shader.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/common.hpp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../glimac/include/glimac/glm.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../include/BOARD/Cube.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../include/GLTOOLS/IBO.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../include/GLTOOLS/Texture.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../include/GLTOOLS/VAO.hpp
-src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../include/GLTOOLS/VBO.hpp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../third-party/include/glm/common.hpp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../third-party/include/glm/detail/_fixes.hpp
 src/CMakeFiles/itsatrap.dir/main.cpp.obj: ../third-party/include/glm/detail/_swizzle.hpp

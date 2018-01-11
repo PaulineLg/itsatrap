@@ -42,10 +42,17 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug"
+>>>>>>> camera-wip
 
 # Include any dependencies generated for this target.
 include glimac/CMakeFiles/glimac.dir/depend.make
@@ -59,6 +66,7 @@ include glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj: ../glimac/src/Cone.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Cone.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Cone.cpp
 
@@ -69,6 +77,18 @@ glimac/CMakeFiles/glimac.dir/src/Cone.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Cone.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Cone.cpp -o CMakeFiles\glimac.dir\src\Cone.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Cone.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Cone.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Cone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Cone.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Cone.cpp" > CMakeFiles\glimac.dir\src\Cone.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Cone.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Cone.cpp" -o CMakeFiles\glimac.dir\src\Cone.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj.requires:
 
@@ -84,6 +104,7 @@ glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj.provides.build: glimac/CMakeFiles/
 glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj: ../glimac/src/FireflyCamera.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\FireflyCamera.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\FireflyCamera.cpp
 
@@ -94,6 +115,18 @@ glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\FireflyCamera.cpp -o CMakeFiles\glimac.dir\src\FireflyCamera.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\FireflyCamera.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\FireflyCamera.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/FireflyCamera.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\FireflyCamera.cpp" > CMakeFiles\glimac.dir\src\FireflyCamera.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\FireflyCamera.cpp" -o CMakeFiles\glimac.dir\src\FireflyCamera.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj.requires:
 
@@ -109,6 +142,7 @@ glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj.provides.build: glimac/CM
 glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj: ../glimac/src/Geometry.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Geometry.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Geometry.cpp
 
@@ -119,6 +153,18 @@ glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Geometry.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Geometry.cpp -o CMakeFiles\glimac.dir\src\Geometry.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Geometry.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Geometry.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Geometry.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Geometry.cpp" > CMakeFiles\glimac.dir\src\Geometry.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Geometry.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Geometry.cpp" -o CMakeFiles\glimac.dir\src\Geometry.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj.requires:
 
@@ -134,6 +180,7 @@ glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj.provides.build: glimac/CMakeFi
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj: ../glimac/src/Image.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Image.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Image.cpp
 
@@ -144,6 +191,18 @@ glimac/CMakeFiles/glimac.dir/src/Image.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Image.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Image.cpp -o CMakeFiles\glimac.dir\src\Image.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Image.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Image.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Image.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Image.cpp" > CMakeFiles\glimac.dir\src\Image.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Image.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Image.cpp" -o CMakeFiles\glimac.dir\src\Image.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj.requires:
 
@@ -159,6 +218,7 @@ glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj.provides.build: glimac/CMakeFiles
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj: ../glimac/src/Program.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Program.cpp
 
@@ -169,6 +229,18 @@ glimac/CMakeFiles/glimac.dir/src/Program.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Program.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Program.cpp -o CMakeFiles\glimac.dir\src\Program.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Program.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Program.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Program.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Program.cpp" > CMakeFiles\glimac.dir\src\Program.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Program.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Program.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Program.cpp" -o CMakeFiles\glimac.dir\src\Program.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj.requires:
 
@@ -184,6 +256,7 @@ glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj.provides.build: glimac/CMakeFil
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj: ../glimac/src/SDLWindowManager.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\SDLWindowManager.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\SDLWindowManager.cpp
 
@@ -194,6 +267,18 @@ glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\SDLWindowManager.cpp -o CMakeFiles\glimac.dir\src\SDLWindowManager.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\SDLWindowManager.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\SDLWindowManager.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\SDLWindowManager.cpp" > CMakeFiles\glimac.dir\src\SDLWindowManager.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\SDLWindowManager.cpp" -o CMakeFiles\glimac.dir\src\SDLWindowManager.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj.requires:
 
@@ -209,6 +294,7 @@ glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj.provides.build: glimac
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj: ../glimac/src/Shader.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Shader.cpp
 
@@ -219,6 +305,18 @@ glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Shader.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Shader.cpp -o CMakeFiles\glimac.dir\src\Shader.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Shader.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Shader.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Shader.cpp" > CMakeFiles\glimac.dir\src\Shader.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Shader.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Shader.cpp" -o CMakeFiles\glimac.dir\src\Shader.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj.requires:
 
@@ -234,6 +332,7 @@ glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj.provides.build: glimac/CMakeFile
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj: ../glimac/src/Sphere.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Sphere.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Sphere.cpp
 
@@ -244,6 +343,18 @@ glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Sphere.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\Sphere.cpp -o CMakeFiles\glimac.dir\src\Sphere.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Sphere.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Sphere.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Sphere.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Sphere.cpp" > CMakeFiles\glimac.dir\src\Sphere.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Sphere.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\Sphere.cpp" -o CMakeFiles\glimac.dir\src\Sphere.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj.requires:
 
@@ -259,6 +370,7 @@ glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj.provides.build: glimac/CMakeFile
 glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj: ../glimac/src/TrackballCamera.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\TrackballCamera.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\TrackballCamera.cpp
 
@@ -269,6 +381,18 @@ glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\TrackballCamera.cpp -o CMakeFiles\glimac.dir\src\TrackballCamera.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\TrackballCamera.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\TrackballCamera.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\TrackballCamera.cpp" > CMakeFiles\glimac.dir\src\TrackballCamera.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\TrackballCamera.cpp" -o CMakeFiles\glimac.dir\src\TrackballCamera.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj.requires:
 
@@ -284,6 +408,7 @@ glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj.provides.build: glimac/
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj: ../glimac/src/tiny_obj_loader.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\tiny_obj_loader.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\tiny_obj_loader.cpp
 
@@ -294,6 +419,18 @@ glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\glimac\src\tiny_obj_loader.cpp -o CMakeFiles\glimac.dir\src\tiny_obj_loader.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\tiny_obj_loader.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\tiny_obj_loader.cpp"
+
+glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\tiny_obj_loader.cpp" > CMakeFiles\glimac.dir\src\tiny_obj_loader.cpp.i
+
+glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac\src\tiny_obj_loader.cpp" -o CMakeFiles\glimac.dir\src\tiny_obj_loader.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj.requires:
 
@@ -309,6 +446,7 @@ glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj.provides.build: glimac/
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj: ../src/BOARD/Board.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp
 
@@ -319,6 +457,18 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Board.cpp -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp" > CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Board.cpp" -o CMakeFiles\glimac.dir\__\src\BOARD\Board.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.requires:
 
@@ -334,6 +484,7 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj.provides.build: glimac/C
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj: ../src/GLTOOLS/VBO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VBO.cpp
 
@@ -344,6 +495,18 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VBO.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp" > CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VBO.cpp" -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VBO.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.requires:
 
@@ -359,6 +522,7 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj.provides.build: glimac/C
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj: ../src/GLTOOLS/VAO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VAO.cpp
 
@@ -369,6 +533,18 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\VAO.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp" > CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\VAO.cpp" -o CMakeFiles\glimac.dir\__\src\GLTOOLS\VAO.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.requires:
 
@@ -384,6 +560,7 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj.provides.build: glimac/C
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj: ../src/BOARD/Cylinder.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cylinder.cpp
 
@@ -394,6 +571,18 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cylinder.cpp -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp" > CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cylinder.cpp" -o CMakeFiles\glimac.dir\__\src\BOARD\Cylinder.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.requires:
 
@@ -409,6 +598,7 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj.provides.build: glima
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj: ../src/BOARD/Cube.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Cube.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cube.cpp
 
@@ -419,6 +609,18 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\BOARD\Cube.cpp -o CMakeFiles\glimac.dir\__\src\BOARD\Cube.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\BOARD\Cube.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp" > CMakeFiles\glimac.dir\__\src\BOARD\Cube.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\BOARD\Cube.cpp" -o CMakeFiles\glimac.dir\__\src\BOARD\Cube.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj.requires:
 
@@ -434,6 +636,7 @@ glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj.provides.build: glimac/CM
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj: ../src/GLTOOLS/Texture.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\Texture.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\Texture.cpp
 
@@ -444,6 +647,18 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\Texture.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\Texture.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\Texture.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp" > CMakeFiles\glimac.dir\__\src\GLTOOLS\Texture.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\Texture.cpp" -o CMakeFiles\glimac.dir\__\src\GLTOOLS\Texture.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj.requires:
 
@@ -459,6 +674,7 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj.provides.build: glim
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj: ../src/GLTOOLS/IBO.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\IBO.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\IBO.cpp
 
@@ -469,6 +685,18 @@ glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i: cmake_force
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\IBO.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\IBO.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\IBO.cpp.obj -c "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp"
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp" > CMakeFiles\glimac.dir\__\src\GLTOOLS\IBO.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\src\GLTOOLS\IBO.cpp" -o CMakeFiles\glimac.dir\__\src\GLTOOLS\IBO.cpp.s
+>>>>>>> camera-wip
 
 glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj.requires:
 
@@ -604,9 +832,15 @@ glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/build.make
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libglimac.a"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libglimac.a"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
+>>>>>>> camera-wip
 
 # Rule to build all files generated by this target.
 glimac/CMakeFiles/glimac.dir/build: glimac/libglimac.a
@@ -637,10 +871,18 @@ glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/OBJEC
 .PHONY : glimac/CMakeFiles/glimac.dir/requires
 
 glimac/CMakeFiles/glimac.dir/clean:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean.cmake
 .PHONY : glimac/CMakeFiles/glimac.dir/clean
 
 glimac/CMakeFiles/glimac.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\IMAC2\S3\SI\PROJET\itsatrap D:\IMAC2\S3\SI\PROJET\itsatrap\glimac D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac\CMakeFiles\glimac.dir\DependInfo.cmake --color=$(COLOR)
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean.cmake
+.PHONY : glimac/CMakeFiles/glimac.dir/clean
+
+glimac/CMakeFiles/glimac.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\glimac" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac\CMakeFiles\glimac.dir\DependInfo.cmake" --color=$(COLOR)
+>>>>>>> camera-wip
 .PHONY : glimac/CMakeFiles/glimac.dir/depend
 

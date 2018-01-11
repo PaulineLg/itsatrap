@@ -47,10 +47,17 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug"
+>>>>>>> camera-wip
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +86,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac\CMakeFiles\progress.marks
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 glimac/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\glimac\CMakeFiles\progress.marks"
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 glimac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" 0
+>>>>>>> camera-wip
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 glimac/clean
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 glimac/clean
+>>>>>>> camera-wip
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +113,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 glimac/preinstall
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 glimac/preinstall
+>>>>>>> camera-wip
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 glimac/preinstall
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 glimac/preinstall
+>>>>>>> camera-wip
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+>>>>>>> camera-wip
 .PHONY : depend
 
 # Convenience name for target.
 glimac/CMakeFiles/glimac.dir/rule:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 glimac/CMakeFiles/glimac.dir/rule
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 glimac/CMakeFiles/glimac.dir/rule
+>>>>>>> camera-wip
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
 
 # Convenience name for target.
@@ -121,7 +154,11 @@ glimac: glimac/CMakeFiles/glimac.dir/rule
 
 # fast build rule for target.
 glimac/fast:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/build
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/build
+>>>>>>> camera-wip
 .PHONY : glimac/fast
 
 __/src/BOARD/Board.obj: __/src/BOARD/Board.cpp.obj
@@ -130,7 +167,11 @@ __/src/BOARD/Board.obj: __/src/BOARD/Board.cpp.obj
 
 # target to build an object file
 __/src/BOARD/Board.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Board.cpp.obj
 
 __/src/BOARD/Board.i: __/src/BOARD/Board.cpp.i
@@ -139,7 +180,11 @@ __/src/BOARD/Board.i: __/src/BOARD/Board.cpp.i
 
 # target to preprocess a source file
 __/src/BOARD/Board.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Board.cpp.i
 
 __/src/BOARD/Board.s: __/src/BOARD/Board.cpp.s
@@ -148,7 +193,11 @@ __/src/BOARD/Board.s: __/src/BOARD/Board.cpp.s
 
 # target to generate assembly for a file
 __/src/BOARD/Board.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Board.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Board.cpp.s
 
 __/src/BOARD/Cube.obj: __/src/BOARD/Cube.cpp.obj
@@ -157,7 +206,11 @@ __/src/BOARD/Cube.obj: __/src/BOARD/Cube.cpp.obj
 
 # target to build an object file
 __/src/BOARD/Cube.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cube.cpp.obj
 
 __/src/BOARD/Cube.i: __/src/BOARD/Cube.cpp.i
@@ -166,7 +219,11 @@ __/src/BOARD/Cube.i: __/src/BOARD/Cube.cpp.i
 
 # target to preprocess a source file
 __/src/BOARD/Cube.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cube.cpp.i
 
 __/src/BOARD/Cube.s: __/src/BOARD/Cube.cpp.s
@@ -175,7 +232,11 @@ __/src/BOARD/Cube.s: __/src/BOARD/Cube.cpp.s
 
 # target to generate assembly for a file
 __/src/BOARD/Cube.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cube.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cube.cpp.s
 
 __/src/BOARD/Cylinder.obj: __/src/BOARD/Cylinder.cpp.obj
@@ -184,7 +245,11 @@ __/src/BOARD/Cylinder.obj: __/src/BOARD/Cylinder.cpp.obj
 
 # target to build an object file
 __/src/BOARD/Cylinder.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cylinder.cpp.obj
 
 __/src/BOARD/Cylinder.i: __/src/BOARD/Cylinder.cpp.i
@@ -193,7 +258,11 @@ __/src/BOARD/Cylinder.i: __/src/BOARD/Cylinder.cpp.i
 
 # target to preprocess a source file
 __/src/BOARD/Cylinder.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cylinder.cpp.i
 
 __/src/BOARD/Cylinder.s: __/src/BOARD/Cylinder.cpp.s
@@ -202,7 +271,11 @@ __/src/BOARD/Cylinder.s: __/src/BOARD/Cylinder.cpp.s
 
 # target to generate assembly for a file
 __/src/BOARD/Cylinder.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/BOARD/Cylinder.cpp.s
 
 __/src/GLTOOLS/IBO.obj: __/src/GLTOOLS/IBO.cpp.obj
@@ -211,7 +284,11 @@ __/src/GLTOOLS/IBO.obj: __/src/GLTOOLS/IBO.cpp.obj
 
 # target to build an object file
 __/src/GLTOOLS/IBO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/IBO.cpp.obj
 
 __/src/GLTOOLS/IBO.i: __/src/GLTOOLS/IBO.cpp.i
@@ -220,7 +297,11 @@ __/src/GLTOOLS/IBO.i: __/src/GLTOOLS/IBO.cpp.i
 
 # target to preprocess a source file
 __/src/GLTOOLS/IBO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/IBO.cpp.i
 
 __/src/GLTOOLS/IBO.s: __/src/GLTOOLS/IBO.cpp.s
@@ -229,7 +310,11 @@ __/src/GLTOOLS/IBO.s: __/src/GLTOOLS/IBO.cpp.s
 
 # target to generate assembly for a file
 __/src/GLTOOLS/IBO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/IBO.cpp.s
 
 __/src/GLTOOLS/Texture.obj: __/src/GLTOOLS/Texture.cpp.obj
@@ -238,7 +323,11 @@ __/src/GLTOOLS/Texture.obj: __/src/GLTOOLS/Texture.cpp.obj
 
 # target to build an object file
 __/src/GLTOOLS/Texture.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/Texture.cpp.obj
 
 __/src/GLTOOLS/Texture.i: __/src/GLTOOLS/Texture.cpp.i
@@ -247,7 +336,11 @@ __/src/GLTOOLS/Texture.i: __/src/GLTOOLS/Texture.cpp.i
 
 # target to preprocess a source file
 __/src/GLTOOLS/Texture.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/Texture.cpp.i
 
 __/src/GLTOOLS/Texture.s: __/src/GLTOOLS/Texture.cpp.s
@@ -256,7 +349,11 @@ __/src/GLTOOLS/Texture.s: __/src/GLTOOLS/Texture.cpp.s
 
 # target to generate assembly for a file
 __/src/GLTOOLS/Texture.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/Texture.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/Texture.cpp.s
 
 __/src/GLTOOLS/VAO.obj: __/src/GLTOOLS/VAO.cpp.obj
@@ -265,7 +362,11 @@ __/src/GLTOOLS/VAO.obj: __/src/GLTOOLS/VAO.cpp.obj
 
 # target to build an object file
 __/src/GLTOOLS/VAO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VAO.cpp.obj
 
 __/src/GLTOOLS/VAO.i: __/src/GLTOOLS/VAO.cpp.i
@@ -274,7 +375,11 @@ __/src/GLTOOLS/VAO.i: __/src/GLTOOLS/VAO.cpp.i
 
 # target to preprocess a source file
 __/src/GLTOOLS/VAO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VAO.cpp.i
 
 __/src/GLTOOLS/VAO.s: __/src/GLTOOLS/VAO.cpp.s
@@ -283,7 +388,11 @@ __/src/GLTOOLS/VAO.s: __/src/GLTOOLS/VAO.cpp.s
 
 # target to generate assembly for a file
 __/src/GLTOOLS/VAO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VAO.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VAO.cpp.s
 
 __/src/GLTOOLS/VBO.obj: __/src/GLTOOLS/VBO.cpp.obj
@@ -292,7 +401,11 @@ __/src/GLTOOLS/VBO.obj: __/src/GLTOOLS/VBO.cpp.obj
 
 # target to build an object file
 __/src/GLTOOLS/VBO.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.obj
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VBO.cpp.obj
 
 __/src/GLTOOLS/VBO.i: __/src/GLTOOLS/VBO.cpp.i
@@ -301,7 +414,11 @@ __/src/GLTOOLS/VBO.i: __/src/GLTOOLS/VBO.cpp.i
 
 # target to preprocess a source file
 __/src/GLTOOLS/VBO.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.i
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VBO.cpp.i
 
 __/src/GLTOOLS/VBO.s: __/src/GLTOOLS/VBO.cpp.s
@@ -310,7 +427,11 @@ __/src/GLTOOLS/VBO.s: __/src/GLTOOLS/VBO.cpp.s
 
 # target to generate assembly for a file
 __/src/GLTOOLS/VBO.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/VBO.cpp.s
+>>>>>>> camera-wip
 .PHONY : __/src/GLTOOLS/VBO.cpp.s
 
 __/src/OBJECT/Character.obj: __/src/OBJECT/Character.cpp.obj
@@ -400,7 +521,11 @@ src/Cone.obj: src/Cone.cpp.obj
 
 # target to build an object file
 src/Cone.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Cone.cpp.obj
 
 src/Cone.i: src/Cone.cpp.i
@@ -409,7 +534,11 @@ src/Cone.i: src/Cone.cpp.i
 
 # target to preprocess a source file
 src/Cone.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Cone.cpp.i
 
 src/Cone.s: src/Cone.cpp.s
@@ -418,7 +547,11 @@ src/Cone.s: src/Cone.cpp.s
 
 # target to generate assembly for a file
 src/Cone.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Cone.cpp.s
 
 src/FireflyCamera.obj: src/FireflyCamera.cpp.obj
@@ -427,7 +560,11 @@ src/FireflyCamera.obj: src/FireflyCamera.cpp.obj
 
 # target to build an object file
 src/FireflyCamera.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/FireflyCamera.cpp.obj
 
 src/FireflyCamera.i: src/FireflyCamera.cpp.i
@@ -436,7 +573,11 @@ src/FireflyCamera.i: src/FireflyCamera.cpp.i
 
 # target to preprocess a source file
 src/FireflyCamera.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/FireflyCamera.cpp.i
 
 src/FireflyCamera.s: src/FireflyCamera.cpp.s
@@ -445,7 +586,11 @@ src/FireflyCamera.s: src/FireflyCamera.cpp.s
 
 # target to generate assembly for a file
 src/FireflyCamera.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/FireflyCamera.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/FireflyCamera.cpp.s
 
 src/Geometry.obj: src/Geometry.cpp.obj
@@ -454,7 +599,11 @@ src/Geometry.obj: src/Geometry.cpp.obj
 
 # target to build an object file
 src/Geometry.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Geometry.cpp.obj
 
 src/Geometry.i: src/Geometry.cpp.i
@@ -463,7 +612,11 @@ src/Geometry.i: src/Geometry.cpp.i
 
 # target to preprocess a source file
 src/Geometry.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Geometry.cpp.i
 
 src/Geometry.s: src/Geometry.cpp.s
@@ -472,7 +625,11 @@ src/Geometry.s: src/Geometry.cpp.s
 
 # target to generate assembly for a file
 src/Geometry.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Geometry.cpp.s
 
 src/Image.obj: src/Image.cpp.obj
@@ -481,7 +638,11 @@ src/Image.obj: src/Image.cpp.obj
 
 # target to build an object file
 src/Image.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Image.cpp.obj
 
 src/Image.i: src/Image.cpp.i
@@ -490,7 +651,11 @@ src/Image.i: src/Image.cpp.i
 
 # target to preprocess a source file
 src/Image.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Image.cpp.i
 
 src/Image.s: src/Image.cpp.s
@@ -499,7 +664,11 @@ src/Image.s: src/Image.cpp.s
 
 # target to generate assembly for a file
 src/Image.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Image.cpp.s
 
 src/Program.obj: src/Program.cpp.obj
@@ -508,7 +677,11 @@ src/Program.obj: src/Program.cpp.obj
 
 # target to build an object file
 src/Program.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Program.cpp.obj
 
 src/Program.i: src/Program.cpp.i
@@ -517,7 +690,11 @@ src/Program.i: src/Program.cpp.i
 
 # target to preprocess a source file
 src/Program.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Program.cpp.i
 
 src/Program.s: src/Program.cpp.s
@@ -526,7 +703,11 @@ src/Program.s: src/Program.cpp.s
 
 # target to generate assembly for a file
 src/Program.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Program.cpp.s
 
 src/SDLWindowManager.obj: src/SDLWindowManager.cpp.obj
@@ -535,7 +716,11 @@ src/SDLWindowManager.obj: src/SDLWindowManager.cpp.obj
 
 # target to build an object file
 src/SDLWindowManager.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/SDLWindowManager.cpp.obj
 
 src/SDLWindowManager.i: src/SDLWindowManager.cpp.i
@@ -544,7 +729,11 @@ src/SDLWindowManager.i: src/SDLWindowManager.cpp.i
 
 # target to preprocess a source file
 src/SDLWindowManager.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/SDLWindowManager.cpp.i
 
 src/SDLWindowManager.s: src/SDLWindowManager.cpp.s
@@ -553,7 +742,11 @@ src/SDLWindowManager.s: src/SDLWindowManager.cpp.s
 
 # target to generate assembly for a file
 src/SDLWindowManager.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/SDLWindowManager.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
@@ -562,7 +755,11 @@ src/Shader.obj: src/Shader.cpp.obj
 
 # target to build an object file
 src/Shader.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Shader.cpp.obj
 
 src/Shader.i: src/Shader.cpp.i
@@ -571,7 +768,11 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -580,7 +781,11 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Shader.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Shader.cpp.s
 
 src/Sphere.obj: src/Sphere.cpp.obj
@@ -589,7 +794,11 @@ src/Sphere.obj: src/Sphere.cpp.obj
 
 # target to build an object file
 src/Sphere.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/Sphere.cpp.obj
 
 src/Sphere.i: src/Sphere.cpp.i
@@ -598,7 +807,11 @@ src/Sphere.i: src/Sphere.cpp.i
 
 # target to preprocess a source file
 src/Sphere.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/Sphere.cpp.i
 
 src/Sphere.s: src/Sphere.cpp.s
@@ -607,7 +820,11 @@ src/Sphere.s: src/Sphere.cpp.s
 
 # target to generate assembly for a file
 src/Sphere.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/Sphere.cpp.s
 
 src/TrackballCamera.obj: src/TrackballCamera.cpp.obj
@@ -616,7 +833,11 @@ src/TrackballCamera.obj: src/TrackballCamera.cpp.obj
 
 # target to build an object file
 src/TrackballCamera.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/TrackballCamera.cpp.obj
 
 src/TrackballCamera.i: src/TrackballCamera.cpp.i
@@ -625,7 +846,11 @@ src/TrackballCamera.i: src/TrackballCamera.cpp.i
 
 # target to preprocess a source file
 src/TrackballCamera.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/TrackballCamera.cpp.i
 
 src/TrackballCamera.s: src/TrackballCamera.cpp.s
@@ -634,7 +859,11 @@ src/TrackballCamera.s: src/TrackballCamera.cpp.s
 
 # target to generate assembly for a file
 src/TrackballCamera.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/TrackballCamera.cpp.s
 
 src/tiny_obj_loader.obj: src/tiny_obj_loader.cpp.obj
@@ -643,7 +872,11 @@ src/tiny_obj_loader.obj: src/tiny_obj_loader.cpp.obj
 
 # target to build an object file
 src/tiny_obj_loader.cpp.obj:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.obj
+>>>>>>> camera-wip
 .PHONY : src/tiny_obj_loader.cpp.obj
 
 src/tiny_obj_loader.i: src/tiny_obj_loader.cpp.i
@@ -652,7 +885,11 @@ src/tiny_obj_loader.i: src/tiny_obj_loader.cpp.i
 
 # target to preprocess a source file
 src/tiny_obj_loader.cpp.i:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.i
+>>>>>>> camera-wip
 .PHONY : src/tiny_obj_loader.cpp.i
 
 src/tiny_obj_loader.s: src/tiny_obj_loader.cpp.s
@@ -661,7 +898,11 @@ src/tiny_obj_loader.s: src/tiny_obj_loader.cpp.s
 
 # target to generate assembly for a file
 src/tiny_obj_loader.cpp.s:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.s
+>>>>>>> camera-wip
 .PHONY : src/tiny_obj_loader.cpp.s
 
 # Help Target
@@ -744,6 +985,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+=======
+	cd /d "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+>>>>>>> camera-wip
 .PHONY : cmake_check_build_system
 

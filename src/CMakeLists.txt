@@ -7,6 +7,10 @@ foreach(SRC_FILE ${SRC_FILES})
     get_filename_component(DIR ${CMAKE_CURRENT_SOURCE_DIR} NAME)
     set(OUTPUT itsatrap) #C'est cette ligne qu'il faut changer pour le nom de l'executable
     add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include GAME/game.cpp GAMESTATE/titlestate.cpp GAMESTATE/playstate.cpp GLTOOLS/VAO.cpp GLTOOLS/VBO.cpp BOARD/Board.cpp BOARD/Cylinder.cpp OBJECT/pacman.cpp ../include/BOARD/Cube.hpp BOARD/Cube.cpp ../include/GLTOOLS/Texture.hpp GLTOOLS/Texture.cpp ../include/GLTOOLS/IBO.hpp GLTOOLS/IBO.cpp GLTOOLS/TrackBallCamera.cpp OBJECT/Character.cpp OBJECT/Item.cpp OBJECT/pacgomme.cpp)
+
+
+    add_executable(${OUTPUT} ${SRC_FILE} ${HEADER_FILES} ${SHADER_FILES} ../include GAME/game.cpp GAMESTATE/titlestate.cpp GAMESTATE/playstate.cpp GLTOOLS/VAO.cpp GLTOOLS/VBO.cpp BOARD/Board.cpp BOARD/Cylinder.cpp OBJECT/pacman.cpp ../include/BOARD/Cube.hpp BOARD/Cube.cpp ../include/GLTOOLS/Texture.hpp GLTOOLS/Texture.cpp ../include/GLTOOLS/IBO.hpp GLTOOLS/IBO.cpp GLTOOLS/TrackBallCamera.cpp)
+
     target_link_libraries(${OUTPUT} ${ALL_LIBRARIES})
 endforeach()
 

@@ -6,6 +6,10 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
  ../glimac/include/glimac/Image.hpp
  ../glimac/include/glimac/Program.hpp
  ../glimac/include/glimac/glm.hpp
+<<<<<<< HEAD
+=======
+ ../third-party/include/glm/common.hpp
+>>>>>>> camera-wip
  ../third-party/include/glm/detail/_fixes.hpp
  ../third-party/include/glm/detail/_swizzle.hpp
  ../third-party/include/glm/detail/_swizzle_func.hpp
@@ -96,6 +100,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -119,6 +124,29 @@ src/CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Board.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
  ../glimac/include/glimac/Image.hpp
  ../third-party/include/glm/common.hpp
@@ -212,6 +240,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -226,6 +255,22 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cube.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cube.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
  ../third-party/include/glm/common.hpp
  ../third-party/include/glm/detail/_fixes.hpp
@@ -318,6 +363,7 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -328,6 +374,18 @@ src/CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cylinder.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cylinder.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
  ../glimac/include/glimac/SDLWindowManager.hpp
  ../glimac/include/glimac/glm.hpp
@@ -422,9 +480,15 @@ src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAME/game.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/gamestate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAME/game.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAME/game.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Image.hpp
@@ -522,6 +586,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -547,6 +612,26 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/playstate.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/playstate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAMESTATE/playstate.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Image.hpp
@@ -644,6 +729,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -672,6 +758,29 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/playstate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GAMESTATE/titlestate.cpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/IBO.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Image.hpp
@@ -767,12 +876,24 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/Texture.cpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Program.hpp
  ../glimac/include/glimac/glm.hpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/Texture.cpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
+ ../glimac/include/glimac/FilePath.hpp
+ ../glimac/include/glimac/Program.hpp
+ ../glimac/include/glimac/SDLWindowManager.hpp
+ ../glimac/include/glimac/Shader.hpp
+ ../glimac/include/glimac/glm.hpp
+ ../third-party/include/glm/common.hpp
+>>>>>>> camera-wip
  ../third-party/include/glm/detail/_fixes.hpp
  ../third-party/include/glm/detail/_swizzle.hpp
  ../third-party/include/glm/detail/_swizzle_func.hpp
@@ -863,6 +984,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -882,6 +1004,15 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackballCamera.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/TrackBallCamera.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
  ../third-party/include/glm/common.hpp
  ../third-party/include/glm/detail/_fixes.hpp
@@ -974,6 +1105,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/common.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/glm.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
@@ -1089,6 +1221,15 @@ src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/Character.cpp
 src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VAO.cpp
+src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VBO.cpp
+src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
+>>>>>>> camera-wip
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Program.hpp
  ../glimac/include/glimac/Shader.hpp
@@ -1184,6 +1325,7 @@ src/CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/BBox.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/FilePath.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
@@ -1415,21 +1557,16 @@ src/CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/OBJECT/pacman.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/OBJECT/pacman.cpp
+>>>>>>> camera-wip
 src/CMakeFiles/itsatrap.dir/main.cpp.obj
- ../glimac/include/glimac/BBox.hpp
- ../glimac/include/glimac/FilePath.hpp
- ../glimac/include/glimac/Geometry.hpp
- ../glimac/include/glimac/Image.hpp
- ../glimac/include/glimac/Program.hpp
  ../glimac/include/glimac/SDLWindowManager.hpp
- ../glimac/include/glimac/Shader.hpp
- ../glimac/include/glimac/common.hpp
  ../glimac/include/glimac/glm.hpp
- ../include/BOARD/Cube.hpp
- ../include/GLTOOLS/IBO.hpp
- ../include/GLTOOLS/Texture.hpp
- ../include/GLTOOLS/VAO.hpp
- ../include/GLTOOLS/VBO.hpp
  ../third-party/include/glm/common.hpp
  ../third-party/include/glm/detail/_fixes.hpp
  ../third-party/include/glm/detail/_swizzle.hpp
@@ -1521,7 +1658,14 @@ src/CMakeFiles/itsatrap.dir/main.cpp.obj
  ../third-party/include/glm/vec3.hpp
  ../third-party/include/glm/vec4.hpp
  ../third-party/include/glm/vector_relational.hpp
+<<<<<<< HEAD
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAME/game.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/gamestate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/titlestate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/main.cpp
+=======
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAME/game.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/gamestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GAMESTATE/titlestate.hpp
+ D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/main.cpp
+>>>>>>> camera-wip

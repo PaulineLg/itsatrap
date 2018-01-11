@@ -47,10 +47,17 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug"
+>>>>>>> camera-wip
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +86,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles\progress.marks"
+	$(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documents\Cours\IMAC 2\Pacman\itsatrap\cmake-build-debug\CMakeFiles" 0
+>>>>>>> camera-wip
 .PHONY : all
 
 # The main clean target
