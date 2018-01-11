@@ -12,7 +12,7 @@ Cube::Cube(char* argv){
     //std::cout << argv[0] << std::endl;
     glimac::FilePath applicationPath(argv);
     m_wallProgram = new WallProgram(applicationPath);
-    m_tex = new Texture("../../asset/textures/cubeMap.jpg");
+    m_tex = new Texture("../../asset/textures/brick.jpg");
     std::cout << "Identifiant : " << m_wallProgram->m_Program.getGLId() << std::endl;
 }
 

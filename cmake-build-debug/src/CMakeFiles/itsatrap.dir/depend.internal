@@ -539,8 +539,10 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/gamestate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/playstate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/titlestate.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Camera.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
@@ -549,6 +551,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/playstate.cpp
 src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
@@ -661,8 +664,10 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/gamestate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/playstate.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GAMESTATE/titlestate.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Camera.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Character.hpp
@@ -671,6 +676,7 @@ src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
+ D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
  D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/titlestate.cpp
 src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj
  D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
