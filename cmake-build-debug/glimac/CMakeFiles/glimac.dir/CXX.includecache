@@ -878,15 +878,15 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 ../third-party/include/glm/detail/func_vector_relational.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
 glm.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 string
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
 glm/glm.hpp
 -
 vector
@@ -894,13 +894,13 @@ vector
 string
 -
 Image.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Image.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
 FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 BBox.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/BBox.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/BBox.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Image.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Image.hpp
 vector
 -
 memory
@@ -908,33 +908,33 @@ memory
 unordered_map
 -
 glm.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
 FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
 GL/glew.h
 -
 Shader.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
 FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Shader.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Shader.hpp
 GL/glew.h
 -
 string
 -
 FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
 GL/glew.h
 -
 glm.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/glm.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/glm.hpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -950,7 +950,7 @@ glm/gtc/random.hpp
 glm/gtc/random.hpp
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Cone.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Cone.cpp
 cmath
 -
 vector
@@ -958,47 +958,47 @@ vector
 iostream
 -
 glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
 glimac/Cone.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Cone.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Cone.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/FireflyCamera.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/FireflyCamera.cpp
 glimac/FireflyCamera.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/FireflyCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/FireflyCamera.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Geometry.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Geometry.cpp
 glimac/Geometry.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Geometry.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Geometry.hpp
 tiny_obj_loader.h
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 iostream
 -
 algorithm
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Image.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Image.cpp
 glimac/Image.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Image.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Image.hpp
 stb_image.h
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/stb_image.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
 iostream
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Program.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Program.cpp
 glimac/Program.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Program.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Program.hpp
 stdexcept
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/SDLWindowManager.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/SDLWindowManager.cpp
 glimac/SDLWindowManager.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/SDLWindowManager.hpp
 iostream
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Shader.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Shader.cpp
 glimac/Shader.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Shader.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Shader.hpp
 fstream
 -
 stdexcept
@@ -1008,7 +1008,7 @@ string
 sstream
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/Sphere.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/Sphere.cpp
 cmath
 -
 vector
@@ -1016,15 +1016,15 @@ vector
 iostream
 -
 glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/common.hpp
 glimac/Sphere.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/Sphere.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/Sphere.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/TrackballCamera.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/TrackballCamera.cpp
 glimac/TrackballCamera.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/glimac/TrackballCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/glimac/TrackballCamera.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/stb_image.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/stb_image.h
 stdio.h
 -
 math.h
@@ -1046,7 +1046,7 @@ stddef.h
 stdint.h
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.cpp
 cstdlib
 -
 cstring
@@ -1064,9 +1064,9 @@ fstream
 sstream
 -
 tiny_obj_loader.h
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/src/tiny_obj_loader.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/src/tiny_obj_loader.h
 string
 -
 vector
@@ -1074,9 +1074,9 @@ vector
 map
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
 tinyxml2.h
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/tinyxml2.h
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/tinyxml2.h
 string
 -
 iostream
@@ -1086,45 +1086,55 @@ fstream
 vector
 -
 ../../include/BOARD/Cube.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
 ../../glimac/include/glimac/FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 ../../glimac/include/glimac/Geometry.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
 ../../glimac/include/glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
 ../../glimac/include/glimac/Program.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Program.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Program.hpp
 ../GLTOOLS/VAO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
 ../GLTOOLS/IBO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
 ../GLTOOLS/Texture.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp
 ../../glimac/include/glimac/FilePath.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/FilePath.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/FilePath.hpp
 ../../glimac/include/glimac/Geometry.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/Geometry.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/Geometry.hpp
 ../../glimac/include/glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
 ../GLTOOLS/VAO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 ../GLTOOLS/VBO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+cstdint
+-
+SDL/SDL.h
+-
+glimac/glm.hpp
+-
+../OBJECT/pacman.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
 GL/glew.h
 -
 GL/glut.h
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
 iostream
 -
 GL/glew.h
@@ -1134,7 +1144,19 @@ GL/glut.h
 ../../glimac/include/glimac/Image.hpp
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+cstdint
+-
+SDL/SDL.h
+-
+glimac/glm.hpp
+-
+../OBJECT/character.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+Camera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Camera.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 GL/glew.h
@@ -1144,9 +1166,9 @@ GL/glut.h
 vector
 -
 ../../glimac/include/glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VBO.hpp
 GL/glew.h
 -
 GL/glut.h
@@ -1154,33 +1176,61 @@ GL/glut.h
 vector
 -
 ../../glimac/include/glimac/common.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/glimac/include/glimac/common.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include/glimac/common.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Board.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+object.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+item.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/item.hpp
+object.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+glimac/FilePath.hpp
+-
+glimac/Program.hpp
+-
+glimac/glm.hpp
+-
+GL/glew.h
+-
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/pacman.hpp
+object.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/object.hpp
+character.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/OBJECT/character.hpp
+
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Board.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Board.hpp
+../../include/GLTOOLS/TrackBallCamera.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cube.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cube.cpp
 ../../include/BOARD/Cube.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cube.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cube.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/BOARD/Cylinder.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/BOARD/Cylinder.cpp
 ../../include/BOARD/Cylinder.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/BOARD/Cylinder.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/BOARD/Cylinder.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/IBO.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/IBO.cpp
 ../../include/GLTOOLS/IBO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/IBO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/IBO.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/Texture.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/Texture.cpp
 ../../include/GLTOOLS/Texture.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/Texture.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/Texture.hpp
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VAO.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VAO.cpp
 ../../include/GLTOOLS/VAO.hpp
-G:/Documents/IMAC/S3/SI/itsatrap/include/GLTOOLS/VAO.hpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/include/GLTOOLS/VAO.hpp
 iostream
 -
 
-G:/Documents/IMAC/S3/SI/itsatrap/src/GLTOOLS/VBO.cpp
+D:/Documents/Cours/IMAC 2/Pacman/itsatrap/src/GLTOOLS/VBO.cpp
 

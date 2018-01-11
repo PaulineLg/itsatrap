@@ -1,1 +1,1 @@
--IC:/MinGW/include/SDL -IG:/Documents/IMAC/S3/SI/itsatrap/glimac/include -IG:/Documents/IMAC/S3/SI/itsatrap/third-party/include 
+-IC:/MinGW/include/SDL -I"D:/Documents/Cours/IMAC 2/Pacman/itsatrap/glimac/include" -I"D:/Documents/Cours/IMAC 2/Pacman/itsatrap/third-party/include" 

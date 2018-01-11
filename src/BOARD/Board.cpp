@@ -3,6 +3,7 @@
 //
 
 #include "../../include/BOARD/Board.hpp"
+#include "../../include/GLTOOLS/TrackBallCamera.hpp"
 
 namespace glimac{
     Board::Board(){
@@ -67,6 +68,7 @@ namespace glimac{
         glm::mat4 ProjMatrix;
         glm::mat4 MVMatrix;
         glm::mat4 NormalMatrix;
+        TrackballCamera Camera;
         std::vector< std::vector<int> >::iterator row;
         std::vector<int>::iterator col;
         for (row = m_matrix.begin(); row !=m_matrix.end(); row++) {
@@ -92,12 +94,16 @@ namespace glimac{
 
                     }*/
                     ProjMatrix = glm::perspective(glm::radians(70.f), 1.f, 0.1f, 100.f);
-                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)i,(float)j,-30.0)); // Au depart c'était -5 ici
+                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)i,(float)j,-5.0)); // Au depart c'était -5 ici
                     MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
                     MVMatrix = glm::scale(MVMatrix, glm::vec3(0.5f));
                     NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
+                    glm::mat4 ViewMatrix = Camera.getViewMatrix();
+
+                    MVMatrix = ViewMatrix * MVMatrix;
                     m_cube->transform(ProjMatrix, MVMatrix, NormalMatrix);
                     m_cube->draw();
+
                 }
                 j++;
             }

@@ -18,4 +18,5 @@ void main() {
   vFragTexCoords = aVertexTexCoords;
 
   gl_Position = vec4(uMVPMatrix * vec4(aVertexPosition, 1));
+
 };
