@@ -32,8 +32,8 @@ protected:
     GLuint m_uLightPos_vs;
     GLuint m_uLightIntensity;
 
-    VBO<glimac::ShapeVertex> *m_vbo;
-    VAO *m_vao;
+    glimac::VBO<glimac::ShapeVertex> *m_vbo;
+    glimac::VAO *m_vao;
     IBO m_ibo;
 };
 

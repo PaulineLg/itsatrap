@@ -983,9 +983,7 @@ src/CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj
 src/CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj
  ../glimac/include/glimac/FilePath.hpp
  ../glimac/include/glimac/Program.hpp
- ../glimac/include/glimac/Shader.hpp
  ../glimac/include/glimac/glm.hpp
- ../third-party/include/glm/common.hpp
  ../third-party/include/glm/detail/_fixes.hpp
  ../third-party/include/glm/detail/_swizzle.hpp
  ../third-party/include/glm/detail/_swizzle_func.hpp
