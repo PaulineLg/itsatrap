@@ -11,7 +11,7 @@ Board::Board(){
     m_pacman->generate();
     /*m_camera.moveLeft( -15.0);
     m_camera.rotateUp(-180.0);
-    m_camera.moveFront(-4.0);*/
+     m_camera.moveFront(-4.0);*/
 }
 
 Board::~Board(){
@@ -19,6 +19,7 @@ Board::~Board(){
     delete m_cube;
 }
 
+// Charge la matrice : 0 pour les murs, 1 pour les chemins et 2 pour les intersections
 void Board::loadMatrix(){
     std::cout << "start loadmatrix" << std::endl;
 
@@ -72,6 +73,7 @@ void Board::loadCubes(){
     m_cube->generate();
 }
 
+// construit le tableau d'items
 void Board::loadObjects(){
     m_pacman->setPosition(m_dimY/2, m_dimY / 2, -20.0);
 
@@ -92,6 +94,8 @@ void Board::loadObjects(){
         }
         i++;
     }
+    pacgomme = new Pacgomme("../../cmake-build-debug/src/itsatrap.exe");
+    pacgomme->generate();
 }
 
 void Board::movePacman(bool up, bool down, bool right, bool left) {
@@ -151,10 +155,19 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
                 MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)j,(float)i,-20.0));
                 MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
                 MVMatrix = glm::scale(MVMatrix, glm::vec3(0.5f));
-                //MVMatrix = MVMatrix * ViewMatrix;
+                MVMatrix = MVMatrix * ViewMatrix;
                 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
                 m_cube->transform(ProjMatrix, MVMatrix, NormalMatrix);
                 m_cube->draw();
+            }
+            else{
+                MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)j+0.5,(float)(i+3.0),-20.0));
+                MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
+                MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f));
+                MVMatrix = MVMatrix * ViewMatrix;
+                NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
+                pacgomme->transform(ProjMatrix, MVMatrix, NormalMatrix);
+                pacgomme->draw();
             }
             j++;
         }
@@ -164,13 +177,13 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
     MVMatrix = glm::translate(glm::mat4(1.0f), m_pacman->getPosition());
     MVMatrix = glm::rotate(MVMatrix, -90.f, glm::vec3(0,1,0));
     MVMatrix = glm::scale(MVMatrix, glm::vec3(0.005f, 0.005f, 0.005f));
-    //MVMatrix = MVMatrix * ViewMatrix;
+    MVMatrix = MVMatrix * ViewMatrix;
     NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
     m_pacman->transform( ProjMatrix, MVMatrix, NormalMatrix );
     m_pacman->draw();
 
         // Draw Pacgommes :
-    std::list<Item*>::iterator it;
+    /*std::list<Item*>::iterator it;
     for (it = m_item.begin(); it != m_item.end(); it++) {
         MVMatrix = glm::translate(glm::mat4(1.0f), (*it)->getPosition());
         MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
@@ -179,6 +192,6 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
         NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
         (*it)->transform(ProjMatrix, MVMatrix, NormalMatrix);
         (*it)->draw();
-    }
+    }*/
 }
 

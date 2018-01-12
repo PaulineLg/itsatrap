@@ -41,6 +41,7 @@ class Board{
             std::list<Item*> m_item;
             Pacman *m_pacman;
             FreeFlyCamera m_camera;
+            Pacgomme *pacgomme;
 };
 
 #endif //ITSATRAP_BOARD_HPP
