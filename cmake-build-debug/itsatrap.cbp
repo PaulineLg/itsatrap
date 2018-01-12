@@ -223,9 +223,6 @@
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
 		</Unit>
-		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/BOARD/Cylinder.hpp">
-			<Option target="glimac"/>
-		</Unit>
 		<Unit filename="C:/Users/Ugo/Documents/IMAC/itsatrap/include/GLTOOLS/IBO.hpp">
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>
