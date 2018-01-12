@@ -6,7 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/GLTOOLS/VAO.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/VBO.cpp.obj"
   "CMakeFiles/itsatrap.dir/BOARD/Board.cpp.obj"
-  "CMakeFiles/itsatrap.dir/BOARD/Cylinder.cpp.obj"
   "CMakeFiles/itsatrap.dir/OBJECT/pacman.cpp.obj"
   "CMakeFiles/itsatrap.dir/BOARD/Cube.cpp.obj"
   "CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"

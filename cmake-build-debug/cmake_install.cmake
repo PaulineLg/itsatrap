@@ -1,4 +1,4 @@
-# Install script for directory: D:/IMAC2/S3/SI/PROJET/itsatrap
+# Install script for directory: C:/Users/Ugo/Documents/IMAC/itsatrap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/glimac/cmake_install.cmake")
-  include("D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/cmake_install.cmake")
+  include("C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/glimac/cmake_install.cmake")
+  include("C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/src/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Ugo/Documents/IMAC/itsatrap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

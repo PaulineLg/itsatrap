@@ -1,7 +1,3 @@
-//
-// Created by pauli on 06/01/2018.
-//
-
 #include "../../include/BOARD/Cube.hpp"
 
 
@@ -9,7 +5,6 @@ Cube::Cube(char* argv){
     m_filepath = "../../asset/3DModels/cube.obj";
     m_mtlBasePath = "../../asset/3DModels/cube.mtl";
     m_geometry.loadOBJ(m_filepath, m_mtlBasePath, false);
-    //std::cout << argv[0] << std::endl;
     glimac::FilePath applicationPath(argv);
     m_wallProgram = new WallProgram(applicationPath);
     m_tex = new Texture("../../asset/textures/brick.jpg");
@@ -52,8 +47,6 @@ void Cube::generate(){
     m_tex->bind();
     m_tex->send();
     m_tex->debind();
-
-     // Fonction à mettre dans le draw du playstate
 }
 
 void Cube::transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalMatrix){

@@ -1,7 +1,3 @@
-//
-// Created by pauli on 03/01/2018.
-//
-
 #include "../../include/BOARD/Board.hpp"
 
 Board::Board(){
@@ -9,14 +5,10 @@ Board::Board(){
     m_dimY = 0;
     m_pacman = new Pacman("../../cmake-build-debug/src/itsatrap.exe");
     m_pacman->generate();
-    /*m_camera.moveLeft( -15.0);
-    m_camera.rotateUp(-180.0);
-     m_camera.moveFront(-4.0);*/
 }
 
 Board::~Board(){
     delete m_pacman;
-    delete m_cube;
 }
 
 // Charge la matrice : 0 pour les murs, 1 pour les chemins et 2 pour les intersections
@@ -181,17 +173,5 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
     NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
     m_pacman->transform( ProjMatrix, MVMatrix, NormalMatrix );
     m_pacman->draw();
-
-        // Draw Pacgommes :
-    /*std::list<Item*>::iterator it;
-    for (it = m_item.begin(); it != m_item.end(); it++) {
-        MVMatrix = glm::translate(glm::mat4(1.0f), (*it)->getPosition());
-        MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
-        MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f));
-        //MVMatrix = MVMatrix * ViewMatrix;
-        NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
-        (*it)->transform(ProjMatrix, MVMatrix, NormalMatrix);
-        (*it)->draw();
-    }*/
 }
 
