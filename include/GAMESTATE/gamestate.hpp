@@ -1,7 +1,3 @@
-//
-// Created by Ugo on 01/01/2018.
-//
-
 #ifndef ITSATRAP_GAMESTATE_HPP
 #define ITSATRAP_GAMESTATE_HPP
 

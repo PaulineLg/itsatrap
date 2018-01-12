@@ -44,6 +44,8 @@ public:
     void sendUniform();
     void draw();
 
+    void setPoints(int points);
+
 
 private:
     glimac::FilePath m_filepath;

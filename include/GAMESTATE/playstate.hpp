@@ -25,7 +25,6 @@ class PlayState : public GameState {
 
     private:
         static PlayState s_PlayState;
-        //Cube* m_cube;
         Board *m_board;
 
 };

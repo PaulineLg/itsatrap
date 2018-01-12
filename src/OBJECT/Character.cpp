@@ -20,8 +20,16 @@ void Character::reset(){
 void Character::interact(Character* chara){
 
 }
-void Character::eat(Item* it) {
-
+bool Character::eat(std::list<Item*> &items) {
+    std::list<Item*>::iterator it;
+    for (it = items.begin(); it != items.end(); it++) {
+        if(m_position == (*it)->getPosition()){
+            // Supprimer l'élément
+            items.erase(it);
+            return true; // Retourne true si une pacgomme manger pour update les points
+        }
+    }
+    return false;
 }
 
 void Character::transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalMatrix){

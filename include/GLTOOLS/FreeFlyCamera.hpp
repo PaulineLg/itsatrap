@@ -3,13 +3,13 @@
 #include "../OBJECT/pacman.hpp"
 #include "Camera.hpp"
 
-using namespace glimac;
 
-class FreeFlyCamera: public Camera{
+class FreeFlyCamera{
 
 public:
     FreeFlyCamera();
-    void computeDirectionVectors();
+    ~FreeFlyCamera() = default;
+    void computeDirectionVectors(float phi, float teta);
     void moveLeft(float t);
     void moveFront(float t);
     void rotateLeft(float degrees);

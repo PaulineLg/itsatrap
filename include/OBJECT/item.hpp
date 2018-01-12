@@ -17,6 +17,7 @@ public:
     void setPosition(float x, float y, float z);
     glm::vec3 getPosition();
     void transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalMatrix);
+    virtual void draw();
 
 protected:
     glimac::FilePath m_filepath;

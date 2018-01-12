@@ -10,6 +10,7 @@
 #include "../GLTOOLS/VAO.hpp"
 #include "../GLTOOLS/VBO.hpp"
 #include "../GLTOOLS/IBO.hpp"
+#include "../GLTOOLS/Texture.hpp"
 
 class Object {
 public:
@@ -25,6 +26,7 @@ protected:
     glm::mat4 m_ProjMatrix;
     glm::mat4 m_MVMatrix;
     glm::mat4 m_NormalMatrix;
+    Texture *m_tex;
     GLuint m_uTexture;
     GLuint m_uKd;
     GLuint m_uKs;

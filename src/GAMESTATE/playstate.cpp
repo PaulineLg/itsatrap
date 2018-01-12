@@ -3,10 +3,7 @@
 #include "../../include/GAMESTATE/playstate.hpp"
 #include "../../include/GAMESTATE/titlestate.hpp"
 
-//#include "../../include/BOARD/Cube.hpp"
-
 PlayState PlayState::s_PlayState;
-
 
 void PlayState::init() {
     std::cout << "Init of play state" << std::endl;
@@ -16,7 +13,9 @@ void PlayState::init() {
     m_board->loadCubes();
 }
 
-void PlayState::cleanup() {}
+void PlayState::cleanup() {
+    delete m_board;
+}
 
 void PlayState::pause() {}
 
@@ -70,17 +69,21 @@ void PlayState::handleEvents(Game* game) {
                 switch (event.key.keysym.sym) {
                     case SDLK_z :
                         pac_up = false;
+                    std:: cout << "up" << std::endl;
                         break;
                     case SDLK_q:
                         pac_left = false;
+                        std:: cout << "left" << std::endl;
                         break;
 
                     case SDLK_d:
                         pac_right = false;
+                        std:: cout << "right" << std::endl;
                         break;
 
                     case SDLK_s:
                         pac_down = false;
+                        std:: cout << "down" << std::endl;
                         break;
 
                     default:
