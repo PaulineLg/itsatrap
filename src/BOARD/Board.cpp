@@ -9,9 +9,9 @@ Board::Board(){
     m_dimY = 0;
     m_pacman = new Pacman("../../cmake-build-debug/src/itsatrap.exe");
     m_pacman->generate();
-    m_camera.moveLeft( -15.0);
-    m_camera.rotateUp(5.0);
-    //m_camera.moveFront(-4.0);
+    /*m_camera.moveLeft( -15.0);
+    m_camera.rotateUp(-180.0);
+    m_camera.moveFront(-4.0);*/
 }
 
 Board::~Board(){
@@ -73,7 +73,7 @@ void Board::loadCubes(){
 }
 
 void Board::loadObjects(){
-    m_pacman->setPosition(2, 2, -25.0);
+    m_pacman->setPosition(m_dimY/2, m_dimY / 2, -20.0);
 
     // Load pacgommes:
     int i = 0, j = 0;
@@ -84,7 +84,7 @@ void Board::loadObjects(){
         for (col = row->begin(); col != row->end(); col++) {
             if(m_matrix[i][j] != 0){
                 Pacgomme * p = new Pacgomme("../../cmake-build-debug/src/itsatrap.exe");
-                p->setPosition((float)j-4.0, (float)i+2.0, -20.0);
+                p->setPosition((float)j-3.5, (float)i-3.5, -20.0);
                 p->generate();
                 m_item.push_back(p);
             }
@@ -95,13 +95,14 @@ void Board::loadObjects(){
 }
 
 void Board::movePacman(bool up, bool down, bool right, bool left) {
-    float i = m_pacman->getPosition().x;
-    float y = m_pacman->getPosition().y;
+    float i = m_pacman->getPosition().y;
+    float y = m_pacman->getPosition().x;
     if(up){
         i += 1.0;
-        if(m_matrix[i][y] != 0 && i < m_dimX){
+        if(m_matrix[i][y] != 0){
             m_pacman->setPosition(y, i, -20.0);
         }
+
     }
     if(down){
         i -= 1.0;
@@ -110,7 +111,7 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
         }
     }
     if(right){
-        y = 1.0;
+        y += 1.0;
         if(m_matrix[i][y] != 0){
             m_pacman->setPosition(y, i, -20.0);
         }
@@ -147,22 +148,10 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
         j = 0;
         for (col = row->begin(); col != row->end(); col++) {
             if(m_matrix[i][j] == 0){
-                /*if( j < m_dimX / 2 && i < m_dimY / 2){
-                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(float(-j), float(-i),-25.0));
-                }
-                else if (j < m_dimX / 2 && i > m_dimY / 2){
-                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(float(-j), float(i),-25.0));
-                }
-                else if(j > m_dimX / 2 && i < m_dimY / 2){
-                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(float(j), float(-i),-25.0));
-                }
-                else{
-                    MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(float(j), float(i),-25.0));
-                }*/
                 MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3((float)j,(float)i,-20.0));
                 MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
                 MVMatrix = glm::scale(MVMatrix, glm::vec3(0.5f));
-                MVMatrix = MVMatrix * ViewMatrix;
+                //MVMatrix = MVMatrix * ViewMatrix;
                 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
                 m_cube->transform(ProjMatrix, MVMatrix, NormalMatrix);
                 m_cube->draw();
@@ -175,7 +164,7 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
     MVMatrix = glm::translate(glm::mat4(1.0f), m_pacman->getPosition());
     MVMatrix = glm::rotate(MVMatrix, -90.f, glm::vec3(0,1,0));
     MVMatrix = glm::scale(MVMatrix, glm::vec3(0.005f, 0.005f, 0.005f));
-    MVMatrix = MVMatrix * ViewMatrix;
+    //MVMatrix = MVMatrix * ViewMatrix;
     NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
     m_pacman->transform( ProjMatrix, MVMatrix, NormalMatrix );
     m_pacman->draw();
@@ -186,7 +175,7 @@ void Board::movePacman(bool up, bool down, bool right, bool left) {
         MVMatrix = glm::translate(glm::mat4(1.0f), (*it)->getPosition());
         MVMatrix = glm::rotate(MVMatrix, 0.f, glm::vec3(0,1,0));
         MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f));
-        MVMatrix = MVMatrix * ViewMatrix;
+        //MVMatrix = MVMatrix * ViewMatrix;
         NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
         (*it)->transform(ProjMatrix, MVMatrix, NormalMatrix);
         (*it)->draw();

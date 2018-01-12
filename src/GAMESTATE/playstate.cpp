@@ -70,17 +70,21 @@ void PlayState::handleEvents(Game* game) {
                 switch (event.key.keysym.sym) {
                     case SDLK_z :
                         pac_up = false;
+                    std:: cout << "up" << std::endl;
                         break;
                     case SDLK_q:
                         pac_left = false;
+                        std:: cout << "left" << std::endl;
                         break;
 
                     case SDLK_d:
                         pac_right = false;
+                        std:: cout << "right" << std::endl;
                         break;
 
                     case SDLK_s:
                         pac_down = false;
+                        std:: cout << "down" << std::endl;
                         break;
 
                     default:
