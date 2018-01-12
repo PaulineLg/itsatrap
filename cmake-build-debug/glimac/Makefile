@@ -205,6 +205,33 @@ __/src/BOARD/Cylinder.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/BOARD/Cylinder.cpp.s
 .PHONY : __/src/BOARD/Cylinder.cpp.s
 
+__/src/GLTOOLS/FreeFlyCamera.obj: __/src/GLTOOLS/FreeFlyCamera.cpp.obj
+
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.obj
+
+# target to build an object file
+__/src/GLTOOLS/FreeFlyCamera.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.cpp.obj
+
+__/src/GLTOOLS/FreeFlyCamera.i: __/src/GLTOOLS/FreeFlyCamera.cpp.i
+
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.i
+
+# target to preprocess a source file
+__/src/GLTOOLS/FreeFlyCamera.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.i
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.cpp.i
+
+__/src/GLTOOLS/FreeFlyCamera.s: __/src/GLTOOLS/FreeFlyCamera.cpp.s
+
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.s
+
+# target to generate assembly for a file
+__/src/GLTOOLS/FreeFlyCamera.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.s
+.PHONY : __/src/GLTOOLS/FreeFlyCamera.cpp.s
+
 __/src/GLTOOLS/IBO.obj: __/src/GLTOOLS/IBO.cpp.obj
 
 .PHONY : __/src/GLTOOLS/IBO.obj
@@ -682,6 +709,9 @@ help:
 	@echo ... __/src/BOARD/Cylinder.obj
 	@echo ... __/src/BOARD/Cylinder.i
 	@echo ... __/src/BOARD/Cylinder.s
+	@echo ... __/src/GLTOOLS/FreeFlyCamera.obj
+	@echo ... __/src/GLTOOLS/FreeFlyCamera.i
+	@echo ... __/src/GLTOOLS/FreeFlyCamera.s
 	@echo ... __/src/GLTOOLS/IBO.obj
 	@echo ... __/src/GLTOOLS/IBO.i
 	@echo ... __/src/GLTOOLS/IBO.s

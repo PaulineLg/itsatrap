@@ -6,6 +6,8 @@
 #include "object.hpp"
 #include "item.hpp"
 
+#include <list>
+
 
 class Character : public Object {
 
@@ -16,7 +18,7 @@ public:
     void changeSuperState();
     void reset();
     void interact(Character* chara);
-    void eat(Item* it);
+    bool eat(std::list<Item*> &items);
     void transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalMatrix);
 
 

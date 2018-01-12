@@ -57,3 +57,8 @@ void Item::transform(glm::mat4 ProjMatrix, glm::mat4 MVMatrix, glm::mat4 NormalM
     m_MVMatrix = MVMatrix;
     m_NormalMatrix = NormalMatrix;
 }
+
+void Item::draw(){
+
+}
+

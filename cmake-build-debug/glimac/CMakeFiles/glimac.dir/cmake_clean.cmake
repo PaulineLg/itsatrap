@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj"
   "CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj"
   "CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj"
+  "CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj"
   "libglimac.pdb"
   "libglimac.a"
 )

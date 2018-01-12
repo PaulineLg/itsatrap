@@ -261,6 +261,10 @@
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/titlestate.cpp">
 			<Option target="itsatrap"/>
 		</Unit>
+		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/FreeFlyCamera.cpp">
+			<Option target="glimac"/>
+			<Option target="itsatrap"/>
+		</Unit>
 		<Unit filename="D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp">
 			<Option target="glimac"/>
 			<Option target="itsatrap"/>

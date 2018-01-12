@@ -8,12 +8,13 @@ Pacman::Pacman(char* argv){
     m_id = 1;
     // Chargement du modèle :
     m_filepath = "../../asset/3DModels/3d-model.obj";
-    //m_mtlBasePath = "../../asset/3DModels/3d-model.mtl";
     m_geometry.loadOBJ(m_filepath, m_mtlBasePath, false);
 
     //Initialisation du programme :
     glimac::FilePath applicationPath(argv);
     m_pacProgram = new PacProgram(applicationPath);
+
+    m_tex = new Texture("../../asset/textures/pacman.jpg");
 }
 
 Pacman::~Pacman(){
@@ -53,9 +54,9 @@ void Pacman::generate(){
     m_vao->debind();
     m_ibo.debind();
 
-    /*m_tex->bind();
+    m_tex->bind();
     m_tex->send();
-    m_tex->debind();*/
+    m_tex->debind();
 }
 
 void Pacman::sendUniform(){
@@ -71,10 +72,10 @@ void Pacman::draw(){
     m_pacProgram->m_Program.use();
     sendUniform();
     glActiveTexture(GL_TEXTURE0);
-    //m_tex->bind();
+    m_tex->bind();
     glDrawElements(GL_TRIANGLES, m_geometry.getIndexCount(), GL_UNSIGNED_INT, 0);
     glActiveTexture(GL_TEXTURE0);
-    //m_tex->debind();
+    m_tex->debind();
     m_vao->debind();
 }
 
@@ -92,4 +93,8 @@ void Pacman::setPosition(float x, float y, float z){
 
 glm::vec3 Pacman::getPosition(){
     return m_position;
+}
+
+void Pacman::setPoints(int points){
+    m_points += points;
 }

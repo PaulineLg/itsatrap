@@ -556,6 +556,31 @@ glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj.provides: glimac/CMa
 glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj
 
 
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/flags.make
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj: glimac/CMakeFiles/glimac.dir/includes_CXX.rsp
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj: ../src/GLTOOLS/FreeFlyCamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\__\src\GLTOOLS\FreeFlyCamera.cpp.obj -c D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\FreeFlyCamera.cpp
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.i"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\FreeFlyCamera.cpp > CMakeFiles\glimac.dir\__\src\GLTOOLS\FreeFlyCamera.cpp.i
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.s"
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\IMAC2\S3\SI\PROJET\itsatrap\src\GLTOOLS\FreeFlyCamera.cpp -o CMakeFiles\glimac.dir\__\src\GLTOOLS\FreeFlyCamera.cpp.s
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.requires:
+
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.requires
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.provides: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.requires
+	$(MAKE) -f glimac\CMakeFiles\glimac.dir\build.make glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.provides.build
+.PHONY : glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.provides
+
+glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.provides.build: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj
+
+
 # Object files for target glimac
 glimac_OBJECTS = \
 "CMakeFiles/glimac.dir/src/Cone.cpp.obj" \
@@ -577,7 +602,8 @@ glimac_OBJECTS = \
 "CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj" \
 "CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj" \
 "CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj" \
-"CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj"
+"CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj" \
+"CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj"
 
 # External object files for target glimac
 glimac_EXTERNAL_OBJECTS =
@@ -602,9 +628,10 @@ glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/IBO.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj
+glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/build.make
 glimac/libglimac.a: glimac/CMakeFiles/glimac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libglimac.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libglimac.a"
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug\glimac && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
 
@@ -633,6 +660,7 @@ glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/GLTOO
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Character.cpp.obj.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/Item.cpp.obj.requires
 glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/OBJECT/pacgomme.cpp.obj.requires
+glimac/CMakeFiles/glimac.dir/requires: glimac/CMakeFiles/glimac.dir/__/src/GLTOOLS/FreeFlyCamera.cpp.obj.requires
 
 .PHONY : glimac/CMakeFiles/glimac.dir/requires
 

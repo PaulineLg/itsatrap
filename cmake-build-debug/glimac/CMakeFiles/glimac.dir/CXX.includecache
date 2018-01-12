@@ -1103,6 +1103,8 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
 ../../include/GLTOOLS/TrackBallCamera.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/TrackBallCamera.hpp
+../../include/GLTOOLS/FreeFlyCamera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/FreeFlyCamera.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
 ../../glimac/include/glimac/FilePath.hpp
@@ -1143,6 +1145,14 @@ glimac/glm.hpp
 -
 ../OBJECT/pacman.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/FreeFlyCamera.hpp
+glimac/glm.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/glimac/glm.hpp
+../OBJECT/pacman.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacman.hpp
+Camera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Camera.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
 GL/glew.h
@@ -1199,18 +1209,14 @@ object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 item.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+list
+-
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Item.hpp
 object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 ../../glimac/include/glimac/Geometry.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
-
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
-object.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
-item.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacman.hpp
 object.hpp
@@ -1229,6 +1235,8 @@ object.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/object.hpp
 item.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
+list
+-
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/item.hpp
 object.hpp
@@ -1251,6 +1259,8 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VAO.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/VBO.hpp
 ../GLTOOLS/IBO.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/IBO.hpp
+../GLTOOLS/Texture.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/Texture.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/pacgomme.hpp
 object.hpp
@@ -1273,8 +1283,6 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/glimac/include/glimac/Geometry.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Board.cpp
 ../../include/BOARD/Board.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Board.hpp
-../../include/OBJECT/Pacgomme.hpp
-D:/IMAC2/S3/SI/PROJET/itsatrap/include/OBJECT/Pacgomme.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cube.cpp
 ../../include/BOARD/Cube.hpp
@@ -1283,6 +1291,10 @@ D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cube.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/BOARD/Cylinder.cpp
 ../../include/BOARD/Cylinder.hpp
 D:/IMAC2/S3/SI/PROJET/itsatrap/include/BOARD/Cylinder.hpp
+
+D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/FreeFlyCamera.cpp
+../../include/GLTOOLS/FreeFlyCamera.hpp
+D:/IMAC2/S3/SI/PROJET/itsatrap/include/GLTOOLS/FreeFlyCamera.hpp
 
 D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp
 ../../include/GLTOOLS/IBO.hpp

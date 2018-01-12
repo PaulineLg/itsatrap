@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAME/game.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAME/game.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/playstate.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/playstate.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GAMESTATE/titlestate.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.obj"
+  "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/FreeFlyCamera.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/FreeFlyCamera.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/IBO.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/IBO.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/Texture.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/Texture.cpp.obj"
   "D:/IMAC2/S3/SI/PROJET/itsatrap/src/GLTOOLS/TrackBallCamera.cpp" "D:/IMAC2/S3/SI/PROJET/itsatrap/cmake-build-debug/src/CMakeFiles/itsatrap.dir/GLTOOLS/TrackBallCamera.cpp.obj"

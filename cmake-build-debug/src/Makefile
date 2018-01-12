@@ -286,6 +286,33 @@ GAMESTATE/titlestate.cpp.s:
 	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GAMESTATE/titlestate.cpp.s
 .PHONY : GAMESTATE/titlestate.cpp.s
 
+GLTOOLS/FreeFlyCamera.obj: GLTOOLS/FreeFlyCamera.cpp.obj
+
+.PHONY : GLTOOLS/FreeFlyCamera.obj
+
+# target to build an object file
+GLTOOLS/FreeFlyCamera.cpp.obj:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/FreeFlyCamera.cpp.obj
+.PHONY : GLTOOLS/FreeFlyCamera.cpp.obj
+
+GLTOOLS/FreeFlyCamera.i: GLTOOLS/FreeFlyCamera.cpp.i
+
+.PHONY : GLTOOLS/FreeFlyCamera.i
+
+# target to preprocess a source file
+GLTOOLS/FreeFlyCamera.cpp.i:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/FreeFlyCamera.cpp.i
+.PHONY : GLTOOLS/FreeFlyCamera.cpp.i
+
+GLTOOLS/FreeFlyCamera.s: GLTOOLS/FreeFlyCamera.cpp.s
+
+.PHONY : GLTOOLS/FreeFlyCamera.s
+
+# target to generate assembly for a file
+GLTOOLS/FreeFlyCamera.cpp.s:
+	cd /d D:\IMAC2\S3\SI\PROJET\itsatrap\cmake-build-debug && $(MAKE) -f src\CMakeFiles\itsatrap.dir\build.make src/CMakeFiles/itsatrap.dir/GLTOOLS/FreeFlyCamera.cpp.s
+.PHONY : GLTOOLS/FreeFlyCamera.cpp.s
+
 GLTOOLS/IBO.obj: GLTOOLS/IBO.cpp.obj
 
 .PHONY : GLTOOLS/IBO.obj
@@ -583,6 +610,9 @@ help:
 	@echo ... GAMESTATE/titlestate.obj
 	@echo ... GAMESTATE/titlestate.i
 	@echo ... GAMESTATE/titlestate.s
+	@echo ... GLTOOLS/FreeFlyCamera.obj
+	@echo ... GLTOOLS/FreeFlyCamera.i
+	@echo ... GLTOOLS/FreeFlyCamera.s
 	@echo ... GLTOOLS/IBO.obj
 	@echo ... GLTOOLS/IBO.i
 	@echo ... GLTOOLS/IBO.s

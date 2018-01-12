@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/itsatrap.dir/OBJECT/Character.cpp.obj"
   "CMakeFiles/itsatrap.dir/OBJECT/Item.cpp.obj"
   "CMakeFiles/itsatrap.dir/OBJECT/pacgomme.cpp.obj"
+  "CMakeFiles/itsatrap.dir/GLTOOLS/FreeFlyCamera.cpp.obj"
   "itsatrap.pdb"
   "itsatrap.exe"
   "itsatrap.exe.manifest"
